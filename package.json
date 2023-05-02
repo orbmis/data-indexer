@@ -1,0 +1,20 @@
+{
+  "name": "ethereum_analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "prettify": "prettier -w ./*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
