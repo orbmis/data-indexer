@@ -102,12 +102,17 @@ class DataFetcher {
   getGiniCoefficients(data) {
     const keys = Object.keys(data)
 
+    data.nativeAssetsByAddress = DataFetcher.normalizeNAtiveAssetDistribution(data.nativeAssetsByAddress)
+
     const giniCoefficients = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: DataFetcher.calculateGiniCoefficient(cur[1].map(i => Math.floor(i.value)))
+      ...acc, [cur[0]]: DataFetcher.calculateGiniCoefficient(cur[1].map(i => i.value))
     }), {})
 
-    //DataFetcher.calculateGiniCoefficientForNativeAsset(data.nativeAssetsByAddress)
-    data.nativeAssetsByAddress = DataFetcher.normalizeNAtiveAssetDistribution(data.nativeAssetsByAddress)
+    const herfindahlHirschmanIndices = Object.entries(data).reduce((acc, cur) => ({
+      ...acc, [cur[0]]: DataFetcher.calculateHerfindahlHirschmanIndex(cur[1].map(i => i.value))
+    }), {})
+
+    console.log('\nHerfindahl Hirschman Indices:\n', herfindahlHirschmanIndices)
 
     console.log('\nGini Coefficients:\n')
 
@@ -132,6 +137,7 @@ class DataFetcher {
   // https://www.wallstreetmojo.com/gini-coefficient/
   // https://economics.stackexchange.com/questions/16444/calculating-gini-coeffecient
   // https://shsr2001.github.io/beacondigest/notebooks/2021/07/19/measuring_decentralization.html
+  // https://docs.glassnode.com/basic-api/endpoints/addresses#addresses-with-balance-1k
   static calculateGiniCoefficient(data) {
     // the following row is test data
     // data = [10, 10, 10, 10, 10, 10, 20, 20, 20, 80]
@@ -188,6 +194,24 @@ class DataFetcher {
     const giniCoefficient = 1 - sumOfRows
 
     return Number(giniCoefficient.toFixed(2))
+  }
+
+  // calculates the Herfindahl-Hirschman Index for a set of data
+  static calculateHerfindahlHirschmanIndex(data) {
+    const totalAmount = data.reduce((acc, cur) => acc + cur, 0)
+
+    // convert each value to shares
+    const shares = data.map(value => value / totalAmount)
+
+    console.log(totalAmount, data, shares)
+
+    // Square each market share
+    const squaredShares = shares.map((share) => share ** 2)
+
+    // Sum the squared market shares
+    const herfindahlHirschmanIndex = squaredShares.reduce((acc, cur) => acc + cur, 0)
+
+    return Number(herfindahlHirschmanIndex.toFixed(2))
   }
 
   async getBlockProposedByBuilder() {
