@@ -20,9 +20,6 @@ class DataFetcher {
 
       console.log('\nUsing cached data . . .')
 
-      console.log(data)
-      console.log()
-
       return data
     }
 
@@ -40,7 +37,6 @@ class DataFetcher {
 
     const messariData = await this.getMessariData()
     const nativeAssetsByAddress = messariData.asset_distribution
-    const exchangeByVolume = messariData.exchange_volume_native
     const exchangeBySupply = messariData.exchange_supply_native
 
     data = {
@@ -53,7 +49,6 @@ class DataFetcher {
       blocksByRelays,
       blocksByBuilder,
       nativeAssetsByAddress,
-      exchangeByVolume,
       exchangeBySupply,
     }
 
@@ -63,28 +58,6 @@ class DataFetcher {
   }
 
   formatData(data) {
-    // const keys = Object.keys(data)
-
-    const executionNodesByCountry = data.executionNodesByCountry.map(record => ({
-      key: record.country,
-      value: record.nodes,
-    }))
-
-    const executionNodesByClientBase = data.executionNodesByCountry.map(record => ({
-      key: record.client,
-      value: record.nodes,
-    }))
-
-    const consensusNodesByCountry = data.consensusNodesByCountry.map(record => ({
-      key: record.country,
-      value: record.nodes,
-    }))
-
-    const consensusNodesByClient = data.consensusNodesByClient.map(record => ({
-      key: record.client,
-      value: record.nodes,
-    }))
-
     const amountStakedByPool = data.amountStakedByPool.map(record => ({
       key: record.entity,
       value: record.amount_staked,
@@ -101,15 +74,9 @@ class DataFetcher {
     }))
 
     const nativeAssetsByAddress = Object.entries(data.nativeAssetsByAddress).map(record => ({
-      key: record[0],
+      key: Number(record[0].replace('above_', '').replace('_', '.')),
       value: record[1],
     }))
-
-    const exchangeByVolume = Object.entries(data.exchangeByVolume).map(record => ({
-      key: record[0],
-      value: record[1],
-    }))
-    .filter(i => i.value !== null)
 
     const exchangeBySupply = Object.entries(data.exchangeBySupply).map(record => ({
       key: record[0],
@@ -118,15 +85,14 @@ class DataFetcher {
     .filter(i => i.value !== null)
 
     const payload = {
-      executionNodesByCountry,
-      executionNodesByClientBase,
-      consensusNodesByCountry,
-      consensusNodesByClient,
+      executionNodesByCountry: data.executionNodesByCountry,
+      executionNodesByClientBase: data.executionNodesByClientBase,
+      consensusNodesByCountry: data.consensusNodesByCountry,
+      consensusNodesByClient: data.consensusNodesByClient,
       amountStakedByPool,
       blocksByRelays,
       blocksByBuilder,
       nativeAssetsByAddress,
-      // exchangeByVolume,
       exchangeBySupply
     }
 
@@ -140,19 +106,41 @@ class DataFetcher {
       ...acc, [cur[0]]: DataFetcher.calculateGiniCoefficient(cur[1].map(i => Math.floor(i.value)))
     }), {})
 
+    //DataFetcher.calculateGiniCoefficientForNativeAsset(data.nativeAssetsByAddress)
+    data.nativeAssetsByAddress = DataFetcher.normalizeNAtiveAssetDistribution(data.nativeAssetsByAddress)
+
     console.log('\nGini Coefficients:\n')
 
     return giniCoefficients
   }
 
+  static normalizeNAtiveAssetDistribution(data) {
+    let n = 0
+    let i = data.length
+
+    while (i > 0) {
+      const k = n + data[i - 1].value
+      data[i - 1].value -= n
+      n = k
+      i--
+    }
+
+    return data
+  }
+
+  // https://www.wallstreetmojo.com/lorenz-curve/
   // https://www.wallstreetmojo.com/gini-coefficient/
   // https://economics.stackexchange.com/questions/16444/calculating-gini-coeffecient
+  // https://shsr2001.github.io/beacondigest/notebooks/2021/07/19/measuring_decentralization.html
   static calculateGiniCoefficient(data) {
     // the following row is test data
     // data = [10, 10, 10, 10, 10, 10, 20, 20, 20, 80]
 
     // Sort the data by value in increasing order
-    const sorted = data.sort((a, b) => (a - b))
+    let sorted = data.sort((a, b) => (a - b))
+
+    // normalize arrays that have negative values
+    sorted = sorted[0] < 0 ? sorted.map(n => n + (sorted[0] * -1) + 1) : sorted
 
     const sumOfAllValues = data.reduce((b, c) => b += c, 0)
 
@@ -212,6 +200,7 @@ class DataFetcher {
     const res = await axios.get('https://www.mevboost.org/stats')
 
     const blocksByRelays = res.data.relays
+
     const blocksByBuilder = res.data.builders.map((b) => ({
       ...b,
       name: builders[b.pubkey] || b.pubkey,
@@ -255,7 +244,7 @@ class DataFetcher {
     const nodes = []
 
     for (const match of found) {
-      nodes.push({ country: match[1], nodes: Number(match[2]) })
+      nodes.push({ key: match[1], value: Number(match[2]) })
     }
 
     return nodes
@@ -272,7 +261,7 @@ class DataFetcher {
     const nodes = []
 
     for (const match of found) {
-      nodes.push({ client: match[1], nodes: Number(match[2]) })
+      nodes.push({ key: match[1], value: Number(match[2]) })
     }
 
     return nodes
@@ -286,7 +275,7 @@ class DataFetcher {
     const nodes = []
 
     Object.entries(res.data).forEach((record) => {
-      nodes.push({ client: record[0], nodes: record[1] })
+      nodes.push({ key: record[0], value: record[1] })
     })
 
     return nodes
@@ -302,7 +291,7 @@ class DataFetcher {
     Object.entries(res.data).forEach((record) => {
       const country = countryCodes[record[0]] || record[0]
 
-      nodes.push({ country: country, nodes: record[1] })
+      nodes.push({ key: country, value: record[1] })
     })
 
     return nodes
@@ -329,7 +318,6 @@ class DataFetcher {
     const data = {
       addresses_count: supply.addresses_count,
       active_addresses: supply.active_addresses,
-      market_cap: res.data.data.marketcap.current_marketcap_usd,
       circulating_supply: res.data.data.supply.circulating,
       asset_distribution: {
         above_0_001: supply.addresses_balance_greater_0_001_native_units_count,
@@ -342,17 +330,6 @@ class DataFetcher {
         above_10000: supply.addresses_balance_greater_10k_native_units_count,
         above_100000: supply.addresses_balance_greater_100k_native_units_count,
         above_1000000: supply.addresses_balance_greater_1m_native_units_count,
-      },
-      exchange_volume_native: {
-        binance: exchanges.flow_net_binance_native_units,
-        bitfinex: exchanges.flow_net_bitfinex_native_units,
-        bitmex: exchanges.flow_net_bitmex_native_units,
-        bitstamp: exchanges.flow_net_bitstamp_native_units,
-        bittrex: exchanges.flow_net_bittrex_native_units,
-        gemini: exchanges.flow_net_gemini_native_units,
-        huobi: exchanges.flow_net_huobi_native_units,
-        kraken: exchanges.flow_net_kraken_native_units,
-        poloniex: exchanges.flow_net_poloniex_native_units,
       },
       exchange_supply_native: {
         binance: exchanges.supply_binance_native_units,
