@@ -36,6 +36,8 @@ class DataFetcher {
     await sleep(1000)
     const consensusNodesByClient = await this.getConsensusNodesByClient()
     const amountStakedByPool = await this.getAmountStakedByPool()
+    const stablecoinsByTvl = await this.getStablecoinsByTvl()
+    const activityByBundler = await this.getActivityByBundler()
     const { blocksByRelays, blocksByBuilder } = await this.getBlockProposedByBuilder()
 
     const messariData = await this.getMessariData()
@@ -53,6 +55,8 @@ class DataFetcher {
       blocksByBuilder,
       nativeAssetsByAddress,
       exchangeBySupply,
+      activityByBundler,
+      stablecoinsByTvl,
     }
 
     fs.writeFileSync(datafile, JSON.stringify(data, null, 2), 'utf8')
@@ -206,8 +210,6 @@ class DataFetcher {
     // convert each value to shares
     const shares = data.map(value => value / totalAmount)
 
-    console.log(totalAmount, data, shares)
-
     // Square each market share
     const squaredShares = shares.map((share) => share ** 2)
 
@@ -305,10 +307,29 @@ class DataFetcher {
     return { blocksByRelays, blocksByBuilder }
   }
 
-  // TODO: https://dune.com/johnrising/erc-4337
-  // ALSO: https://dune.com/niftytable/account-abstraction
+  // measures transactions to entrypoint contract on mainnet
+  // https://dune.com/queries/2490033
+  async getActivityByBundler() {
+    console.log('\nQuerying Dune Analytics (4337 bundlers) . . .')
+
+    const url = 'https://api.dune.com/api/v1/query/2490033/results?api_key='
+
+    const apiKey = 'pEnrXN8hLJOkxYVT4hnok6FsY8KbVp5o'
+
+    const res = await axios.get(url.concat(apiKey))
+
+    const bundlerData = res.data && res.data.result.rows
+
+    const data = bundlerData.map((record) => ({
+      bundler: record.bundler,
+      numberTransactions: record.number_transactions,
+    }))
+
+    return data
+  }
+
   async getAmountStakedByPool() {
-    console.log('\nQuerying Dune Analytics . . .')
+    console.log('\nQuerying Dune Analytics (stakng pools) . . .')
 
     const url = 'https://api.dune.com/api/v1/query/2394100/results?api_key='
 
@@ -327,6 +348,33 @@ class DataFetcher {
     }))
 
     return data
+  }
+
+  async getStablecoinsByTvl() {
+    console.log('\nQuerying DefiLlama . . .')
+
+    const res = await axios.get('https://stablecoins.llama.fi/stablecoins?includePrices=true')
+
+    const data = res.data && res.data.peggedAssets
+
+    const ethereumStablecoins = data.filter(d => d.chains.includes('Ethereum'))
+
+    const usdValues = ethereumStablecoins.map(d => ({
+      name: d.name,
+      symbol: d.symbol,
+      TVL: Math.floor(d.chainCirculating.Ethereum.current.peggedUSD),
+    }))
+    .filter(d => !isNaN(d.TVL))
+
+    // TODO: convert euro price to USD
+    const eurValues = ethereumStablecoins.map(d => ({
+      name: d.name,
+      symbol: d.symbol,
+      TVL: Math.floor(d.chainCirculating.Ethereum.current.peggedEUR),
+    }))
+    .filter(d => !isNaN(d.TVL))
+
+    return [ ...usdValues, ...eurValues ]
   }
 
   async getExecutionNodesByCountry() {

@@ -2,118 +2,118 @@
   "executionNodesByCountry": [
     {
       "key": "United States",
-      "value": 3391
+      "value": 3149
     },
     {
       "key": "Germany",
-      "value": 952
-    },
-    {
-      "key": "United Kingdom",
-      "value": 364
+      "value": 1033
     },
     {
       "key": "Singapore",
-      "value": 364
+      "value": 377
+    },
+    {
+      "key": "United Kingdom",
+      "value": 306
     },
     {
       "key": "Japan",
-      "value": 270
+      "value": 287
     },
     {
       "key": "Ireland",
-      "value": 233
+      "value": 195
     },
     {
       "key": "Canada",
-      "value": 196
-    },
-    {
-      "key": "France",
-      "value": 186
-    },
-    {
-      "key": "South Korea",
-      "value": 181
-    },
-    {
-      "key": "Finland",
-      "value": 175
+      "value": 194
     },
     {
       "key": "Netherlands",
-      "value": 175
+      "value": 179
+    },
+    {
+      "key": "France",
+      "value": 177
     },
     {
       "key": "Australia",
       "value": 165
     },
     {
+      "key": "South Korea",
+      "value": 162
+    },
+    {
+      "key": "Finland",
+      "value": 161
+    },
+    {
       "key": "Switzerland",
-      "value": 116
+      "value": 110
     },
     {
       "key": "Hong Kong",
-      "value": 87
-    },
-    {
-      "key": "Austria",
-      "value": 72
+      "value": 108
     },
     {
       "key": "Russia",
-      "value": 61
-    },
-    {
-      "key": "Spain",
-      "value": 60
+      "value": 71
     },
     {
       "key": "Sweden",
-      "value": 58
+      "value": 67
     },
     {
-      "key": "Belgium",
-      "value": 42
-    },
-    {
-      "key": "Poland",
-      "value": 41
-    },
-    {
-      "key": "Portugal",
-      "value": 31
+      "key": "Austria",
+      "value": 65
     },
     {
       "key": "Taiwan",
-      "value": 30
+      "value": 53
     },
     {
-      "key": "Norway",
-      "value": 26
+      "key": "Spain",
+      "value": 46
     },
     {
-      "key": "Italy",
-      "value": 25
+      "key": "Belgium",
+      "value": 43
+    },
+    {
+      "key": "Poland",
+      "value": 35
     },
     {
       "key": "Thailand",
-      "value": 23
+      "value": 34
     },
     {
-      "key": "India",
-      "value": 21
+      "key": "Portugal",
+      "value": 34
     },
     {
-      "key": "Ukraine",
-      "value": 20
+      "key": "Italy",
+      "value": 29
     },
     {
-      "key": "Slovenia",
-      "value": 20
+      "key": "Lithuania",
+      "value": 28
+    },
+    {
+      "key": "Norway",
+      "value": 24
     },
     {
       "key": "Czechia",
+      "value": 19
+    },
+    {
+      "key": "New Zealand",
+      "value": 19
+    },
+    {
+      "key": "Ukraine",
       "value": 18
     },
     {
@@ -121,15 +121,27 @@
       "value": 17
     },
     {
-      "key": "Lithuania",
-      "value": 17
+      "key": "India",
+      "value": 15
     },
     {
-      "key": "New Zealand",
-      "value": 16
+      "key": "Croatia",
+      "value": 15
     },
     {
-      "key": "South Africa",
+      "key": "Denmark",
+      "value": 14
+    },
+    {
+      "key": "Israel",
+      "value": 14
+    },
+    {
+      "key": "Slovenia",
+      "value": 14
+    },
+    {
+      "key": "Bulgaria",
       "value": 13
     },
     {
@@ -137,83 +149,83 @@
       "value": 13
     },
     {
+      "key": "South Africa",
+      "value": 12
+    },
+    {
       "key": "Mexico",
-      "value": 13
-    },
-    {
-      "key": "Bulgaria",
-      "value": 13
-    },
-    {
-      "key": "Denmark",
-      "value": 11
-    },
-    {
-      "key": "Israel",
-      "value": 11
+      "value": 12
     },
     {
       "key": "Romania",
-      "value": 11
-    },
-    {
-      "key": "Turkey",
-      "value": 11
-    },
-    {
-      "key": "Croatia",
       "value": 10
     },
     {
-      "key": "Morocco",
-      "value": 9
+      "key": "United Arab Emirates",
+      "value": 10
     },
     {
       "key": "Vietnam",
-      "value": 9
+      "value": 10
     },
     {
-      "key": "Serbia",
-      "value": 7
+      "key": "Argentina",
+      "value": 8
+    },
+    {
+      "key": "Moldova",
+      "value": 8
+    },
+    {
+      "key": "Turkey",
+      "value": 8
+    },
+    {
+      "key": "Estonia",
+      "value": 8
     },
     {
       "key": "Greece",
       "value": 7
     },
     {
-      "key": "United Arab Emirates",
+      "key": "Morocco",
       "value": 7
     },
     {
-      "key": "Latvia",
+      "key": "Indonesia",
+      "value": 7
+    },
+    {
+      "key": "Malaysia",
+      "value": 7
+    },
+    {
+      "key": "Serbia",
       "value": 6
     },
     {
       "key": "Slovakia",
-      "value": 5
-    },
-    {
-      "key": "Estonia",
-      "value": 5
-    },
-    {
-      "key": "Argentina",
-      "value": 5
-    },
-    {
-      "key": "Indonesia",
-      "value": 5
+      "value": 6
     },
     {
       "key": "Chile",
       "value": 5
     },
     {
-      "key": "Moldova",
+      "key": "Latvia",
       "value": 5
     },
     {
-      "key": "Malaysia",
+      "key": "Malta",
+      "value": 5
+    },
+    {
+      "key": "China",
+      "value": 4
+    },
+    {
+      "key": "Luxembourg",
       "value": 4
     },
     {
@@ -221,35 +233,19 @@
       "value": 4
     },
     {
-      "key": "Colombia",
-      "value": 4
-    },
-    {
-      "key": "Kazakhstan",
-      "value": 3
-    },
-    {
-      "key": "Saudi Arabia",
-      "value": 2
-    },
-    {
-      "key": "Qatar",
-      "value": 2
-    },
-    {
       "key": "Kuwait",
       "value": 2
     },
     {
+      "key": "Uruguay",
+      "value": 2
+    },
+    {
+      "key": "Cyprus",
+      "value": 2
+    },
+    {
       "key": "Andorra",
-      "value": 2
-    },
-    {
-      "key": "Malta",
-      "value": 2
-    },
-    {
-      "key": "Belarus",
       "value": 2
     },
     {
@@ -257,27 +253,15 @@
       "value": 2
     },
     {
-      "key": "Peru",
-      "value": 1
-    },
-    {
-      "key": "Republic of Lithuania",
-      "value": 1
-    },
-    {
-      "key": "China",
-      "value": 1
-    },
-    {
       "key": "Armenia",
       "value": 1
     },
     {
-      "key": "Uruguay",
+      "key": "Egypt",
       "value": 1
     },
     {
-      "key": "Uganda",
+      "key": "Qatar",
       "value": 1
     },
     {
@@ -285,15 +269,15 @@
       "value": 1
     },
     {
-      "key": "Bosnia and Herzegovina",
+      "key": "Belarus",
       "value": 1
     },
     {
-      "key": "Réunion",
+      "key": "Uganda",
       "value": 1
     },
     {
-      "key": "Laos",
+      "key": "Republic of Lithuania",
       "value": 1
     },
     {
@@ -301,64 +285,64 @@
       "value": 1
     },
     {
+      "key": "Iran",
+      "value": 1
+    },
+    {
       "key": "Monaco",
       "value": 1
     },
     {
-      "key": "Luxembourg",
+      "key": "Laos",
       "value": 1
     },
     {
-      "key": "Jordan",
-      "value": 1
-    },
-    {
-      "key": "Cyprus",
+      "key": "Colombia",
       "value": 1
     }
   ],
   "executionNodesByClientBase": [
     {
       "key": "geth",
-      "value": 5536
+      "value": 5171
     },
     {
       "key": "nethermind",
-      "value": 912
+      "value": 989
     },
     {
       "key": "erigon",
-      "value": 720
+      "value": 727
     },
     {
       "key": "besu",
-      "value": 502
-    },
-    {
-      "key": "openethereum",
-      "value": 4
+      "value": 590
     },
     {
       "key": "teth",
-      "value": 2
+      "value": 5
     },
     {
-      "key": "nimbus-eth1 v0.1.0 [linux: amd64, rocksdb, nimvm, ",
-      "value": 1
+      "key": "openethereum",
+      "value": 3
     },
     {
       "key": "coregeth",
+      "value": 1
+    },
+    {
+      "key": "akula",
       "value": 1
     }
   ],
   "consensusNodesByCountry": [
     {
       "key": "Andorra",
-      "value": 5
+      "value": 4
     },
     {
       "key": "United Arab Emirates",
-      "value": 11
+      "value": 12
     },
     {
       "key": "Albania",
@@ -370,67 +354,67 @@
     },
     {
       "key": "Austria",
-      "value": 99
+      "value": 113
     },
     {
       "key": "Australia",
-      "value": 242
+      "value": 278
     },
     {
       "key": "Bosnia and Herzegovina",
-      "value": 2
-    },
-    {
-      "key": "Belgium",
-      "value": 63
-    },
-    {
-      "key": "Bulgaria",
-      "value": 22
-    },
-    {
-      "key": "Brazil",
-      "value": 27
-    },
-    {
-      "key": "Belarus",
-      "value": 2
-    },
-    {
-      "key": "Canada",
-      "value": 340
-    },
-    {
-      "key": "Switzerland",
-      "value": 193
-    },
-    {
-      "key": "Chile",
-      "value": 4
-    },
-    {
-      "key": "China",
-      "value": 93
-    },
-    {
-      "key": "Colombia",
       "value": 1
     },
     {
-      "key": "Cyprus",
+      "key": "Belgium",
+      "value": 80
+    },
+    {
+      "key": "Bulgaria",
+      "value": 24
+    },
+    {
+      "key": "Brazil",
+      "value": 26
+    },
+    {
+      "key": "Belarus",
+      "value": 1
+    },
+    {
+      "key": "Canada",
+      "value": 328
+    },
+    {
+      "key": "Switzerland",
+      "value": 198
+    },
+    {
+      "key": "Chile",
+      "value": 5
+    },
+    {
+      "key": "China",
+      "value": 86
+    },
+    {
+      "key": "Colombia",
       "value": 2
     },
     {
+      "key": "Cyprus",
+      "value": 1
+    },
+    {
       "key": "Czechia",
-      "value": 41
+      "value": 40
     },
     {
       "key": "Germany",
-      "value": 1867
+      "value": 2132
     },
     {
       "key": "Denmark",
-      "value": 24
+      "value": 27
     },
     {
       "key": "Dominican Republic",
@@ -442,23 +426,23 @@
     },
     {
       "key": "Estonia",
-      "value": 10
+      "value": 12
     },
     {
       "key": "Spain",
-      "value": 82
+      "value": 90
     },
     {
       "key": "Finland",
-      "value": 547
+      "value": 574
     },
     {
       "key": "France",
-      "value": 360
+      "value": 405
     },
     {
       "key": "Great Britain",
-      "value": 548
+      "value": 580
     },
     {
       "key": "Georgia",
@@ -466,51 +450,55 @@
     },
     {
       "key": "Greece",
-      "value": 13
-    },
-    {
-      "key": "Hong Kong",
-      "value": 146
-    },
-    {
-      "key": "Croatia",
-      "value": 12
-    },
-    {
-      "key": "Hungary",
       "value": 20
     },
     {
+      "key": "Hong Kong",
+      "value": 166
+    },
+    {
+      "key": "Croatia",
+      "value": 17
+    },
+    {
+      "key": "Hungary",
+      "value": 18
+    },
+    {
       "key": "Indonesia",
-      "value": 12
+      "value": 13
     },
     {
       "key": "Ireland",
-      "value": 198
+      "value": 219
     },
     {
       "key": "Israel",
-      "value": 14
+      "value": 18
     },
     {
       "key": "India",
-      "value": 25
+      "value": 34
+    },
+    {
+      "key": "Iran",
+      "value": 1
     },
     {
       "key": "Iceland",
-      "value": 3
+      "value": 4
     },
     {
       "key": "Italy",
-      "value": 42
+      "value": 51
     },
     {
       "key": "Jersey",
-      "value": 2
+      "value": 1
     },
     {
       "key": "Japan",
-      "value": 299
+      "value": 330
     },
     {
       "key": "Cambodia",
@@ -518,63 +506,67 @@
     },
     {
       "key": "Korea (the Republic of)",
-      "value": 273
+      "value": 269
     },
     {
       "key": "Kazakhstan",
-      "value": 7
+      "value": 3
     },
     {
       "key": "Lithuania",
-      "value": 27
+      "value": 31
     },
     {
       "key": "Luxembourg",
-      "value": 6
+      "value": 11
     },
     {
       "key": "Latvia",
-      "value": 14
+      "value": 13
     },
     {
       "key": "Morocco",
       "value": 1
     },
     {
-      "key": "Moldova",
-      "value": 29
-    },
-    {
-      "key": "Montenegro",
-      "value": 2
-    },
-    {
-      "key": "Macao",
+      "key": "Monaco",
       "value": 1
     },
     {
+      "key": "Moldova",
+      "value": 40
+    },
+    {
+      "key": "Montenegro",
+      "value": 1
+    },
+    {
+      "key": "Macao",
+      "value": 2
+    },
+    {
       "key": "Malta",
-      "value": 7
-    },
-    {
-      "key": "Mexico",
-      "value": 9
-    },
-    {
-      "key": "Malaysia",
       "value": 11
     },
     {
+      "key": "Mexico",
+      "value": 15
+    },
+    {
+      "key": "Malaysia",
+      "value": 9
+    },
+    {
       "key": "Netherlands",
-      "value": 338
+      "value": 411
     },
     {
       "key": "Norway",
-      "value": 37
+      "value": 43
     },
     {
       "key": "New Zealand",
-      "value": 22
+      "value": 32
     },
     {
       "key": "Oman",
@@ -586,7 +578,7 @@
     },
     {
       "key": "Peru",
-      "value": 2
+      "value": 1
     },
     {
       "key": "Philippines",
@@ -594,15 +586,15 @@
     },
     {
       "key": "Poland",
-      "value": 70
+      "value": 78
     },
     {
       "key": "Puerto Rico",
-      "value": 7
+      "value": 5
     },
     {
       "key": "Portugal",
-      "value": 56
+      "value": 55
     },
     {
       "key": "Qatar",
@@ -614,55 +606,55 @@
     },
     {
       "key": "Romania",
-      "value": 21
+      "value": 23
     },
     {
       "key": "Serbia",
-      "value": 9
+      "value": 8
     },
     {
       "key": "Russian Federation",
-      "value": 128
+      "value": 131
     },
     {
       "key": "Sweden",
-      "value": 84
+      "value": 87
     },
     {
       "key": "Singapore",
-      "value": 453
+      "value": 444
     },
     {
       "key": "Slovenia",
-      "value": 24
+      "value": 30
     },
     {
       "key": "Slovakia",
-      "value": 10
+      "value": 13
     },
     {
       "key": "Thailand",
-      "value": 46
+      "value": 45
     },
     {
       "key": "Türkiye",
-      "value": 20
+      "value": 21
     },
     {
       "key": "Taiwan",
-      "value": 29
+      "value": 44
     },
     {
       "key": "Ukraine",
-      "value": 11
+      "value": 15
     },
     {
       "key": "Uganda",
-      "value": 2
+      "value": 1
     },
     {
       "key": "United States of America",
-      "value": 4343
+      "value": 4710
     },
     {
       "key": "Uruguay",
@@ -670,509 +662,495 @@
     },
     {
       "key": "Viet Nam",
-      "value": 18
+      "value": 15
     },
     {
       "key": "South Africa",
-      "value": 11
+      "value": 16
     }
   ],
   "consensusNodesByClient": [
     {
       "key": "erigon",
-      "value": 23
+      "value": 26
     },
     {
       "key": "grandine",
-      "value": 110
+      "value": 105
     },
     {
       "key": "lighthouse",
-      "value": 4812
+      "value": 4794
     },
     {
       "key": "lodestar",
-      "value": 135
+      "value": 162
     },
     {
       "key": "nimbus",
-      "value": 822
+      "value": 1009
     },
     {
       "key": "prysm",
-      "value": 4526
+      "value": 5098
     },
     {
       "key": "teku",
-      "value": 1094
+      "value": 1368
     },
     {
       "key": "unknown",
-      "value": 2
+      "value": 5
     }
   ],
   "amountStakedByPool": [
     {
-      "amount_staked": 5985504,
+      "amount_staked": 6491648,
       "entity": "Lido",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.31841690103027803,
-      "validators": 187047
+      "marketshare": 0.3124352078725498,
+      "validators": 202864
     },
     {
-      "amount_staked": 2320480,
+      "amount_staked": 2283328.2145944443,
       "entity": "Coinbase",
       "entity_category": "CEX",
-      "marketshare": 0.12344491800569167,
-      "validators": 72515
+      "marketshare": 0.10989383980278555,
+      "validators": 71354.00670607638
     },
     {
-      "amount_staked": 852512.056125869,
+      "amount_staked": 1150400.17906345,
       "entity": "Binance",
       "entity_category": "CEX",
-      "marketshare": 0.04535194479905947,
-      "validators": 26641.001753933408
+      "marketshare": 0.05536737652477577,
+      "validators": 35950.005595732815
     },
     {
-      "amount_staked": 802880.318475579,
+      "amount_staked": 768576.567514801,
       "entity": "Kraken",
       "entity_category": "CEX",
-      "marketshare": 0.04271163512833615,
-      "validators": 25090.009952361845
+      "marketshare": 0.03699066548855663,
+      "validators": 24018.017734837533
     },
     {
-      "amount_staked": 741376,
-      "entity": "stakefish",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.039439727785366675,
-      "validators": 23168
-    },
-    {
-      "amount_staked": 596929.660639208,
-      "entity": "Staked.us",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.031755469994472,
-      "validators": 18654.05189497525
-    },
-    {
-      "amount_staked": 511840,
-      "entity": "Figment",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.027228869385658667,
-      "validators": 15995
-    },
-    {
-      "amount_staked": 510019.99900197,
+      "amount_staked": 622285.307573164,
       "entity": "Rocket Pool",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.027132048954552995,
-      "validators": 15938.124968811562
+      "marketshare": 0.02994984315656904,
+      "validators": 19446.415861661375
     },
     {
-      "amount_staked": 443552,
+      "amount_staked": 577665.660639208,
+      "entity": "Staked.us",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.027802353233361513,
+      "validators": 18052.05189497525
+    },
+    {
+      "amount_staked": 519456,
+      "entity": "Figment",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.025000792301222007,
+      "validators": 16233
+    },
+    {
+      "amount_staked": 443488,
       "entity": "Bitcoin Suisse",
       "entity_category": "Staking Pools",
-      "marketshare": 0.023596083685815242,
-      "validators": 13861
+      "marketshare": 0.021344543861432624,
+      "validators": 13859
+    },
+    {
+      "amount_staked": 347456,
+      "entity": "Kiln",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.01672263924146298,
+      "validators": 10858
+    },
+    {
+      "amount_staked": 288320,
+      "entity": "stakefish",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.013876494710405364,
+      "validators": 9010
+    },
+    {
+      "amount_staked": 207489,
+      "entity": "OKX",
+      "entity_category": "CEX",
+      "marketshare": 0.009986195931490353,
+      "validators": 6484.03125
+    },
+    {
+      "amount_staked": 175584,
+      "entity": "Frax Finance",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.008450646667701914,
+      "validators": 5487
     },
     {
       "amount_staked": 158176,
       "entity": "Celsius",
       "entity_category": "Staking Pools",
-      "marketshare": 0.008414648413461132,
+      "marketshare": 0.007612820571979325,
       "validators": 4943
     },
     {
-      "amount_staked": 157377,
-      "entity": "OKX",
-      "entity_category": "CEX",
-      "marketshare": 0.008372143203553463,
-      "validators": 4918.03125
-    },
-    {
-      "amount_staked": 141568,
-      "entity": "Kiln",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.007531135865092463,
-      "validators": 4424
-    },
-    {
-      "amount_staked": 137632,
-      "entity": "Frax Finance",
-      "entity_category": "Liquid Staking",
-      "marketshare": 0.007321748498138039,
-      "validators": 4301
-    },
-    {
-      "amount_staked": 105824,
+      "amount_staked": 128064,
       "entity": "P2P.org",
       "entity_category": "Staking Pools",
-      "marketshare": 0.005629626199335618,
-      "validators": 3307
+      "marketshare": 0.006163566240959186,
+      "validators": 4002
     },
     {
-      "amount_staked": 77024,
+      "amount_staked": 79168,
       "entity": "Stakewise",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.0040975235143032454,
-      "validators": 2407
+      "marketshare": 0.0038102605897383877,
+      "validators": 2474
     },
     {
-      "amount_staked": 74400,
-      "entity": "Huobi",
-      "entity_category": "CEX",
-      "marketshare": 0.003957931936333629,
-      "validators": 2325
-    },
-    {
-      "amount_staked": 70912,
+      "amount_staked": 71040,
       "entity": "Bitstamp",
       "entity_category": "CEX",
-      "marketshare": 0.003772377277813042,
-      "validators": 2216
+      "marketshare": 0.0034190697288679146,
+      "validators": 2220
     },
     {
-      "amount_staked": 69152.894065167,
-      "entity": "MyEtherWallet",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.0036787963428819995,
-      "validators": 2161.0279395364687
-    },
-    {
-      "amount_staked": 56293.688277155,
-      "entity": "Stkr (Ankr)",
-      "entity_category": "Liquid Staking",
-      "marketshare": 0.0029947121861043256,
-      "validators": 1759.1777586610938
-    },
-    {
-      "amount_staked": 41024,
-      "entity": "InfStones",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.0021823951580127797,
-      "validators": 1282
-    },
-    {
-      "amount_staked": 37504,
+      "amount_staked": 65440,
       "entity": "StakeHound",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.0019951381631754896,
-      "validators": 1172
+      "marketshare": 0.0031495484664571553,
+      "validators": 2045
     },
     {
-      "amount_staked": 32000,
-      "entity": "Gate.io",
+      "amount_staked": 65120,
+      "entity": "Huobi",
       "entity_category": "CEX",
-      "marketshare": 0.0017023363167026364,
-      "validators": 1000
+      "marketshare": 0.003134147251462255,
+      "validators": 2035
     },
     {
-      "amount_staked": 28800,
-      "entity": "Bitpie",
+      "amount_staked": 64225.750850575,
+      "entity": "MyEtherWallet",
       "entity_category": "Staking Pools",
-      "marketshare": 0.0015321026850323727,
-      "validators": 900
+      "marketshare": 0.0030911081158081885,
+      "validators": 2007.0547140804688
+    },
+    {
+      "amount_staked": 46149.688277155,
+      "entity": "Stkr (Ankr)",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0022211289722003256,
+      "validators": 1442.1777586610938
+    },
+    {
+      "amount_staked": 37024,
+      "entity": "InfStones",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.0017819205749099896,
+      "validators": 1157
     },
     {
       "amount_staked": 26464,
       "entity": "KuCoin",
       "entity_category": "CEX",
-      "marketshare": 0.0014078321339130802,
+      "marketshare": 0.0012736804800782726,
       "validators": 827
     },
     {
-      "amount_staked": 19776,
-      "entity": "Bitfinex",
-      "entity_category": "CEX",
-      "marketshare": 0.0010520438437222291,
-      "validators": 618
+      "amount_staked": 19520,
+      "entity": "Cake DeFi",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.0009394741146889315,
+      "validators": 610
     },
     {
-      "amount_staked": 18112,
-      "entity": "Bifrost",
-      "entity_category": "Liquid Staking",
-      "marketshare": 0.0009635223552536921,
-      "validators": 566
+      "amount_staked": 19490.937372528002,
+      "entity": "Bitfinex",
+      "entity_category": "CEX",
+      "marketshare": 0.000938075365395141,
+      "validators": 609.0917928915001
     },
     {
       "amount_staked": 16000,
       "entity": "SharedStake",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.0008511681583513182,
+      "marketshare": 0.0007700607497450258,
       "validators": 500
     },
     {
       "amount_staked": 16000,
       "entity": "WEX Exchange",
       "entity_category": "CEX",
-      "marketshare": 0.0008511681583513182,
+      "marketshare": 0.0007700607497450258,
       "validators": 500
     },
     {
-      "amount_staked": 15360,
-      "entity": "Cake DeFi",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.0008171214320172655,
-      "validators": 480
+      "amount_staked": 13568,
+      "entity": "Swell",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0006530115157837819,
+      "validators": 424
     },
     {
       "amount_staked": 12800,
       "entity": "Poloniex",
       "entity_category": "CEX",
-      "marketshare": 0.0006809345266810546,
+      "marketshare": 0.0006160485997960206,
       "validators": 400
     },
     {
-      "amount_staked": 12192,
-      "entity": "StakeWise Solos",
+      "amount_staked": 12096,
+      "entity": "Bitpie",
       "entity_category": "Staking Pools",
-      "marketshare": 0.0006485901366637044,
-      "validators": 381
+      "marketshare": 0.0005821659268072395,
+      "validators": 378
     },
     {
-      "amount_staked": 11904,
-      "entity": "StaFi",
-      "entity_category": "Liquid Staking",
-      "marketshare": 0.0006332691098133807,
-      "validators": 372
-    },
-    {
-      "amount_staked": 10976,
+      "amount_staked": 11648,
       "entity": "Harbour",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.0005839013566290043,
-      "validators": 343
+      "marketshare": 0.0005606042258143787,
+      "validators": 364
+    },
+    {
+      "amount_staked": 11456,
+      "entity": "StaFi",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0005513634968174385,
+      "validators": 358
+    },
+    {
+      "amount_staked": 9344,
+      "entity": "StakeWise Solos",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.00044971547785109506,
+      "validators": 292
     },
     {
       "amount_staked": 6976,
       "entity": "Vitalik Buterin",
       "entity_category": "Independent Staker",
-      "marketshare": 0.0003711093170411747,
+      "marketshare": 0.0003357464868888312,
       "validators": 218
-    },
-    {
-      "amount_staked": 6688,
-      "entity": "TokenPocket",
-      "entity_category": "Others",
-      "marketshare": 0.000355788290190851,
-      "validators": 209
     },
     {
       "amount_staked": 6592,
       "entity": "cryptostake.com",
       "entity_category": "Staking Pools",
-      "marketshare": 0.0003506812812407431,
+      "marketshare": 0.0003172650288949506,
       "validators": 206
     },
     {
       "amount_staked": 6400,
       "entity": "Everstake Pool",
       "entity_category": "Staking Pools",
-      "marketshare": 0.0003404672633405273,
+      "marketshare": 0.0003080242998980103,
       "validators": 200
     },
     {
-      "amount_staked": 5888,
+      "amount_staked": 5856,
       "entity": "KingHash",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.0003132298822732851,
-      "validators": 184
+      "marketshare": 0.0002818422344066794,
+      "validators": 183
+    },
+    {
+      "amount_staked": 4736,
+      "entity": "TokenPocket",
+      "entity_category": "Others",
+      "marketshare": 0.00022793798192452763,
+      "validators": 148
     },
     {
       "amount_staked": 4608,
-      "entity": "Sigma Prime Team",
+      "entity": "Prysm Team",
       "entity_category": "Independent Staker",
-      "marketshare": 0.00024513642960517963,
+      "marketshare": 0.00022177749592656743,
       "validators": 144
     },
     {
       "amount_staked": 4608,
       "entity": "Teku Team",
       "entity_category": "Independent Staker",
-      "marketshare": 0.00024513642960517963,
+      "marketshare": 0.00022177749592656743,
+      "validators": 144
+    },
+    {
+      "amount_staked": 4608,
+      "entity": "Sigma Prime Team",
+      "entity_category": "Independent Staker",
+      "marketshare": 0.00022177749592656743,
       "validators": 144
     },
     {
       "amount_staked": 4608,
       "entity": "Nimbus Team",
       "entity_category": "Independent Staker",
-      "marketshare": 0.00024513642960517963,
+      "marketshare": 0.00022177749592656743,
       "validators": 144
     },
     {
-      "amount_staked": 4608,
-      "entity": "Prysm Team",
-      "entity_category": "Independent Staker",
-      "marketshare": 0.00024513642960517963,
-      "validators": 144
-    },
-    {
-      "amount_staked": 3776,
-      "entity": "Swell",
+      "amount_staked": 4128,
+      "entity": "Bifrost",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.00020087568537091108,
-      "validators": 118
+      "marketshare": 0.00019867567343421667,
+      "validators": 129
     },
     {
-      "amount_staked": 2112,
+      "amount_staked": 2176,
       "entity": "MintDice.com",
       "entity_category": "Others",
-      "marketshare": 0.00011235419690237399,
-      "validators": 66
+      "marketshare": 0.0001047282619653235,
+      "validators": 68
     },
     {
       "amount_staked": 992,
       "entity": "Blox Staking",
       "entity_category": "Staking Pools",
-      "marketshare": 0.000052772425817781726,
+      "marketshare": 0.0000477437664841916,
       "validators": 31
     },
     {
       "amount_staked": 960,
       "entity": "staked.finance",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.00005107008950107909,
+      "marketshare": 0.00004620364498470155,
       "validators": 30
     },
     {
       "amount_staked": 704,
       "entity": "Gemini",
       "entity_category": "CEX",
-      "marketshare": 0.000037451398967458,
+      "marketshare": 0.000033882672988781136,
       "validators": 22
     },
     {
       "amount_staked": 672,
       "entity": "Eth2Stake",
       "entity_category": "Staking Pools",
-      "marketshare": 0.000035749062650755365,
+      "marketshare": 0.000032342551489291086,
       "validators": 21
     },
     {
       "amount_staked": 480,
       "entity": "neukind.com",
       "entity_category": "Staking Pools",
-      "marketshare": 0.000025535044750539546,
+      "marketshare": 0.000023101822492350775,
       "validators": 15
     },
     {
       "amount_staked": 416,
       "entity": "Ethereum Hive",
       "entity_category": "Staking Pools",
-      "marketshare": 0.000022130372117134273,
+      "marketshare": 0.000020021579493370672,
       "validators": 13
     },
     {
       "amount_staked": 320,
       "entity": "Tetranode",
       "entity_category": "Independent Staker",
-      "marketshare": 0.00001702336316702636,
+      "marketshare": 0.000015401214994900515,
       "validators": 10
     },
     {
       "amount_staked": 288,
       "entity": "stereum.net",
       "entity_category": "Others",
-      "marketshare": 0.000015321026850323727,
+      "marketshare": 0.000013861093495410464,
       "validators": 9
     },
     {
       "amount_staked": 192,
       "entity": "Tranchess",
       "entity_category": "Liquid Staking",
-      "marketshare": 0.000010214017900215817,
+      "marketshare": 0.000009240728996940309,
       "validators": 6
     },
     {
       "amount_staked": 160,
       "entity": "SenseiNode",
       "entity_category": "Staking Pools",
-      "marketshare": 0.00000851168158351318,
+      "marketshare": 0.000007700607497450257,
       "validators": 5
-    },
-    {
-      "amount_staked": 64,
-      "entity": "MyColdWallet",
-      "entity_category": "Others",
-      "marketshare": 0.0000034046726334052726,
-      "validators": 2
-    },
-    {
-      "amount_staked": 64,
-      "entity": "CREAM",
-      "entity_category": "Liquid Staking",
-      "marketshare": 0.0000034046726334052726,
-      "validators": 2
     },
     {
       "amount_staked": 64,
       "entity": "Blockdaemon.com",
       "entity_category": "Others",
-      "marketshare": 0.0000034046726334052726,
+      "marketshare": 0.000003080242998980103,
       "validators": 2
     },
     {
-      "amount_staked": 32,
-      "entity": "FOAM Signal",
+      "amount_staked": 64,
+      "entity": "MyColdWallet",
       "entity_category": "Others",
-      "marketshare": 0.0000017023363167026363,
-      "validators": 1
-    },
-    {
-      "amount_staked": 32,
-      "entity": "ssv.network",
-      "entity_category": "Liquid Staking",
-      "marketshare": 0.0000017023363167026363,
-      "validators": 1
-    },
-    {
-      "amount_staked": 32,
-      "entity": "Unagii",
-      "entity_category": "Staking Pools",
-      "marketshare": 0.0000017023363167026363,
-      "validators": 1
-    },
-    {
-      "amount_staked": 32,
-      "entity": "Consensus Cell Network",
-      "entity_category": "Others",
-      "marketshare": 0.0000017023363167026363,
-      "validators": 1
-    },
-    {
-      "amount_staked": 32,
-      "entity": "WeekInEth",
-      "entity_category": "Others",
-      "marketshare": 0.0000017023363167026363,
-      "validators": 1
+      "marketshare": 0.000003080242998980103,
+      "validators": 2
     },
     {
       "amount_staked": 32,
       "entity": "Eden Network",
       "entity_category": "Others",
-      "marketshare": 0.0000017023363167026363,
+      "marketshare": 0.0000015401214994900516,
       "validators": 1
     },
     {
       "amount_staked": 32,
       "entity": "TideBit",
       "entity_category": "Others",
-      "marketshare": 0.0000017023363167026363,
-      "validators": 1
-    },
-    {
-      "amount_staked": 32,
-      "entity": "boxfish.studio",
-      "entity_category": "Others",
-      "marketshare": 0.0000017023363167026363,
+      "marketshare": 0.0000015401214994900516,
       "validators": 1
     },
     {
       "amount_staked": 32,
       "entity": "Ethereum on ARM",
       "entity_category": "Others",
-      "marketshare": 0.0000017023363167026363,
+      "marketshare": 0.0000015401214994900516,
       "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "ssv.network",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0000015401214994900516,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "FOAM Signal",
+      "entity_category": "Others",
+      "marketshare": 0.0000015401214994900516,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "WeekInEth",
+      "entity_category": "Others",
+      "marketshare": 0.0000015401214994900516,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "boxfish.studio",
+      "entity_category": "Others",
+      "marketshare": 0.0000015401214994900516,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "Consensus Cell Network",
+      "entity_category": "Others",
+      "marketshare": 0.0000015401214994900516,
+      "validators": 1
+    },
+    {
+      "amount_staked": 0.13112914600060321,
+      "entity": "Gate.io",
+      "entity_category": "CEX",
+      "marketshare": 6.311088030165591e-9,
+      "validators": 0.0040977858125188504
     },
     {
       "amount_staked": 0,
@@ -1180,62 +1158,83 @@
       "entity_category": "Staking Pools",
       "marketshare": 0,
       "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "CREAM",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "Unagii",
+      "entity_category": "Staking Pools",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 5958226.078856513,
+      "entity": "Unidentified",
+      "entity_category": "Unidentified",
+      "marketshare": 0.2867622525896632,
+      "validators": 186194.56496426603
     }
   ],
   "blocksByRelays": [
     {
       "name": "Flashbots",
-      "value": 96444.80131203588,
-      "count": 737718,
-      "avg_value": 0.13073396787395167
+      "value": 104187.22184955524,
+      "count": 769851,
+      "avg_value": 0.13533426838382392
     },
     {
       "name": "BloXroute Max Profit",
-      "value": 20894.55634986077,
-      "count": 199250,
-      "avg_value": 0.1048660293594016
+      "value": 23129.47627142896,
+      "count": 208848,
+      "avg_value": 0.11074789450427565
     },
     {
       "name": "ultra sound relay",
-      "value": 20162.897504329107,
-      "count": 156440,
-      "avg_value": 0.128885818871958
+      "value": 31553.579984609703,
+      "count": 206096,
+      "avg_value": 0.1531013701605548
     },
     {
       "name": "Agnostic Relay",
-      "value": 18245.80234741805,
-      "count": 116980,
-      "avg_value": 0.15597369077977477
+      "value": 26285.30150241539,
+      "count": 147900,
+      "avg_value": 0.17772347195683158
     },
     {
       "name": "Blocknative",
-      "value": 6304.641655655607,
-      "count": 56290,
-      "avg_value": 0.11200287183612732
+      "value": 8183.536828385328,
+      "count": 63288,
+      "avg_value": 0.12930629548074402
     },
     {
       "name": "BloXroute Regulated",
-      "value": 3727.901957687896,
-      "count": 31948,
-      "avg_value": 0.1166865518244615
+      "value": 4257.312055792984,
+      "count": 33973,
+      "avg_value": 0.12531457497992476
     },
     {
       "name": "Eden",
-      "value": 4362.080511986644,
-      "count": 26386,
-      "avg_value": 0.16531799105535677
+      "value": 4516.806475897713,
+      "count": 26957,
+      "avg_value": 0.1675559771449981
     },
     {
       "name": "BloXroute Ethical",
-      "value": 1012.5712041273061,
-      "count": 14413,
-      "avg_value": 0.07025402096213877
+      "value": 1022.3957816558201,
+      "count": 14522,
+      "avg_value": 0.07040323520560667
     },
     {
       "name": "Manifold",
-      "value": 682.5985512666606,
-      "count": 7537,
-      "avg_value": 0.09056634619432939
+      "value": 728.8465400059465,
+      "count": 7805,
+      "avg_value": 0.09338200384445183
     },
     {
       "name": "Relayooor",
@@ -1247,99 +1246,115 @@
   "blocksByBuilder": [
     {
       "pubkey": "0x96a59d355b1f65e270b29981dd113625732539e955a1beeecbc471dd0196c4804574ff871d47ed34ff6d921061e9fc27",
-      "count": 159240,
-      "value": 20509.12375111815,
-      "avg_value": 0.1287937939658261,
-      "last_relay": "Agnostic Relay",
+      "count": 181543,
+      "value": 24755.396775219833,
+      "avg_value": 0.13636106473518578,
+      "last_relay": "ultra sound relay",
       "name": "beaverbuild.org, empty data"
     },
     {
       "pubkey": "0x81babeec8c9f2bb9c329fd8a3b176032fe0ab5f3b92a3f44d4575a231c7bd9c31d10b6328ef68ed1e8c02a3dbc8e80f9",
-      "count": 123018,
-      "value": 13792.790858892246,
-      "avg_value": 0.11212010322791986,
-      "last_relay": "Flashbots",
+      "count": 137092,
+      "value": 16049.986805039362,
+      "avg_value": 0.1170745689393937,
+      "last_relay": "ultra sound relay",
       "name": "Illuminate Dmocratize Dstribute, empty data"
     },
     {
       "pubkey": "0xb194b2b8ec91a71c18f8483825234679299d146495a08db3bf3fb955e1d85a5fca77e88de93a74f4e32320fc922d3027",
-      "count": 119593,
-      "value": 16001.541851407312,
-      "avg_value": 0.1337999870511427,
+      "count": 128508,
+      "value": 19071.76012876061,
+      "avg_value": 0.14840912728204164,
       "last_relay": "ultra sound relay",
       "name": "@builder0x69"
     },
     {
       "pubkey": "0xa1dead01e65f0a0eee7b5170223f20c8f0cbf122eac3324d61afbdb33a8885ff8cab2ef514ac2c7698ae0d6289ef27fc",
-      "count": 110146,
-      "value": 13298.49835043224,
-      "avg_value": 0.12073519102311696,
-      "last_relay": "Flashbots",
+      "count": 115127,
+      "value": 14279.625075529328,
+      "avg_value": 0.12403367650967477,
+      "last_relay": "ultra sound relay",
       "name": "Illuminate Dmocratize Dstribute"
     },
     {
       "pubkey": "0x81beef03aafd3dd33ffd7deb337407142c80fea2690e5b3190cfc01bde5753f28982a7857c96172a75a234cb7bcb994f",
-      "count": 105349,
-      "value": 11472.439958464836,
-      "avg_value": 0.10889937216741342,
-      "last_relay": "ultra sound relay",
+      "count": 110798,
+      "value": 12375.174706835796,
+      "avg_value": 0.11169131849704685,
+      "last_relay": "Flashbots",
       "name": "Illuminate Dmocratize Dstribute, empty data"
     },
     {
       "pubkey": "0xa971c4ee4ac5d47e0fb9e16be05981bfe51458f14c06b7a020304099c23d2d9952d4254cc50f291c385d15e7cae0cf9d",
-      "count": 73807,
-      "value": 11368.740119240198,
-      "avg_value": 0.15403335888520328,
+      "count": 80716,
+      "value": 13517.475337094253,
+      "avg_value": 0.16746958889308505,
       "last_relay": "ultra sound relay",
       "name": "builder0x69"
     },
     {
       "pubkey": "0xb5d883565500910f3f10f0a2e3a031139d972117a3b67da191ff93ba00ba26502d9b65385b5bca5e7c587273e40f2319",
-      "count": 54861,
-      "value": 7275.885893324974,
-      "avg_value": 0.13262401147126326,
+      "count": 63675,
+      "value": 10123.037127751895,
+      "avg_value": 0.1589797742874267,
       "last_relay": "ultra sound relay",
       "name": "beaverbuild.org, empty data"
     },
     {
       "pubkey": "0x8bc8d110f8b5207e7edc407e8fa033937ddfe8d2c6f18c12a6171400eb6e04d49238ba2b0a95e633d15558e6a706fbe4",
-      "count": 45771,
-      "value": 5562.050713614914,
-      "avg_value": 0.12151909972722715,
+      "count": 60161,
+      "value": 7924.509447162625,
+      "avg_value": 0.131721704213072,
       "last_relay": "ultra sound relay",
       "name": "by builder0x69"
     },
     {
       "pubkey": "0xa4fb63c2ceeee73d1f1711fadf1c5357ac98cecb999d053be613f469a48f7416999a4da35dd60a7824478661399e6772",
-      "count": 45216,
-      "value": 9497.316635734167,
-      "avg_value": 0.2100432730832928,
+      "count": 50818,
+      "value": 11348.775012114436,
+      "avg_value": 0.22332195308974057,
       "last_relay": "Flashbots",
       "name": "by @builder0x69, empty data"
     },
     {
       "pubkey": "0x94aa4ee318f39b56547a253700917982f4b737a49fc3f99ce08fa715e488e673d88a60f7d2cf9145a05127f17dcb7c67",
-      "count": 40330,
-      "value": 3083.707833027541,
-      "avg_value": 0.07646188527219293,
-      "last_relay": "ultra sound relay",
+      "count": 40958,
+      "value": 3194.683950962454,
+      "avg_value": 0.07799902219254978,
+      "last_relay": "BloXroute Max Profit",
       "name": "Powered by bloXroute, empty data"
     },
     {
+      "pubkey": "0x83d3495a2951065cf19c4d282afca0a635a39f6504bd76282ed0138fe28680ec60fa3fd149e6d27a94a7d90e7b1fb640",
+      "count": 35499,
+      "value": 5360.735802625596,
+      "avg_value": 0.1510108961555423,
+      "last_relay": "Blocknative",
+      "name": "rsync-builder.xyz"
+    },
+    {
       "pubkey": "0x976e63c505050e25b70b39238990c78ddf0948685eb8c5687d17ba5089541f37dd3c45999f2db449eac298b1d4856013",
-      "count": 32794,
-      "value": 2200.6115009936484,
-      "avg_value": 0.06710408919295141,
+      "count": 32835,
+      "value": 2207.519696355827,
+      "avg_value": 0.06723068970171546,
       "last_relay": "BloXroute Max Profit",
       "name": "0x976e63c505050e25b70b39238990c78ddf0948685eb8c5687d17ba5089541f37dd3c45999f2db449eac298b1d4856013"
     },
     {
-      "pubkey": "0x83d3495a2951065cf19c4d282afca0a635a39f6504bd76282ed0138fe28680ec60fa3fd149e6d27a94a7d90e7b1fb640",
-      "count": 27315,
-      "value": 3130.1867381007164,
-      "avg_value": 0.1145958901007035,
-      "last_relay": "Flashbots",
-      "name": "rsync-builder.xyz"
+      "pubkey": "0x945fc51bf63613257792926c9155d7ae32db73155dc13bdfe61cd476f1fd2297b66601e8721b723cef11e4e6682e9d87",
+      "count": 32213,
+      "value": 6499.207401647285,
+      "avg_value": 0.201757284377341,
+      "last_relay": "ultra sound relay",
+      "name": "rsync-builder.xyz, empty data"
+    },
+    {
+      "pubkey": "0xb8fceec09779ff758918a849bfe8ab43cea79f6a98320af0af5b030f6a7850fcc5883cb965d02efb10eed1ffa987e899",
+      "count": 28804,
+      "value": 5462.008700053784,
+      "avg_value": 0.18962674281536537,
+      "last_relay": "Blocknative",
+      "name": "builder0x69"
     },
     {
       "pubkey": "0x9000009807ed12c1f08bf4e81c6da3ba8e3fc3d953898ce0102433094e5f22f21102ec057841fcb81978ed1ea0fa8246",
@@ -1358,171 +1373,163 @@
       "name": "0xa1daf0ab37a9a204bc5925717f78a795fa2812f8fba8bda10b1b27c554bd7dedd46775106facd72be748eea336f514e9"
     },
     {
-      "pubkey": "0xb8fceec09779ff758918a849bfe8ab43cea79f6a98320af0af5b030f6a7850fcc5883cb965d02efb10eed1ffa987e899",
-      "count": 25795,
-      "value": 4605.748280919515,
-      "avg_value": 0.17855197832601338,
+      "pubkey": "0x978a35c39c41aadbe35ea29712bccffb117cc6ebcad4d86ea463d712af1dc80131d0c650dc29ba29ef27c881f43bd587",
+      "count": 25908,
+      "value": 3592.115442782542,
+      "avg_value": 0.13864889002557287,
       "last_relay": "Flashbots",
-      "name": "builder0x69"
+      "name": "rsync-builder.xyz, empty data"
     },
     {
       "pubkey": "0x80c7311597316f871363f8395b6a8d056071d90d8eb27defd14759e8522786061b13728623452740ba05055f5ba9d3d5",
-      "count": 21760,
-      "value": 2544.6256121214374,
-      "avg_value": 0.1169405152629337,
+      "count": 21939,
+      "value": 2575.8281405769844,
+      "avg_value": 0.11740863943557064,
       "last_relay": "BloXroute Regulated",
       "name": "0x80c7311597316f871363f8395b6a8d056071d90d8eb27defd14759e8522786061b13728623452740ba05055f5ba9d3d5"
     },
     {
       "pubkey": "0x8eb772d96a747ba63af7acdf92dc775a859f76a77e4c6ed124dca6360e74e4e798a75a925eb8fd0dde866317fff18ad0",
-      "count": 21535,
-      "value": 1506.9863031561977,
-      "avg_value": 0.06997846775742733,
-      "last_relay": "ultra sound relay",
+      "count": 21569,
+      "value": 1556.0037813977096,
+      "avg_value": 0.07214074743371086,
+      "last_relay": "Flashbots",
       "name": "https://eth-builder.com"
     },
     {
-      "pubkey": "0x978a35c39c41aadbe35ea29712bccffb117cc6ebcad4d86ea463d712af1dc80131d0c650dc29ba29ef27c881f43bd587",
-      "count": 20931,
-      "value": 2307.326455215021,
-      "avg_value": 0.11023488869213229,
-      "last_relay": "ultra sound relay",
-      "name": "rsync-builder.xyz, empty data"
-    },
-    {
-      "pubkey": "0x945fc51bf63613257792926c9155d7ae32db73155dc13bdfe61cd476f1fd2297b66601e8721b723cef11e4e6682e9d87",
-      "count": 20642,
-      "value": 3195.0332422534734,
-      "avg_value": 0.15478312383749024,
-      "last_relay": "Agnostic Relay",
-      "name": "rsync-builder.xyz, empty data"
-    },
-    {
       "pubkey": "0x8b8edce58fafe098763e4fabdeb318d347f9238845f22c507e813186ea7d44adecd3028f9288048f9ad3bc7c7c735fba",
-      "count": 17723,
-      "value": 1291.909386521706,
-      "avg_value": 0.07289450919831326,
+      "count": 17876,
+      "value": 1349.4241630155336,
+      "avg_value": 0.07548803776099428,
       "last_relay": "Flashbots",
       "name": "Powered by bloXroute"
     },
     {
       "pubkey": "0x8ea1393f49d894ae22ec86e38d9aeb64b8336dac947e69cb8468acf510d010ce0b51b21ac3e1244bdb91c52e020ea525",
-      "count": 16710,
-      "value": 962.8487616178909,
-      "avg_value": 0.05762111080897013,
-      "last_relay": "Flashbots",
+      "count": 16838,
+      "value": 1025.6562223262717,
+      "avg_value": 0.06091318578965861,
+      "last_relay": "Agnostic Relay",
       "name": "https://eth-builder.com"
     },
     {
       "pubkey": "0x82ba7cadcdfc1b156ba2c48c1c627428ba917858e62c3a97d8f919510da23d0f11cf5db53cb92a5faf5de7d31bf38632",
-      "count": 15203,
-      "value": 4102.692745243716,
-      "avg_value": 0.2698607344105582,
+      "count": 15996,
+      "value": 4491.835277065428,
+      "avg_value": 0.2808099072934126,
       "last_relay": "Flashbots",
       "name": "BuildAI (https://buildai.net)"
     },
     {
       "pubkey": "0x8000008a03ebae7d8ab2f66659bd719a698b2e74097d1e423df85e0d58571140527c15052a36c19878018aaebe8a6fea",
-      "count": 14630,
-      "value": 1712.4983731499542,
-      "avg_value": 0.11705388743335299,
-      "last_relay": "ultra sound relay",
+      "count": 15326,
+      "value": 1885.5797403327228,
+      "avg_value": 0.12303143288090322,
+      "last_relay": "Blocknative",
       "name": "Made on the moon by Blocknative"
     },
     {
       "pubkey": "0x8dde59a0d40b9a77b901fc40bee1116acf643b2b60656ace951a5073fe317f57a086acf1eac7502ea32edcca1a900521",
-      "count": 13359,
-      "value": 1860.5083025288618,
-      "avg_value": 0.1392700278859841,
-      "last_relay": "Agnostic Relay",
+      "count": 13431,
+      "value": 1991.4846712413887,
+      "avg_value": 0.14827523425220673,
+      "last_relay": "ultra sound relay",
       "name": "beaverbuild.org"
     },
     {
       "pubkey": "0xaec4ec48c2ec03c418c599622980184e926f0de3c9ceab15fc059d617fa0eafe7a0c62126a4657faf596a1b211eec347",
-      "count": 13029,
-      "value": 2191.848435697151,
-      "avg_value": 0.1682284469795956,
-      "last_relay": "Agnostic Relay",
+      "count": 13128,
+      "value": 2352.1547471133435,
+      "avg_value": 0.17917083692210112,
+      "last_relay": "ultra sound relay",
       "name": "beaverbuild.org"
     },
     {
       "pubkey": "0xafc9274fe595e8cff421ab9e73b031f0dff707ea1852e2233ff070ef18e3876e25c44a9831c4b5f802653d4678ccc31f",
-      "count": 11929,
-      "value": 631.9183077701017,
-      "avg_value": 0.05297328424596376,
+      "count": 12662,
+      "value": 704.9917930411423,
+      "avg_value": 0.055677759677866236,
       "last_relay": "BloXroute Max Profit",
       "name": "Powered by bloXroute"
     },
     {
       "pubkey": "0x8e39849ceabc8710de49b2ca7053813de18b1c12d9ee22149dac4b90b634dd7e6d1e7d3c2b4df806ce32c6228eb70a8b",
-      "count": 8956,
-      "value": 1812.3644530996332,
-      "avg_value": 0.2023631591223351,
+      "count": 9009,
+      "value": 1821.865542956551,
+      "avg_value": 0.20222727749545466,
       "last_relay": "Eden",
       "name": "https://edennetwork.io"
     },
     {
       "pubkey": "0xa0d0dbdf7b5eda08c921dee5da7c78c34c9685db3e39e81eb91da94af29eaa50f1468813c86503bf41b4b51bf772800e",
-      "count": 8296,
-      "value": 1337.698035627995,
-      "avg_value": 0.16124614701398204,
-      "last_relay": "Flashbots",
+      "count": 8297,
+      "value": 1337.801045018649,
+      "avg_value": 0.16123912800031925,
+      "last_relay": "BloXroute Max Profit",
       "name": "0xa0d0dbdf7b5eda08c921dee5da7c78c34c9685db3e39e81eb91da94af29eaa50f1468813c86503bf41b4b51bf772800e"
     },
     {
       "pubkey": "0xa5eec32c40cc3737d643c24982c7f097354150aac1612d4089e2e8af44dbeefaec08a11c76bd57e7d58697ad8b2bbef5",
-      "count": 7567,
-      "value": 1199.9477704862088,
-      "avg_value": 0.15857642004575245,
+      "count": 7595,
+      "value": 1208.8064758972043,
+      "avg_value": 0.15915819300819017,
       "last_relay": "Eden",
       "name": "0xa5eec32c40cc3737d643c24982c7f097354150aac1612d4089e2e8af44dbeefaec08a11c76bd57e7d58697ad8b2bbef5"
     },
     {
       "pubkey": "0xb1b734b8dd42b4744dc98ea330c3d9da64b7afc050afed96875593c73937d530a773e35ddc4b480f9d2e1d5ba452a469",
-      "count": 7232,
-      "value": 1240.7812481567191,
-      "avg_value": 0.17156820356149324,
+      "count": 7233,
+      "value": 1241.612953729852,
+      "avg_value": 0.17165947099818224,
       "last_relay": "Flashbots",
       "name": "0xb1b734b8dd42b4744dc98ea330c3d9da64b7afc050afed96875593c73937d530a773e35ddc4b480f9d2e1d5ba452a469"
     },
     {
       "pubkey": "0xb086acdd8da6a11c973b4b26d8c955addbae4506c78defbeb5d4e00c1266b802ff86ec7457c4c3c7c573fa1e64f7e9e0",
-      "count": 6116,
-      "value": 349.6454473142016,
-      "avg_value": 0.057168974381000916,
+      "count": 6187,
+      "value": 356.1863262282732,
+      "avg_value": 0.05757011899600342,
       "last_relay": "BloXroute Ethical",
       "name": "0xb086acdd8da6a11c973b4b26d8c955addbae4506c78defbeb5d4e00c1266b802ff86ec7457c4c3c7c573fa1e64f7e9e0"
     },
     {
       "pubkey": "0xb9b50821ec5f01bb19ec75e0f22264fa9369436544b65c7cf653109dd26ef1f65c4fcaf1b1bcd2a7278afc34455d3da6",
-      "count": 5498,
-      "value": 374.94736642167413,
-      "avg_value": 0.06819704736661952,
+      "count": 5505,
+      "value": 375.606642837226,
+      "avg_value": 0.06823008952538165,
       "last_relay": "Flashbots",
       "name": "0xb9b50821ec5f01bb19ec75e0f22264fa9369436544b65c7cf653109dd26ef1f65c4fcaf1b1bcd2a7278afc34455d3da6"
     },
     {
       "pubkey": "0xb5a688d26d7858b38c44f44568d68fb94f112fc834cd225d32dc52f0277c2007babc861f6f157a6fc6c1dc25bf409046",
-      "count": 5216,
-      "value": 1019.4922812571514,
-      "avg_value": 0.1954548085232269,
-      "last_relay": "ultra sound relay",
+      "count": 5217,
+      "value": 1019.5064785067577,
+      "avg_value": 0.1954200648853283,
+      "last_relay": "BloXroute Max Profit",
       "name": "0xb5a688d26d7858b38c44f44568d68fb94f112fc834cd225d32dc52f0277c2007babc861f6f157a6fc6c1dc25bf409046"
     },
     {
       "pubkey": "0x91970c2db7c12510acb2e9c45844f7de602f83a7f31064f7ca04a807b607d7aebfc0abda73c036a92e5c3e56ebca04b7",
-      "count": 4725,
-      "value": 647.2611029361357,
-      "avg_value": 0.13698647681188056,
+      "count": 4764,
+      "value": 653.6979371385327,
+      "avg_value": 0.13721619167475496,
       "last_relay": "Eden",
       "name": "https://edennetwork.io"
     },
     {
+      "pubkey": "0xa66f3abc04df65c16eb32151f2a92cb7921efdba4c25ab61b969a2af24b61508783ceb48175ef252ec9f82c6cdf8d8fd",
+      "count": 4521,
+      "value": 696.918497665668,
+      "avg_value": 0.15415140404018315,
+      "last_relay": "Blocknative",
+      "name": "Made on the moon by Blocknative"
+    },
+    {
       "pubkey": "0x965a05a1ba338f4bbbb97407d70659f4cea2146d83ac5da6c2f3de824713c927dcba706f35322d65764912e7756103e2",
-      "count": 4489,
-      "value": 275.2788853184291,
-      "avg_value": 0.061322986259396105,
-      "last_relay": "Flashbots",
+      "count": 4507,
+      "value": 279.083744360601,
+      "avg_value": 0.06192228630144242,
+      "last_relay": "ultra sound relay",
       "name": "0x965a05a1ba338f4bbbb97407d70659f4cea2146d83ac5da6c2f3de824713c927dcba706f35322d65764912e7756103e2"
     },
     {
@@ -1535,43 +1542,51 @@
     },
     {
       "pubkey": "0xa1f10d66aa4b73c5d9a6cc38a098b2c6ce031a6750ea2da01918ba3ac57c2ce1e39a0da622bd8ccd7c9930861f949fa2",
-      "count": 4237,
-      "value": 338.00635332801926,
-      "avg_value": 0.07977492408025,
+      "count": 4251,
+      "value": 352.833041102077,
+      "avg_value": 0.08300000966880193,
       "last_relay": "Flashbots",
       "name": "empty data"
     },
     {
       "pubkey": "0x82801ab0556f7df1fb9bb3a61ca84beea8285a8dc3c455a7ea16a8b2993fe06058e0e7d275b28ea5d9f2ae995aa72605",
-      "count": 4201,
-      "value": 324.4672212948092,
-      "avg_value": 0.07723571085332283,
+      "count": 4237,
+      "value": 327.62816404577876,
+      "avg_value": 0.07732550484913353,
       "last_relay": "BloXroute Ethical",
       "name": "0x82801ab0556f7df1fb9bb3a61ca84beea8285a8dc3c455a7ea16a8b2993fe06058e0e7d275b28ea5d9f2ae995aa72605"
     },
     {
-      "pubkey": "0x95701d3f0c49d7501b7494a7a4a08ce66aa9cc1f139dbd3eec409b9893ea213e01681e6b76f031122c6663b7d72a331b",
-      "count": 3845,
-      "value": 311.71372091693314,
-      "avg_value": 0.0810698884049241,
-      "last_relay": "BloXroute Ethical",
-      "name": "0x95701d3f0c49d7501b7494a7a4a08ce66aa9cc1f139dbd3eec409b9893ea213e01681e6b76f031122c6663b7d72a331b"
+      "pubkey": "0xb67eaa5efcfa1d17319c344e1e5167811afbfe7922a2cf01c9a361f465597a5dc3a5472bd98843bac88d2541a78eab08",
+      "count": 4067,
+      "value": 318.99402570662534,
+      "avg_value": 0.07843472478648275,
+      "last_relay": "Flashbots",
+      "name": "Titan (titanbuilder.xyz)"
     },
     {
       "pubkey": "0xb3a4b137b0224321813151568035e4c0dd7af8a2523a606a73b7d459a6202e7d6d58f2149a32bc2fe85980866fdc0c92",
-      "count": 3739,
-      "value": 160.91730955892874,
-      "avg_value": 0.04303752595852601,
+      "count": 3871,
+      "value": 192.01368923638674,
+      "avg_value": 0.04960312302670802,
       "last_relay": "Flashbots",
       "name": "0xb3a4b137b0224321813151568035e4c0dd7af8a2523a606a73b7d459a6202e7d6d58f2149a32bc2fe85980866fdc0c92"
     },
     {
-      "pubkey": "0xa66f3abc04df65c16eb32151f2a92cb7921efdba4c25ab61b969a2af24b61508783ceb48175ef252ec9f82c6cdf8d8fd",
-      "count": 3617,
-      "value": 467.8169424559253,
-      "avg_value": 0.1293383860812622,
-      "last_relay": "Blocknative",
-      "name": "Made on the moon by Blocknative"
+      "pubkey": "0x95701d3f0c49d7501b7494a7a4a08ce66aa9cc1f139dbd3eec409b9893ea213e01681e6b76f031122c6663b7d72a331b",
+      "count": 3847,
+      "value": 311.83647678040575,
+      "avg_value": 0.08105965083972076,
+      "last_relay": "BloXroute Ethical",
+      "name": "0x95701d3f0c49d7501b7494a7a4a08ce66aa9cc1f139dbd3eec409b9893ea213e01681e6b76f031122c6663b7d72a331b"
+    },
+    {
+      "pubkey": "0x89551cb5def7a710d58c3f3c0b234266df9cab138d6bd79e58b03c3681030751f1aab2e2b08a706e2aba6db23ee1fb8b",
+      "count": 3772,
+      "value": 384.41972318570186,
+      "avg_value": 0.10191403053703654,
+      "last_relay": "ultra sound relay",
+      "name": "payload.de"
     },
     {
       "pubkey": "0xa25f5d5bd4f1956971bbd6e5a19e59c9b1422ca253587bbbb644645bd2067cc08fb854a231061f8c91f110254664e943",
@@ -1582,76 +1597,68 @@
       "name": "0xa25f5d5bd4f1956971bbd6e5a19e59c9b1422ca253587bbbb644645bd2067cc08fb854a231061f8c91f110254664e943"
     },
     {
-      "pubkey": "0x89551cb5def7a710d58c3f3c0b234266df9cab138d6bd79e58b03c3681030751f1aab2e2b08a706e2aba6db23ee1fb8b",
-      "count": 3584,
-      "value": 311.2035166093155,
-      "avg_value": 0.08683133833965276,
-      "last_relay": "ultra sound relay",
-      "name": "payload.de"
-    },
-    {
       "pubkey": "0xaa1488eae4b06a1fff840a2b6db167afc520758dc2c8af0dfb57037954df3431b747e2f900fe8805f05d635e9a29717b",
-      "count": 3297,
-      "value": 606.3010138145642,
-      "avg_value": 0.18389475699562152,
-      "last_relay": "BloXroute Max Profit",
+      "count": 3298,
+      "value": 606.3204860964887,
+      "avg_value": 0.18384490178789833,
+      "last_relay": "ultra sound relay",
       "name": "0xaa1488eae4b06a1fff840a2b6db167afc520758dc2c8af0dfb57037954df3431b747e2f900fe8805f05d635e9a29717b"
     },
     {
       "pubkey": "0x987ff80fcf6c5ee530f4a4352884cb89fc5f57ab287e58dd44d641f3bbe4cc40633d6ba0bbecc9c81b1d5be40a2abb99",
-      "count": 3102,
-      "value": 733.8968432871067,
-      "avg_value": 0.23658827958965398,
-      "last_relay": "Flashbots",
+      "count": 3135,
+      "value": 745.0960114271918,
+      "avg_value": 0.23767017908363375,
+      "last_relay": "ultra sound relay",
       "name": "bobTheBuilder"
     },
     {
       "pubkey": "0x84b02bdb674a28dea0467d3dded2b4aad11c0c5dba79b3d11c38476e2f45eb937ac078492781cca8d2123c2c574a7eb8",
-      "count": 3035,
-      "value": 213.65114763522362,
-      "avg_value": 0.07039576528343447,
+      "count": 3091,
+      "value": 266.1449436349776,
+      "avg_value": 0.08610318461176888,
       "last_relay": "Flashbots",
       "name": "lightspeedbuilder.info"
     },
     {
       "pubkey": "0xa412007971217a42ca2ced9a90e7ca0ddfc922a1482ee6adf812c4a307e5fb7d6e668a7c86e53663ddd53c689aa3d350",
-      "count": 2916,
-      "value": 550.4822839948545,
-      "avg_value": 0.1887799327828719,
+      "count": 3081,
+      "value": 603.1430736961139,
+      "avg_value": 0.1957621141499883,
       "last_relay": "Eden",
       "name": "https://edennetwork.io"
     },
     {
-      "pubkey": "0xb67eaa5efcfa1d17319c344e1e5167811afbfe7922a2cf01c9a361f465597a5dc3a5472bd98843bac88d2541a78eab08",
-      "count": 2823,
-      "value": 134.06205101430382,
-      "avg_value": 0.04748921396185045,
-      "last_relay": "Flashbots",
-      "name": "Titan (titanbuilder.xyz)"
-    },
-    {
-      "pubkey": "0x91afe2631915f3fbd83f1d75e13ae8597b593441344bb55bf542b9bac31f662d1c820cafe4cde17291f115bb68a9945a",
-      "count": 2729,
-      "value": 479.4865437791733,
-      "avg_value": 0.17570045576371318,
-      "last_relay": "Agnostic Relay",
-      "name": "bobTheBuilder"
-    },
-    {
       "pubkey": "0x83bee51799e65130296f5d60ce7d78119578db6045c3c3631980514abae0be0f9b65fe82eb0c9a79d6d99030112c874c",
-      "count": 2649,
-      "value": 1420.4151876740812,
-      "avg_value": 0.5362080738671503,
-      "last_relay": "Flashbots",
+      "count": 3006,
+      "value": 1749.080670065484,
+      "avg_value": 0.5818631636944391,
+      "last_relay": "Agnostic Relay",
       "name": "empty data"
     },
     {
       "pubkey": "0x8ed74896fb129ac7f48d6a2908400044103b65d5c4e8f63feafd849f90fc174a4b71206a51b9453c12292bab3a92a4a2",
-      "count": 2617,
-      "value": 261.28108295209705,
-      "avg_value": 0.0998399247046607,
+      "count": 2867,
+      "value": 332.1251008615019,
+      "avg_value": 0.11584412307691032,
       "last_relay": "Flashbots",
       "name": "https://eth-builder.com, empty data"
+    },
+    {
+      "pubkey": "0x91afe2631915f3fbd83f1d75e13ae8597b593441344bb55bf542b9bac31f662d1c820cafe4cde17291f115bb68a9945a",
+      "count": 2827,
+      "value": 509.0659275480094,
+      "avg_value": 0.18007284313689756,
+      "last_relay": "Flashbots",
+      "name": "bobTheBuilder"
+    },
+    {
+      "pubkey": "0xa00000a975dffbd1ef61953ac6c90b52b70eb0188eb9d030774346c9248f81e875f7e8bc56c4bbbda297a9543cfa051d",
+      "count": 2357,
+      "value": 354.6234958366851,
+      "avg_value": 0.15045545007920455,
+      "last_relay": "Blocknative",
+      "name": "0xa00000a975dffbd1ef61953ac6c90b52b70eb0188eb9d030774346c9248f81e875f7e8bc56c4bbbda297a9543cfa051d"
     },
     {
       "pubkey": "0xa30251c8d20aaae33c6dc49486ee4e14dbed562a745154202e4133e490bce0fe0ca7c687d9609ae0c390968039a5d5b8",
@@ -1662,6 +1669,14 @@
       "name": "0xa30251c8d20aaae33c6dc49486ee4e14dbed562a745154202e4133e490bce0fe0ca7c687d9609ae0c390968039a5d5b8"
     },
     {
+      "pubkey": "0xab847befe59b5effffa12f47acf44cbf8ef875e7c891a4ee9e9c483254cf9a55f5ed688e43ff5bc6cd9276e99091921b",
+      "count": 2240,
+      "value": 751.8415266048568,
+      "avg_value": 0.3356435386628825,
+      "last_relay": "Agnostic Relay",
+      "name": "youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
       "pubkey": "0x89783236c449f037b4ad7bae18cea35014187ec06e2daa016128e736739debeafc5fe8662a0613bc4ca528af5be83b3c",
       "count": 2032,
       "value": 249.23812160757515,
@@ -1670,42 +1685,34 @@
       "name": "0x89783236c449f037b4ad7bae18cea35014187ec06e2daa016128e736739debeafc5fe8662a0613bc4ca528af5be83b3c"
     },
     {
-      "pubkey": "0xab847befe59b5effffa12f47acf44cbf8ef875e7c891a4ee9e9c483254cf9a55f5ed688e43ff5bc6cd9276e99091921b",
-      "count": 1991,
-      "value": 589.6768550851385,
-      "avg_value": 0.29617119793326896,
-      "last_relay": "ultra sound relay",
-      "name": "youtube.com/watch?v=dQw4w9WgXcQ"
-    },
-    {
       "pubkey": "0x8d6e6c1b552fb5acba2a08eb882008f93f18f0e9c36ff96983778a3c167dd121ced4d214ae5380a9527a8f5ec64e3efd",
-      "count": 1903,
-      "value": 830.3195573846242,
-      "avg_value": 0.43632136488945045,
+      "count": 1973,
+      "value": 851.9877949944574,
+      "avg_value": 0.43182351494904075,
       "last_relay": "Flashbots",
       "name": "bobTheBuilder"
     },
     {
       "pubkey": "0xa1defa73d675983a6972e8686360022c1ebc73395067dd1908f7ac76a526a19ac75e4f03ccab6788c54fdb81ff84fc1b",
-      "count": 1666,
-      "value": 222.18418926961786,
-      "avg_value": 0.13336385910541287,
+      "count": 1671,
+      "value": 222.98515738442947,
+      "avg_value": 0.13344413966752214,
       "last_relay": "Flashbots",
       "name": "0xa1defa73d675983a6972e8686360022c1ebc73395067dd1908f7ac76a526a19ac75e4f03ccab6788c54fdb81ff84fc1b"
     },
     {
-      "pubkey": "0xa00000a975dffbd1ef61953ac6c90b52b70eb0188eb9d030774346c9248f81e875f7e8bc56c4bbbda297a9543cfa051d",
-      "count": 1540,
-      "value": 150.9687223936604,
-      "avg_value": 0.09803163791796131,
+      "pubkey": "0x8e6df6e0a9ca3fd89db2aa2f3daf77722dc4fbcd15e285ed7d9560fdf07b7d69ba504add4cc12ac999b8094ff30ed06c",
+      "count": 1487,
+      "value": 327.52099932752134,
+      "avg_value": 0.22025622012610716,
       "last_relay": "Agnostic Relay",
-      "name": "0xa00000a975dffbd1ef61953ac6c90b52b70eb0188eb9d030774346c9248f81e875f7e8bc56c4bbbda297a9543cfa051d"
+      "name": "rsync-builder.xyz"
     },
     {
       "pubkey": "0x984357f7e6489e5e04049920bf63087ee6904272e937371f27ae84c064c36ae28f0f7bbb9f127fcd736df63a34172c11",
-      "count": 1411,
-      "value": 59.96250608737022,
-      "avg_value": 0.04249646072811497,
+      "count": 1422,
+      "value": 63.67036869158004,
+      "avg_value": 0.044775224115035185,
       "last_relay": "Flashbots",
       "name": "finest artisanal blocks"
     },
@@ -1718,12 +1725,36 @@
       "name": "0xb0e77c875ec24b1738fd062ccc4b184ae1cb57e968a089f24c8b2af50727ffb8f9635e3fde2cab06182ddfe79886cb20"
     },
     {
+      "pubkey": "0x94a076b27f294dc44b9fd44d8e2b063fb129bc85ed047da1cefb82d16e1a13e6b50de31a86f5b233d1e6bbaca3c69173",
+      "count": 1220,
+      "value": 113.75093802780957,
+      "avg_value": 0.09323847379328654,
+      "last_relay": "Agnostic Relay",
+      "name": "Titan (titanbuilder.xyz)"
+    },
+    {
       "pubkey": "0x9100000005a9260b0390e1580f677887930133715d32453a896c5a179cf53b7d3c2b07ce14dbc40fd9a84e9f196b5ca4",
       "count": 1160,
       "value": 97.89560627356906,
       "avg_value": 0.08439276402893885,
       "last_relay": "Blocknative",
       "name": "0x9100000005a9260b0390e1580f677887930133715d32453a896c5a179cf53b7d3c2b07ce14dbc40fd9a84e9f196b5ca4"
+    },
+    {
+      "pubkey": "0xb26f96664274e15fb6fcda862302e47de7e0e2a6687f8349327a9846043e42596ec44af676126e2cacbdd181f548e681",
+      "count": 1126,
+      "value": 129.2655155764926,
+      "avg_value": 0.11480063550310177,
+      "last_relay": "Agnostic Relay",
+      "name": "Titan (titanbuilder.xyz)"
+    },
+    {
+      "pubkey": "0xb066a09b52c583db4c8bb1eba3c629f20b96d6f9a355b0615da653c8dbc136b85f467e77a4225cde9eadcd45f8693900",
+      "count": 1060,
+      "value": 44.557574425806514,
+      "avg_value": 0.04203544757151558,
+      "last_relay": "Flashbots",
+      "name": "antbuilder"
     },
     {
       "pubkey": "0xa18fdb012ecadc1d9af521917959d5915f7d17ca1a88953a28cd182c000237e49a1c3a7050ee923459d477041ad0ae45",
@@ -1734,20 +1765,44 @@
       "name": "0xa18fdb012ecadc1d9af521917959d5915f7d17ca1a88953a28cd182c000237e49a1c3a7050ee923459d477041ad0ae45"
     },
     {
-      "pubkey": "0x8e6df6e0a9ca3fd89db2aa2f3daf77722dc4fbcd15e285ed7d9560fdf07b7d69ba504add4cc12ac999b8094ff30ed06c",
-      "count": 1047,
-      "value": 169.72104656228197,
-      "avg_value": 0.1621022412247201,
-      "last_relay": "Agnostic Relay",
-      "name": "rsync-builder.xyz"
+      "pubkey": "0x95c8cc31f8d4e54eddb0603b8f12d59d466f656f374bde2073e321bdd16082d420e3eef4d62467a7ea6b83818381f742",
+      "count": 1008,
+      "value": 103.43826506320545,
+      "avg_value": 0.1026173264515927,
+      "last_relay": "Flashbots",
+      "name": "Titan (titanbuilder.xyz)"
     },
     {
-      "pubkey": "0xb066a09b52c583db4c8bb1eba3c629f20b96d6f9a355b0615da653c8dbc136b85f467e77a4225cde9eadcd45f8693900",
-      "count": 1016,
-      "value": 41.93878968731704,
-      "avg_value": 0.04127833630641441,
+      "pubkey": "0xabc387dff20ff4bda974b7f3041ea857d591681cc03271519196587a2d6b30c953ea4df11acf637db76f462834a8c80e",
+      "count": 995,
+      "value": 73.62659475542114,
+      "avg_value": 0.07399657764363933,
+      "last_relay": "ultra sound relay",
+      "name": "0xabc387dff20ff4bda974b7f3041ea857d591681cc03271519196587a2d6b30c953ea4df11acf637db76f462834a8c80e"
+    },
+    {
+      "pubkey": "0xb052beae829c5b6ea991bfe09960caad5b78dd9c1be18a477fb0121e47e8a89ce6364edc580a72b91106dbfbcb5f80c0",
+      "count": 893,
+      "value": 127.7588223361962,
+      "avg_value": 0.14306699029809206,
+      "last_relay": "ultra sound relay",
+      "name": "It's Free Real Estate"
+    },
+    {
+      "pubkey": "0xa31892c0466813868f0cd8d3255dab5f84ae1a6d4a28a85bd85a68c30de311b5ad9b535bc611daa6bcf2365677f7a3fd",
+      "count": 884,
+      "value": 319.36327895024823,
+      "avg_value": 0.36127067754552966,
       "last_relay": "Flashbots",
-      "name": "antbuilder"
+      "name": "bobTheBuilder"
+    },
+    {
+      "pubkey": "0xa82f9afce834eeb0e6d9aa5bb99d2d87a2ba6d97f6f7db6b73646965f3dec263f8dc8e6e2a0d2d9acd6253c383f08c19",
+      "count": 874,
+      "value": 113.39506794922876,
+      "avg_value": 0.1297426406741748,
+      "last_relay": "Flashbots",
+      "name": "nfactorial.xyz"
     },
     {
       "pubkey": "0x8ff133b960e7b656cb5b6406c5083e0e0a7fe412b0718bbbd00f1ceff48011dff7b1c3c7363b1b929179489f022cf0f6",
@@ -1758,36 +1813,20 @@
       "name": "0x8ff133b960e7b656cb5b6406c5083e0e0a7fe412b0718bbbd00f1ceff48011dff7b1c3c7363b1b929179489f022cf0f6"
     },
     {
-      "pubkey": "0xa31892c0466813868f0cd8d3255dab5f84ae1a6d4a28a85bd85a68c30de311b5ad9b535bc611daa6bcf2365677f7a3fd",
-      "count": 793,
-      "value": 290.0529320137819,
-      "avg_value": 0.3657666229681991,
-      "last_relay": "Agnostic Relay",
-      "name": "bobTheBuilder"
-    },
-    {
-      "pubkey": "0xa82f9afce834eeb0e6d9aa5bb99d2d87a2ba6d97f6f7db6b73646965f3dec263f8dc8e6e2a0d2d9acd6253c383f08c19",
-      "count": 791,
-      "value": 60.462597142553484,
-      "avg_value": 0.07643817590714726,
-      "last_relay": "Flashbots",
-      "name": "nfactorial.xyz"
-    },
-    {
-      "pubkey": "0x94a076b27f294dc44b9fd44d8e2b063fb129bc85ed047da1cefb82d16e1a13e6b50de31a86f5b233d1e6bbaca3c69173",
-      "count": 740,
-      "value": 47.67374710772922,
-      "avg_value": 0.06442398257801246,
-      "last_relay": "Agnostic Relay",
-      "name": "Titan (titanbuilder.xyz)"
-    },
-    {
       "pubkey": "0xac6b63562d0c2da39fc8336c9b07a0f80cac0761b5263d41b31a328ff81859f289bd44d273188f418ae0183c40881e69",
       "count": 733,
       "value": 57.78357660283644,
       "avg_value": 0.07883161883060906,
       "last_relay": "Flashbots",
       "name": "0xac6b63562d0c2da39fc8336c9b07a0f80cac0761b5263d41b31a328ff81859f289bd44d273188f418ae0183c40881e69"
+    },
+    {
+      "pubkey": "0x8d0187110022b21a97a265d9b98aae51cdd563e53ceacb6ca9ebd0dcdac91866a52aff73836d95ef1e587591291abb02",
+      "count": 733,
+      "value": 47.79491261534611,
+      "avg_value": 0.06520451925695239,
+      "last_relay": "Manifold",
+      "name": "Manifold: coinbase"
     },
     {
       "pubkey": "0x8303c65a27eae8e91a074315b26e150e69f64acff0ed3c5fc566c942eb2f4677303cb2cce6245774f7dd35bad276474f",
@@ -1798,6 +1837,14 @@
       "name": "0x8303c65a27eae8e91a074315b26e150e69f64acff0ed3c5fc566c942eb2f4677303cb2cce6245774f7dd35bad276474f"
     },
     {
+      "pubkey": "0xa35e2b13ef528efbed8d2f709c0eb9eceb1225ed0605a653ba923588b0150c94772a9ba1c809d048e321f6b73d905c60",
+      "count": 701,
+      "value": 81.59166239822548,
+      "avg_value": 0.11639324165224747,
+      "last_relay": "Flashbots",
+      "name": "Illuminate Dmocrtz Dstrib Prtct"
+    },
+    {
       "pubkey": "0xb2990ad10d4a7e6f6ddee3cc0dd5713c712fc0821cf420f7e59cc30548d0344f68e6daadeec82482993416cbbe001ac5",
       "count": 656,
       "value": 99.35711469879475,
@@ -1806,52 +1853,12 @@
       "name": "0xb2990ad10d4a7e6f6ddee3cc0dd5713c712fc0821cf420f7e59cc30548d0344f68e6daadeec82482993416cbbe001ac5"
     },
     {
-      "pubkey": "0x8d0187110022b21a97a265d9b98aae51cdd563e53ceacb6ca9ebd0dcdac91866a52aff73836d95ef1e587591291abb02",
-      "count": 627,
-      "value": 38.83169398185009,
-      "avg_value": 0.061932526286842246,
-      "last_relay": "Manifold",
-      "name": "Manifold: coinbase"
-    },
-    {
-      "pubkey": "0xb26f96664274e15fb6fcda862302e47de7e0e2a6687f8349327a9846043e42596ec44af676126e2cacbdd181f548e681",
-      "count": 612,
-      "value": 37.15123859503128,
-      "avg_value": 0.0607046382271753,
-      "last_relay": "ultra sound relay",
-      "name": "Titan (titanbuilder.xyz)"
-    },
-    {
-      "pubkey": "0xa35e2b13ef528efbed8d2f709c0eb9eceb1225ed0605a653ba923588b0150c94772a9ba1c809d048e321f6b73d905c60",
-      "count": 561,
-      "value": 33.95963468664146,
-      "avg_value": 0.06053410817583148,
-      "last_relay": "Flashbots",
-      "name": "Illuminate Dmocrtz Dstrib Prtct"
-    },
-    {
-      "pubkey": "0x95c8cc31f8d4e54eddb0603b8f12d59d466f656f374bde2073e321bdd16082d420e3eef4d62467a7ea6b83818381f742",
-      "count": 545,
-      "value": 36.15190273542338,
-      "avg_value": 0.06633376648701537,
-      "last_relay": "Agnostic Relay",
-      "name": "Titan (titanbuilder.xyz)"
-    },
-    {
       "pubkey": "0x81476ce973b358648ef2b990ed3fe9e9b264030116e5f6aa12c1b9f573b7a19ef75b9142426ec3a4e56719659940d224",
-      "count": 527,
-      "value": 548.5926907644167,
-      "avg_value": 1.0409728477503164,
-      "last_relay": "Flashbots",
-      "name": "0x81476ce973b358648ef2b990ed3fe9e9b264030116e5f6aa12c1b9f573b7a19ef75b9142426ec3a4e56719659940d224"
-    },
-    {
-      "pubkey": "0xb052beae829c5b6ea991bfe09960caad5b78dd9c1be18a477fb0121e47e8a89ce6364edc580a72b91106dbfbcb5f80c0",
-      "count": 480,
-      "value": 95.6606563985673,
-      "avg_value": 0.19929303416368188,
+      "count": 531,
+      "value": 549.700932901274,
+      "avg_value": 1.0352183293809303,
       "last_relay": "ultra sound relay",
-      "name": "It's Free Real Estate"
+      "name": "0x81476ce973b358648ef2b990ed3fe9e9b264030116e5f6aa12c1b9f573b7a19ef75b9142426ec3a4e56719659940d224"
     },
     {
       "pubkey": "0x89ab488c189f0b6a42e0e07ef4caf4df430f7d8ff3cf9a8b449005000f0f66bf12378856f69dedcefacce6aa24dc5fef",
@@ -1870,27 +1877,35 @@
       "name": "0x850210bce5a9a1aaa68174e5ae0cd36ec5851d57adc5f5508556501ad22767670242a5558930927bee17ce138108d31a"
     },
     {
-      "pubkey": "0xb3d48d36bb54c159417d3e87a890ff6bf513b14bdba5b823456813dde13afdf78d0f29e9dc2f798d734ee2abaad17182",
-      "count": 307,
-      "value": 13.610128499963075,
-      "avg_value": 0.04433266612365822,
-      "last_relay": "ultra sound relay",
-      "name": "finest artisanal blocks"
-    },
-    {
       "pubkey": "0x8ee8f19da59077f203110aa1c897eac75d93dfb0e3675fe1a64e4d3f2fbc0c652551297c8ff4210d790d2bf8d4fb7104",
-      "count": 262,
-      "value": 25.779082955886306,
-      "avg_value": 0.09839344639651262,
+      "count": 345,
+      "value": 41.65621972441947,
+      "avg_value": 0.12074266586788253,
       "last_relay": "Flashbots",
       "name": "https://eth-builder.com"
     },
     {
-      "pubkey": "0x8c344feeb5426018c1855bc33cf739c15ce43fe780fc13275163f3c33075318619e6b2151407f87a970be24443c9cea4",
-      "count": 259,
-      "value": 141.08217801108734,
-      "avg_value": 0.5447188340196423,
+      "pubkey": "0xb3d48d36bb54c159417d3e87a890ff6bf513b14bdba5b823456813dde13afdf78d0f29e9dc2f798d734ee2abaad17182",
+      "count": 342,
+      "value": 18.462891945877434,
+      "avg_value": 0.053985064169232266,
       "last_relay": "ultra sound relay",
+      "name": "finest artisanal blocks"
+    },
+    {
+      "pubkey": "0xae7f0dd473d986b277539cca610aba02c437082ac504b998079edf20b0258db6cc6f6f27220d6428283691db53e62c3b",
+      "count": 298,
+      "value": 92.533005793411,
+      "avg_value": 0.31051344225976846,
+      "last_relay": "Flashbots",
+      "name": "Gambit Labs (https://gmbit.co)"
+    },
+    {
+      "pubkey": "0x8c344feeb5426018c1855bc33cf739c15ce43fe780fc13275163f3c33075318619e6b2151407f87a970be24443c9cea4",
+      "count": 292,
+      "value": 152.02618860575575,
+      "avg_value": 0.5206376322114923,
+      "last_relay": "Flashbots",
       "name": "bobTheBuilder"
     },
     {
@@ -1910,20 +1925,20 @@
       "name": "0x975b8e3d2fe37697390ae3fd9d238a5cb7bf12826f1bbde37029c0538d5b1bf5bc1a803e96c572af233e1ac151238fa1"
     },
     {
+      "pubkey": "0xa9068c4ea443855799c996676e8b855eb19e55f6612c5a565029306620fbaeda6fe1aae2f9fd2b05cb34e5766170d1ce",
+      "count": 216,
+      "value": 51.27367179084384,
+      "avg_value": 0.23737811014279556,
+      "last_relay": "Flashbots",
+      "name": "0xa9068c4ea443855799c996676e8b855eb19e55f6612c5a565029306620fbaeda6fe1aae2f9fd2b05cb34e5766170d1ce"
+    },
+    {
       "pubkey": "0xa1ee9e433283c88551bbf43af2a2ffde557499f24fdd4c27f9d7d255fd1c3eb1745871c73286059249b759a11ad41a1d",
       "count": 212,
       "value": 7.227443031471887,
       "avg_value": 0.03409171241260324,
       "last_relay": "Agnostic Relay",
       "name": "0xa1ee9e433283c88551bbf43af2a2ffde557499f24fdd4c27f9d7d255fd1c3eb1745871c73286059249b759a11ad41a1d"
-    },
-    {
-      "pubkey": "0xa9068c4ea443855799c996676e8b855eb19e55f6612c5a565029306620fbaeda6fe1aae2f9fd2b05cb34e5766170d1ce",
-      "count": 207,
-      "value": 50.407979071109786,
-      "avg_value": 0.24351680710681056,
-      "last_relay": "Flashbots",
-      "name": "0xa9068c4ea443855799c996676e8b855eb19e55f6612c5a565029306620fbaeda6fe1aae2f9fd2b05cb34e5766170d1ce"
     },
     {
       "pubkey": "0xaf38aea3fa540523c0c0fc04a0600c6245b91dded08752e3e81df5dbd4453754bdcf7731e761bee19cff542ec61d3bb7",
@@ -1958,12 +1973,12 @@
       "name": "0x91e5e517809f4df73c30d71267c90f124372facad8e54306228128f4bb804e9730ada5096c067a8390b3af68a39ed9ce"
     },
     {
-      "pubkey": "0xae7f0dd473d986b277539cca610aba02c437082ac504b998079edf20b0258db6cc6f6f27220d6428283691db53e62c3b",
+      "pubkey": "0x86d59ae03894b181e2935ec684912571da5888a6b2bd7870d58411eace02416a8d04aa0ba33545fc87f833d06b64253f",
       "count": 151,
-      "value": 33.53689110368744,
-      "avg_value": 0.2220986165807115,
+      "value": 66.03211995948956,
+      "avg_value": 0.43729880767873885,
       "last_relay": "Flashbots",
-      "name": "Gambit Labs (https://gmbit.co)"
+      "name": "0x86d59ae03894b181e2935ec684912571da5888a6b2bd7870d58411eace02416a8d04aa0ba33545fc87f833d06b64253f"
     },
     {
       "pubkey": "0x847f1aec35bb9bfc726dff1f30c9074fb8c9824b8db00f1f23b4e2f0d55cf0928aa2c83cd9783c96b7efd131d93dd7f3",
@@ -1974,20 +1989,28 @@
       "name": "0x847f1aec35bb9bfc726dff1f30c9074fb8c9824b8db00f1f23b4e2f0d55cf0928aa2c83cd9783c96b7efd131d93dd7f3"
     },
     {
+      "pubkey": "0x8ef6185b16ab8fe018ba98c9f514522a60e437be0e8d8b88ade174d3b859256ceb464f766c268458bfd33142b2913a0e",
+      "count": 126,
+      "value": 5.991492985264762,
+      "avg_value": 0.04755153162908542,
+      "last_relay": "Manifold",
+      "name": "0x8ef6185b16ab8fe018ba98c9f514522a60e437be0e8d8b88ade174d3b859256ceb464f766c268458bfd33142b2913a0e"
+    },
+    {
       "pubkey": "0xabd401cacede8c01232325b72ec17ea9f75206386c87cf996484b478eb00f373a516981a2bc90fccbc11b8beadc62761",
-      "count": 122,
-      "value": 10.545672611559414,
-      "avg_value": 0.0864399394390116,
+      "count": 124,
+      "value": 10.752901505959041,
+      "avg_value": 0.08671694762870194,
       "last_relay": "Flashbots",
       "name": "0xabd401cacede8c01232325b72ec17ea9f75206386c87cf996484b478eb00f373a516981a2bc90fccbc11b8beadc62761"
     },
     {
-      "pubkey": "0x8ef6185b16ab8fe018ba98c9f514522a60e437be0e8d8b88ade174d3b859256ceb464f766c268458bfd33142b2913a0e",
-      "count": 121,
-      "value": 3.769392935018157,
-      "avg_value": 0.031152007727422784,
-      "last_relay": "Agnostic Relay",
-      "name": "0x8ef6185b16ab8fe018ba98c9f514522a60e437be0e8d8b88ade174d3b859256ceb464f766c268458bfd33142b2913a0e"
+      "pubkey": "0xa65a9e75ae055aefbd850ff8e3baf8cb999814038f8e48dd34447ecf3e3c5c0a631fc0c1147b5b1c74aa389754612882",
+      "count": 113,
+      "value": 45.66133175286631,
+      "avg_value": 0.40408258188377266,
+      "last_relay": "Flashbots",
+      "name": "payload.de"
     },
     {
       "pubkey": "0x973377ac7a3f365cd7551f6fe0c08d986089451304ef06d20bad594c88724127cbb4442929949ce2277a1cde4c19574a",
@@ -2054,12 +2077,28 @@
       "name": "0xa48436973db1abb6c66ad31c8b79d3b77bde2acb109174a87aeee233b7b0078a34d3e6616a3017e2430dff01e20a5710"
     },
     {
+      "pubkey": "0xac4aac0f9ce2bafd4bab348c6b4d8a31e583043baea9bf0a619ebcd8568694b64888f0c9ca40c1c1f93e9c34e1b39cb1",
+      "count": 82,
+      "value": 17.50192665073399,
+      "avg_value": 0.21343812988699987,
+      "last_relay": "Flashbots",
+      "name": "0xac4aac0f9ce2bafd4bab348c6b4d8a31e583043baea9bf0a619ebcd8568694b64888f0c9ca40c1c1f93e9c34e1b39cb1"
+    },
+    {
       "pubkey": "0x8638492723b6376bf83ec6eeff53b7b5d490219501e24a722f39af65a49672441d0320aea5659608bcab37e395cd4b73",
-      "count": 75,
-      "value": 37.243521747129556,
-      "avg_value": 0.49658028996172743,
+      "count": 76,
+      "value": 37.278335732358094,
+      "avg_value": 0.4905044175310276,
       "last_relay": "Blocknative",
       "name": "Made on the moon by Blocknative"
+    },
+    {
+      "pubkey": "0x85b603e6b0b27e117e80c67a615060b3d0441ae2aee163cc49f30c964155e46fbd324b25c0fbadf9f4995a4b8b245be3",
+      "count": 74,
+      "value": 20.89211143034782,
+      "avg_value": 0.2823258301398354,
+      "last_relay": "Flashbots",
+      "name": "0x85b603e6b0b27e117e80c67a615060b3d0441ae2aee163cc49f30c964155e46fbd324b25c0fbadf9f4995a4b8b245be3"
     },
     {
       "pubkey": "0xaa592d496c56d0fb88e9216f0e2463079305838565be9fa19f763cdf1e3b46dba322fa13c57530fc19244390679f8851",
@@ -2068,6 +2107,22 @@
       "avg_value": 0.1289418835975844,
       "last_relay": "Flashbots",
       "name": "0xaa592d496c56d0fb88e9216f0e2463079305838565be9fa19f763cdf1e3b46dba322fa13c57530fc19244390679f8851"
+    },
+    {
+      "pubkey": "0x8070d2fbed08a3f251189cf304b5aa4de1c6817189e6779fa91bfed92a54c14ad81a86e3860040a36cbe6225ad5961e2",
+      "count": 73,
+      "value": 30.016238580587956,
+      "avg_value": 0.4111813504190131,
+      "last_relay": "Flashbots",
+      "name": "0x8070d2fbed08a3f251189cf304b5aa4de1c6817189e6779fa91bfed92a54c14ad81a86e3860040a36cbe6225ad5961e2"
+    },
+    {
+      "pubkey": "0xa88888a1fbd3d15da31c44544c4522b5ad85dd6128eaaa5036ed7a8937a946b2eb887ddbd892d981015038ebd14ea740",
+      "count": 73,
+      "value": 11.012465124371687,
+      "avg_value": 0.15085568663522858,
+      "last_relay": "Blocknative",
+      "name": "0xa88888a1fbd3d15da31c44544c4522b5ad85dd6128eaaa5036ed7a8937a946b2eb887ddbd892d981015038ebd14ea740"
     },
     {
       "pubkey": "0xb416bc2808549c08e28b7ec7b902c402e091dc76c9a5d518705bf752dc5513b44d99d2af3825e7497013f478a58ad913",
@@ -2126,20 +2181,20 @@
       "name": "0x8cc02635b68fe0e5eb6b236c92f117e764b347a09f4bda8198d74e120ac4865865f62c28b27cf9a30e213aa346263a1f"
     },
     {
+      "pubkey": "0xb4708de7b6c199abe94bfb391f836b5296e8f33836e999c7f1a10d1e20adb9002a596dd19894464f5fdaac00d0533084",
+      "count": 58,
+      "value": 2.6793512000786386,
+      "avg_value": 0.04619571034618342,
+      "last_relay": "Agnostic Relay",
+      "name": "0xb4708de7b6c199abe94bfb391f836b5296e8f33836e999c7f1a10d1e20adb9002a596dd19894464f5fdaac00d0533084"
+    },
+    {
       "pubkey": "0x812b4a9b2bec0599938741900515cc5aba92421aa284c9bd2102b18bf971ee6690019d9f9535ef37070567efed785ea0",
       "count": 54,
       "value": 3.4985254813678672,
       "avg_value": 0.06478750891421976,
       "last_relay": "Flashbots",
       "name": "0x812b4a9b2bec0599938741900515cc5aba92421aa284c9bd2102b18bf971ee6690019d9f9535ef37070567efed785ea0"
-    },
-    {
-      "pubkey": "0xb4708de7b6c199abe94bfb391f836b5296e8f33836e999c7f1a10d1e20adb9002a596dd19894464f5fdaac00d0533084",
-      "count": 53,
-      "value": 1.4832482271552634,
-      "avg_value": 0.027985815606703084,
-      "last_relay": "Agnostic Relay",
-      "name": "0xb4708de7b6c199abe94bfb391f836b5296e8f33836e999c7f1a10d1e20adb9002a596dd19894464f5fdaac00d0533084"
     },
     {
       "pubkey": "0xb4a230ed6561615ed81c0ccdf0a74e8a037445f3dd51a430a1b8024b53cc2bda3c26c8f8e42d9057fc7959348e089adc",
@@ -2182,6 +2237,22 @@
       "name": "0x80b7662d0b7f99935067fd5847ee975b4a831f4de1f06dc6f64f71e26c887eec97eaf0f1c7bb5bab354090b9f53603fd"
     },
     {
+      "pubkey": "0xac193b0f72fa96fab3695697f01a27441fdc70fe38bc6ad1eb4fd887f84025eb1708cd1678b6b4d7a63cc62039845251",
+      "count": 46,
+      "value": 16.49981360810774,
+      "avg_value": 0.35869160017625523,
+      "last_relay": "Agnostic Relay",
+      "name": "0xac193b0f72fa96fab3695697f01a27441fdc70fe38bc6ad1eb4fd887f84025eb1708cd1678b6b4d7a63cc62039845251"
+    },
+    {
+      "pubkey": "0xb5290d65b0b3f145630cf89c132dd647ea046c1f7fbc79df727c7c372fa18b0c88b84dd48da2b4a8ef7602ba293469cd",
+      "count": 43,
+      "value": 2.2839913943072396,
+      "avg_value": 0.053116078937377666,
+      "last_relay": "Agnostic Relay",
+      "name": "0xb5290d65b0b3f145630cf89c132dd647ea046c1f7fbc79df727c7c372fa18b0c88b84dd48da2b4a8ef7602ba293469cd"
+    },
+    {
       "pubkey": "0xa9b8f3ba9a4857c9b20e6a3b903fbd86623c7b2a0d656686ed100cbf8cf57999fd21d8b7eaa364e5b834377cf9851fd1",
       "count": 42,
       "value": 1.2591359906894615,
@@ -2199,10 +2270,10 @@
     },
     {
       "pubkey": "0xa630217edeeb6e4f85bce4e2766559aa58f94ee43c8a16900c1d95dae9801efc551c25d950f362ec8daeec0769b69bcb",
-      "count": 41,
-      "value": 0.8205754636488419,
-      "avg_value": 0.020014035698752243,
-      "last_relay": "Agnostic Relay",
+      "count": 42,
+      "value": 0.867608903601713,
+      "avg_value": 0.020657354847659834,
+      "last_relay": "Flashbots",
       "name": "0xa630217edeeb6e4f85bce4e2766559aa58f94ee43c8a16900c1d95dae9801efc551c25d950f362ec8daeec0769b69bcb"
     },
     {
@@ -2212,14 +2283,6 @@
       "avg_value": 1.1267782471483738,
       "last_relay": "Agnostic Relay",
       "name": "0x8542d3d77ed2cdc2efca71bda60cb3f7e367dd8800dfa8d41ab46df94dfd0d5cf01f7109dbb70c1c2d303c41aa507acd"
-    },
-    {
-      "pubkey": "0xb5290d65b0b3f145630cf89c132dd647ea046c1f7fbc79df727c7c372fa18b0c88b84dd48da2b4a8ef7602ba293469cd",
-      "count": 35,
-      "value": 1.1546492365145269,
-      "avg_value": 0.03298997818612934,
-      "last_relay": "Flashbots",
-      "name": "0xb5290d65b0b3f145630cf89c132dd647ea046c1f7fbc79df727c7c372fa18b0c88b84dd48da2b4a8ef7602ba293469cd"
     },
     {
       "pubkey": "0x8efc1675ffb449abc00a6ad8a2808cdf798d96fbb979cf00956012f3983577c9afe69495411a89385421f1cff47dfc98",
@@ -2278,12 +2341,28 @@
       "name": "0x83da2abffce8ac488b30b334a6d4cd9f2eacedb01d52f35aa399f82a6421d674b818b05bfa426cfad92a255c244bd663"
     },
     {
+      "pubkey": "0x8b32405861c6b674de8db46dfeb1f7c13ebc2f9e038994efa63b029cd39e36f7324a8401200889e2bbd5f07827b2c895",
+      "count": 24,
+      "value": 4.186080874691085,
+      "avg_value": 0.1744200364454619,
+      "last_relay": "ultra sound relay",
+      "name": "0x8b32405861c6b674de8db46dfeb1f7c13ebc2f9e038994efa63b029cd39e36f7324a8401200889e2bbd5f07827b2c895"
+    },
+    {
       "pubkey": "0x8564e15774dcc79caf4a3f01af845b9b0571331b4d9f4e1ec32bf428bc6e2263e71d68c1b77a456468d168658739c17d",
       "count": 23,
       "value": 2.127477243909838,
       "avg_value": 0.09249901060477557,
       "last_relay": "Flashbots",
       "name": "0x8564e15774dcc79caf4a3f01af845b9b0571331b4d9f4e1ec32bf428bc6e2263e71d68c1b77a456468d168658739c17d"
+    },
+    {
+      "pubkey": "0xa4e5b8d42b092d9db7ad828c538dd47ee8f21af920b79b79d47559a7e3dbc026c7a348a5b0526efc5d66c64abce198fa",
+      "count": 23,
+      "value": 0.40304021473722706,
+      "avg_value": 0.01752348759727074,
+      "last_relay": "Flashbots",
+      "name": "0xa4e5b8d42b092d9db7ad828c538dd47ee8f21af920b79b79d47559a7e3dbc026c7a348a5b0526efc5d66c64abce198fa"
     },
     {
       "pubkey": "0x897b4f5128032c8afa8eff33b6ab4653509dd28e86aaffe88291e526705ada60d3d8d94a09568b36a1b43cdafff427e3",
@@ -2310,12 +2389,12 @@
       "name": "0xb776071b258fb28035b0c753d8bbdfe11791a852db2678990df891563aaf522be48ce4489d03e3ee309fd99c2b4dff13"
     },
     {
-      "pubkey": "0xa4e5b8d42b092d9db7ad828c538dd47ee8f21af920b79b79d47559a7e3dbc026c7a348a5b0526efc5d66c64abce198fa",
+      "pubkey": "0xb333337fac190c13f152d81c2127b156a2e73ef074f396cf2ac9b1443f6124e57b80267b989095d04c7a2f2e0a3f0bc0",
       "count": 21,
-      "value": 0.34458237340695536,
-      "avg_value": 0.016408684447950257,
-      "last_relay": "Flashbots",
-      "name": "0xa4e5b8d42b092d9db7ad828c538dd47ee8f21af920b79b79d47559a7e3dbc026c7a348a5b0526efc5d66c64abce198fa"
+      "value": 1.58776344461448,
+      "avg_value": 0.07560778307688,
+      "last_relay": "Agnostic Relay",
+      "name": "0xb333337fac190c13f152d81c2127b156a2e73ef074f396cf2ac9b1443f6124e57b80267b989095d04c7a2f2e0a3f0bc0"
     },
     {
       "pubkey": "0xacd663026dea65bf0553caad12101428ffa6755821ae611b43548749e49ebf27847c0b28ab5c586e026840d8dbfb289e",
@@ -2342,28 +2421,12 @@
       "name": "0xa6466b2a919de42aaf5b1659217a9e9e32a3fd06b73129d60e78975d26413b5f7034dad33e22818c2761c58843684bc3"
     },
     {
-      "pubkey": "0x8b32405861c6b674de8db46dfeb1f7c13ebc2f9e038994efa63b029cd39e36f7324a8401200889e2bbd5f07827b2c895",
-      "count": 19,
-      "value": 2.4725399826840877,
-      "avg_value": 0.1301336832991625,
-      "last_relay": "ultra sound relay",
-      "name": "0x8b32405861c6b674de8db46dfeb1f7c13ebc2f9e038994efa63b029cd39e36f7324a8401200889e2bbd5f07827b2c895"
-    },
-    {
-      "pubkey": "0xb333337fac190c13f152d81c2127b156a2e73ef074f396cf2ac9b1443f6124e57b80267b989095d04c7a2f2e0a3f0bc0",
-      "count": 18,
-      "value": 1.3956160832955955,
-      "avg_value": 0.0775342268497553,
-      "last_relay": "Agnostic Relay",
-      "name": "0xb333337fac190c13f152d81c2127b156a2e73ef074f396cf2ac9b1443f6124e57b80267b989095d04c7a2f2e0a3f0bc0"
-    },
-    {
-      "pubkey": "0xac193b0f72fa96fab3695697f01a27441fdc70fe38bc6ad1eb4fd887f84025eb1708cd1678b6b4d7a63cc62039845251",
+      "pubkey": "0xb34a533cc69e98573ce6eef4c8364dc873ae677eaa644a51c8fe3367ee7ef1b1aa9d9458d59ec86ee8e25a7720dcc107",
       "count": 17,
-      "value": 3.696423895240759,
-      "avg_value": 0.21743669972004465,
-      "last_relay": "ultra sound relay",
-      "name": "0xac193b0f72fa96fab3695697f01a27441fdc70fe38bc6ad1eb4fd887f84025eb1708cd1678b6b4d7a63cc62039845251"
+      "value": 0.791775215601408,
+      "avg_value": 0.04657501268243576,
+      "last_relay": "Flashbots",
+      "name": "0xb34a533cc69e98573ce6eef4c8364dc873ae677eaa644a51c8fe3367ee7ef1b1aa9d9458d59ec86ee8e25a7720dcc107"
     },
     {
       "pubkey": "0xa095ee1611cfd10166850d5c1e97a949fc06f4fc89e440efeca481023bc8c80bed966ec5e20841756e5c79c23309e8c4",
@@ -2374,12 +2437,28 @@
       "name": "0xa095ee1611cfd10166850d5c1e97a949fc06f4fc89e440efeca481023bc8c80bed966ec5e20841756e5c79c23309e8c4"
     },
     {
+      "pubkey": "0x98e7e3f6e08470add6bc2d312ed33cd8d59775782c85d7e7f98a34e792f1c4326b1c89846723e7fbe826a0cd559bc574",
+      "count": 14,
+      "value": 2.3869602138051964,
+      "avg_value": 0.1704971581289426,
+      "last_relay": "Flashbots",
+      "name": "0x98e7e3f6e08470add6bc2d312ed33cd8d59775782c85d7e7f98a34e792f1c4326b1c89846723e7fbe826a0cd559bc574"
+    },
+    {
       "pubkey": "0x847410801bd4f741f38e3546a41293eab8df18bde869336788a85f11dfe4bb6ef4ea05d2b81bac9da6f43f5056d99705",
       "count": 13,
       "value": 0.5341095347254878,
       "avg_value": 0.041085348825037525,
       "last_relay": "Flashbots",
       "name": "0x847410801bd4f741f38e3546a41293eab8df18bde869336788a85f11dfe4bb6ef4ea05d2b81bac9da6f43f5056d99705"
+    },
+    {
+      "pubkey": "0x958514edaa1889e029548916327f3090da2de32afa4d9e2aff8489070e3bf7639000735adf02d86aa6bc8ec287045570",
+      "count": 13,
+      "value": 2.6646313249673668,
+      "avg_value": 0.20497164038210514,
+      "last_relay": "ultra sound relay",
+      "name": "0x958514edaa1889e029548916327f3090da2de32afa4d9e2aff8489070e3bf7639000735adf02d86aa6bc8ec287045570"
     },
     {
       "pubkey": "0xa1f80828768d2c35803e8f8bea6fcedc614e3c12c004de0bad54be7b71507451252783f337653f18f8c51ad77c8134e7",
@@ -2390,28 +2469,20 @@
       "name": "0xa1f80828768d2c35803e8f8bea6fcedc614e3c12c004de0bad54be7b71507451252783f337653f18f8c51ad77c8134e7"
     },
     {
-      "pubkey": "0x98e7e3f6e08470add6bc2d312ed33cd8d59775782c85d7e7f98a34e792f1c4326b1c89846723e7fbe826a0cd559bc574",
-      "count": 12,
-      "value": 1.715122874805489,
-      "avg_value": 0.14292690623379076,
-      "last_relay": "Flashbots",
-      "name": "0x98e7e3f6e08470add6bc2d312ed33cd8d59775782c85d7e7f98a34e792f1c4326b1c89846723e7fbe826a0cd559bc574"
+      "pubkey": "0x92183c4b21b5264659a3af2fb631a7f291d3e8fcbfd895f1952145fd4c093cb3e0831d1732fa5c6cff85025a56fb07da",
+      "count": 11,
+      "value": 3.3894221858838653,
+      "avg_value": 0.30812928962580594,
+      "last_relay": "ultra sound relay",
+      "name": "0x92183c4b21b5264659a3af2fb631a7f291d3e8fcbfd895f1952145fd4c093cb3e0831d1732fa5c6cff85025a56fb07da"
     },
     {
-      "pubkey": "0xb34a533cc69e98573ce6eef4c8364dc873ae677eaa644a51c8fe3367ee7ef1b1aa9d9458d59ec86ee8e25a7720dcc107",
+      "pubkey": "0x8c4c0e9af00edb8a25fa8684e07118c0cbd49459b87337953a4c3d6db57b896f6914070192fb404f22917fa44cf2aef4",
       "count": 11,
-      "value": 0.23625136342768527,
-      "avg_value": 0.021477396675244117,
-      "last_relay": "Flashbots",
-      "name": "0xb34a533cc69e98573ce6eef4c8364dc873ae677eaa644a51c8fe3367ee7ef1b1aa9d9458d59ec86ee8e25a7720dcc107"
-    },
-    {
-      "pubkey": "0x958514edaa1889e029548916327f3090da2de32afa4d9e2aff8489070e3bf7639000735adf02d86aa6bc8ec287045570",
-      "count": 11,
-      "value": 2.263578855370169,
-      "avg_value": 0.20577989594274262,
-      "last_relay": "Flashbots",
-      "name": "0x958514edaa1889e029548916327f3090da2de32afa4d9e2aff8489070e3bf7639000735adf02d86aa6bc8ec287045570"
+      "value": 0.23857079651123095,
+      "avg_value": 0.02168825422829372,
+      "last_relay": "Agnostic Relay",
+      "name": "0x8c4c0e9af00edb8a25fa8684e07118c0cbd49459b87337953a4c3d6db57b896f6914070192fb404f22917fa44cf2aef4"
     },
     {
       "pubkey": "0x8343c99b86a22c4aa45f0348fbab55af6513bfc3f72c1ad2d15ea433c463876eaa26d6635736fceb7e24898d79d051c6",
@@ -2420,22 +2491,6 @@
       "avg_value": 0.0569536379883699,
       "last_relay": "Flashbots",
       "name": "0x8343c99b86a22c4aa45f0348fbab55af6513bfc3f72c1ad2d15ea433c463876eaa26d6635736fceb7e24898d79d051c6"
-    },
-    {
-      "pubkey": "0x8c4c0e9af00edb8a25fa8684e07118c0cbd49459b87337953a4c3d6db57b896f6914070192fb404f22917fa44cf2aef4",
-      "count": 10,
-      "value": 0.22160486404035373,
-      "avg_value": 0.022160486404035375,
-      "last_relay": "Flashbots",
-      "name": "0x8c4c0e9af00edb8a25fa8684e07118c0cbd49459b87337953a4c3d6db57b896f6914070192fb404f22917fa44cf2aef4"
-    },
-    {
-      "pubkey": "0xa65a9e75ae055aefbd850ff8e3baf8cb999814038f8e48dd34447ecf3e3c5c0a631fc0c1147b5b1c74aa389754612882",
-      "count": 10,
-      "value": 1.6513459545602478,
-      "avg_value": 0.16513459545602477,
-      "last_relay": "ultra sound relay",
-      "name": "payload.de"
     },
     {
       "pubkey": "0x873d217b35c3a98c72f5ea5fdc7cc82bc93751005e0fe7896cea0c234ec6956be393eb38804049a7fd16f6105debac9c",
@@ -2452,22 +2507,6 @@
       "avg_value": 0.0375950067530785,
       "last_relay": "Flashbots",
       "name": "0xb5f0b88c8b7b56884518819435740651c7ccbdc44786d40283730dbf89c409c031243746fdc8a464559d48e8c837f1d0"
-    },
-    {
-      "pubkey": "0x92183c4b21b5264659a3af2fb631a7f291d3e8fcbfd895f1952145fd4c093cb3e0831d1732fa5c6cff85025a56fb07da",
-      "count": 9,
-      "value": 2.5875914509627833,
-      "avg_value": 0.28751016121808703,
-      "last_relay": "Manifold",
-      "name": "0x92183c4b21b5264659a3af2fb631a7f291d3e8fcbfd895f1952145fd4c093cb3e0831d1732fa5c6cff85025a56fb07da"
-    },
-    {
-      "pubkey": "0x8070d2fbed08a3f251189cf304b5aa4de1c6817189e6779fa91bfed92a54c14ad81a86e3860040a36cbe6225ad5961e2",
-      "count": 9,
-      "value": 4.410792694246891,
-      "avg_value": 0.4900880771385434,
-      "last_relay": "ultra sound relay",
-      "name": "0x8070d2fbed08a3f251189cf304b5aa4de1c6817189e6779fa91bfed92a54c14ad81a86e3860040a36cbe6225ad5961e2"
     },
     {
       "pubkey": "0x8fe5ba7f7a024d845aaa9771d091b3aa46e29f5ee09ffe363db16699f4cdeb6157bc0cd16ab8142b48b1636502a48898",
@@ -2590,14 +2629,6 @@
       "name": "0xa83e96c9b6a600bd697fb089d1b009e5ceb0f4111842b0edaa263afb7f260fcd65ae89c18daea454353e0fbad6d49955"
     },
     {
-      "pubkey": "0x86d59ae03894b181e2935ec684912571da5888a6b2bd7870d58411eace02416a8d04aa0ba33545fc87f833d06b64253f",
-      "count": 6,
-      "value": 0.8796345262360246,
-      "avg_value": 0.14660575437267076,
-      "last_relay": "ultra sound relay",
-      "name": "0x86d59ae03894b181e2935ec684912571da5888a6b2bd7870d58411eace02416a8d04aa0ba33545fc87f833d06b64253f"
-    },
-    {
       "pubkey": "0xa7174ff2a5c943a52762efd1e90b1dc76210dcd3e611a3845e67a04d916e20f40362b388a6841e09273fe7c2da621720",
       "count": 5,
       "value": 0.5103626097660209,
@@ -2638,20 +2669,12 @@
       "name": "0xa1b0ca22ae78b65946f00441283c82618ac9b31f979ecf2e6d458b5d91f781c42429444951ec54f68beb5d3a7ca14a38"
     },
     {
-      "pubkey": "0x85b603e6b0b27e117e80c67a615060b3d0441ae2aee163cc49f30c964155e46fbd324b25c0fbadf9f4995a4b8b245be3",
+      "pubkey": "0x906c185200638862772a530fbe2ef16c1f6539e0b68c278e1088f635d81bd08562be688ceea88028421016c7c5fc7101",
       "count": 4,
-      "value": 1.6285018375642069,
-      "avg_value": 0.4071254593910517,
-      "last_relay": "Flashbots",
-      "name": "0x85b603e6b0b27e117e80c67a615060b3d0441ae2aee163cc49f30c964155e46fbd324b25c0fbadf9f4995a4b8b245be3"
-    },
-    {
-      "pubkey": "0xac4aac0f9ce2bafd4bab348c6b4d8a31e583043baea9bf0a619ebcd8568694b64888f0c9ca40c1c1f93e9c34e1b39cb1",
-      "count": 4,
-      "value": 0.27211350394612444,
-      "avg_value": 0.06802837598653111,
-      "last_relay": "Flashbots",
-      "name": "0xac4aac0f9ce2bafd4bab348c6b4d8a31e583043baea9bf0a619ebcd8568694b64888f0c9ca40c1c1f93e9c34e1b39cb1"
+      "value": 0.13080658017755947,
+      "avg_value": 0.03270164504438987,
+      "last_relay": "ultra sound relay",
+      "name": "0x906c185200638862772a530fbe2ef16c1f6539e0b68c278e1088f635d81bd08562be688ceea88028421016c7c5fc7101"
     },
     {
       "pubkey": "0xae3a416f14c8801c7b3271aa202ea1ed432d409ed1e924b9da000f77a4cd41916c5b11c4d3512ae9178c62f7ad1fe1e9",
@@ -2742,43 +2765,371 @@
       "name": "0xab2c0cec7e789a182c850bab6b4ae3329b150a6a1dd7661e4e1925e271e17159ebab7dc25aba7230d448de4b68f8e4b9"
     },
     {
-      "pubkey": "0x906c185200638862772a530fbe2ef16c1f6539e0b68c278e1088f635d81bd08562be688ceea88028421016c7c5fc7101",
-      "count": 1,
-      "value": 0.01737681660795341,
-      "avg_value": 0.01737681660795341,
-      "last_relay": "BloXroute Regulated",
-      "name": "0x906c185200638862772a530fbe2ef16c1f6539e0b68c278e1088f635d81bd08562be688ceea88028421016c7c5fc7101"
-    },
-    {
       "pubkey": "0xad0a8bb54565c2211cee576363f3a347089d2f07cf72679d16911d740262694cadb62d7fd7483f27afd714ca0f1b9118",
       "count": 1,
       "value": 0.024655312415452123,
       "avg_value": 0.024655312415452123,
       "last_relay": "BloXroute Ethical",
       "name": "0xad0a8bb54565c2211cee576363f3a347089d2f07cf72679d16911d740262694cadb62d7fd7483f27afd714ca0f1b9118"
+    },
+    {
+      "pubkey": "0xb6aa9dfa11b8fb69fcc72bf71aa3f6a7f3f0e692a3fc12af7196bc779011318356c608b2d674293c18b80ea2bef45b3d",
+      "count": 1,
+      "value": 0.17465656221996123,
+      "avg_value": 0.17465656221996123,
+      "last_relay": "Flashbots",
+      "name": "0xb6aa9dfa11b8fb69fcc72bf71aa3f6a7f3f0e692a3fc12af7196bc779011318356c608b2d674293c18b80ea2bef45b3d"
+    },
+    {
+      "pubkey": "0xb89b9308fbc6c2998c7e60e39424b858c74b02c234b3e0fa5ecf7c3971208dfa5f92e0bdbe16fc24abfd71c248acf0f9",
+      "count": 1,
+      "value": 0.02855448565601918,
+      "avg_value": 0.02855448565601918,
+      "last_relay": "Flashbots",
+      "name": "0xb89b9308fbc6c2998c7e60e39424b858c74b02c234b3e0fa5ecf7c3971208dfa5f92e0bdbe16fc24abfd71c248acf0f9"
+    },
+    {
+      "pubkey": "0x85beff526119fe3fbc718e207140cb7bb154c9dfc03b502bc569434a83c28758fa0d5116610dd9f71b9dba212d54f4bd",
+      "count": 1,
+      "value": 0.08351149769364329,
+      "avg_value": 0.08351149769364329,
+      "last_relay": "Flashbots",
+      "name": "0x85beff526119fe3fbc718e207140cb7bb154c9dfc03b502bc569434a83c28758fa0d5116610dd9f71b9dba212d54f4bd"
     }
   ],
   "nativeAssetsByAddress": {
-    "above_0_001": 48795226,
-    "above_0_01": 23785132,
-    "above_0_1": 5105582,
-    "above_1": 1753557,
-    "above_10": 356260,
-    "above_100": 49167,
-    "above_1000": 7045,
-    "above_10000": 1293,
-    "above_100000": 125,
+    "above_0_001": 49671028,
+    "above_0_01": 24227210,
+    "above_0_1": 5154657,
+    "above_1": 1758505,
+    "above_10": 355788,
+    "above_100": 48479,
+    "above_1000": 6764,
+    "above_10000": 1256,
+    "above_100000": 122,
     "above_1000000": 7
   },
   "exchangeBySupply": {
-    "binance": 4872925.452332941,
-    "bitfinex": 2253291.34338657,
+    "binance": 4650446.913814343,
+    "bitfinex": 2279074.0176403066,
     "bitmex": null,
-    "bitstamp": 66704.84218641977,
-    "bittrex": 69705.07331218422,
-    "gemini": 504180.02114746487,
-    "huobi": 72906.34305480774,
-    "kraken": 1816712.0229953823,
-    "poloniex": 11165.414189147215
-  }
+    "bitstamp": 59278.21295762753,
+    "bittrex": 69646.64371104864,
+    "gemini": 496908.9581864023,
+    "huobi": 72798.74236443847,
+    "kraken": 1783613.123618514,
+    "poloniex": 10163.99947834225
+  },
+  "activityByBundler": [
+    {
+      "bundler": "0x25df024637d4e56c1ae9563987bf3e92c9f534c0",
+      "numberTransactions": 24
+    },
+    {
+      "bundler": "0xcd87158ea795d9b9a742328aeac1d9ae474dd0d3",
+      "numberTransactions": 15
+    }
+  ],
+  "stablecoinsByTvl": [
+    {
+      "name": "Tether",
+      "symbol": "USDT",
+      "TVL": 33049838977
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "TVL": 24297923287
+    },
+    {
+      "name": "TerraClassicUSD",
+      "symbol": "USTC",
+      "TVL": 398632090
+    },
+    {
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "TVL": 3947343177
+    },
+    {
+      "name": "Dai",
+      "symbol": "DAI",
+      "TVL": 4067712075
+    },
+    {
+      "name": "Frax",
+      "symbol": "FRAX",
+      "TVL": 945155174
+    },
+    {
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "TVL": 690178077
+    },
+    {
+      "name": "Liquity USD",
+      "symbol": "LUSD",
+      "TVL": 267399616
+    },
+    {
+      "name": "Fei USD",
+      "symbol": "FEI",
+      "TVL": 35597357
+    },
+    {
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "TVL": 80770374
+    },
+    {
+      "name": "Pax Dollar",
+      "symbol": "USDP",
+      "TVL": 1016624652
+    },
+    {
+      "name": "Neutrino USD",
+      "symbol": "USDN",
+      "TVL": 7398396
+    },
+    {
+      "name": "USDD",
+      "symbol": "USDD",
+      "TVL": 99191721
+    },
+    {
+      "name": "Dola",
+      "symbol": "DOLA",
+      "TVL": 34240080
+    },
+    {
+      "name": "HUSD",
+      "symbol": "HUSD",
+      "TVL": 187808283
+    },
+    {
+      "name": "Nexus USD",
+      "symbol": "NUSD",
+      "TVL": 5794840
+    },
+    {
+      "name": "Gemini Dollar",
+      "symbol": "GUSD",
+      "TVL": 575906269
+    },
+    {
+      "name": "Alchemix USD",
+      "symbol": "ALUSD",
+      "TVL": 46423705
+    },
+    {
+      "name": "flexUSD",
+      "symbol": "FLEXUSD",
+      "TVL": 92590138
+    },
+    {
+      "name": "sUSD",
+      "symbol": "SUSD",
+      "TVL": 47265624
+    },
+    {
+      "name": "Origin Dollar",
+      "symbol": "OUSD",
+      "TVL": 27847309
+    },
+    {
+      "name": "Celo Dollar",
+      "symbol": "CUSD",
+      "TVL": 159540
+    },
+    {
+      "name": "Reserve",
+      "symbol": "RSV",
+      "TVL": 529699
+    },
+    {
+      "name": "mStable USD",
+      "symbol": "MUSD",
+      "TVL": 4698206
+    },
+    {
+      "name": "USDK",
+      "symbol": "USDK",
+      "TVL": 174985
+    },
+    {
+      "name": "Dollar on Chain",
+      "symbol": "DOC",
+      "TVL": 202
+    },
+    {
+      "name": "SpiceUSD",
+      "symbol": "USDS",
+      "TVL": 611482
+    },
+    {
+      "name": "USDP Stablecoin",
+      "symbol": "USDP",
+      "TVL": 2548016
+    },
+    {
+      "name": "MAI",
+      "symbol": "MAI",
+      "TVL": 9006482
+    },
+    {
+      "name": "ZUSD",
+      "symbol": "ZUSD",
+      "TVL": 1134135
+    },
+    {
+      "name": "dForce USD",
+      "symbol": "USX",
+      "TVL": 2204212
+    },
+    {
+      "name": "HomeCoin",
+      "symbol": "HOME",
+      "TVL": 6356101
+    },
+    {
+      "name": "Fixed Income Asset Token",
+      "symbol": "FIAT",
+      "TVL": 61961
+    },
+    {
+      "name": "PUSd",
+      "symbol": "PUSD",
+      "TVL": 1414073
+    },
+    {
+      "name": "Bean",
+      "symbol": "BEAN",
+      "TVL": 35458439
+    },
+    {
+      "name": "Interest Protocol",
+      "symbol": "USDI",
+      "TVL": 742332
+    },
+    {
+      "name": "BOB",
+      "symbol": "BOB",
+      "TVL": 482306
+    },
+    {
+      "name": "Zunami USD",
+      "symbol": "UZD",
+      "TVL": 1644066
+    },
+    {
+      "name": "USDi",
+      "symbol": "USDI",
+      "TVL": 16139
+    },
+    {
+      "name": "XAI",
+      "symbol": "XAI",
+      "TVL": 11446306
+    },
+    {
+      "name": "Meme Dollar",
+      "symbol": "PINA",
+      "TVL": 913650
+    },
+    {
+      "name": "BaoUSD",
+      "symbol": "BAOUSD",
+      "TVL": 2228167
+    },
+    {
+      "name": "Coin98 Dollar",
+      "symbol": "CUSD",
+      "TVL": 191531
+    },
+    {
+      "name": "Digital Standard Unit",
+      "symbol": "DSU",
+      "TVL": 185693
+    },
+    {
+      "name": "Offshift anonUSD",
+      "symbol": "ANONUSD",
+      "TVL": 40265
+    },
+    {
+      "name": "Electronic USD",
+      "symbol": "EUSD",
+      "TVL": 13223010
+    },
+    {
+      "name": "Deuterium",
+      "symbol": "d2O",
+      "TVL": 104
+    },
+    {
+      "name": "eUSD",
+      "symbol": "EUSD",
+      "TVL": 31855403
+    },
+    {
+      "name": "crvUSD",
+      "symbol": "crvUSD",
+      "TVL": 4908274
+    },
+    {
+      "name": "Euro Tether",
+      "symbol": "EURT",
+      "TVL": 34269119
+    },
+    {
+      "name": "Euro Coin",
+      "symbol": "EUROC",
+      "TVL": 37702106
+    },
+    {
+      "name": "Stasis Euro",
+      "symbol": "EURS",
+      "TVL": 39394434
+    },
+    {
+      "name": "Celo Euro",
+      "symbol": "CEUR",
+      "TVL": 10
+    },
+    {
+      "name": "sEUR",
+      "symbol": "SEUR",
+      "TVL": 4335142
+    },
+    {
+      "name": "agEUR",
+      "symbol": "AGEUR",
+      "TVL": 14828677
+    },
+    {
+      "name": "Parallel",
+      "symbol": "PAR",
+      "TVL": 4075676
+    },
+    {
+      "name": "LUGH",
+      "symbol": "EURL",
+      "TVL": 6010
+    },
+    {
+      "name": "Iron Bank EURO",
+      "symbol": "IBEUR",
+      "TVL": 15499999
+    },
+    {
+      "name": "EUROe Stablecoin",
+      "symbol": "EUROe",
+      "TVL": 982751
+    },
+    {
+      "name": "Monerium EUR emoney",
+      "symbol": "EURE",
+      "TVL": 3410273
+    }
+  ]
 }
