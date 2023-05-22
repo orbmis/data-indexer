@@ -17,35 +17,143 @@ class DataFetcher {
   async getData() {
     let data = {}
 
-    const datafile = path.resolve(__dirname, 'data.json')
-
-    if (fs.existsSync(datafile)) {
-      const data = require(datafile)
-
-      console.log('\nUsing cached data . . .')
-
-      return data
-    }
-
     const countryCodes = require('./country-codes.json')
     const countries = countryCodes.reduce((acc, cur) => ({ ...acc, [cur.code]: cur.country }), {})
 
-    const executionNodesByCountry = await this.getExecutionNodesByCountry()
-    await sleep(1000)
-    const executionNodesByClientBase = await this.getExecutionNodesByClientBase()
-    const consensusNodesByCountry = await this.getConsensusNodesByCountry(countries)
-    await sleep(1000)
-    const consensusNodesByClient = await this.getConsensusNodesByClient()
-    const amountStakedByPool = await this.getAmountStakedByPool()
-    const stablecoinsByTvl = await this.getStablecoinsByTvl()
-    const activityByBundler = await this.getActivityByBundler()
-    const { blocksByRelays, blocksByBuilder } = await this.getBlockProposedByBuilder()
+    const log = msg => console.log(`\n[${new Date().toISOString()}] ${msg}`)
 
-    const messariData = await this.getMessariData()
-    const nativeAssetsByAddress = messariData.asset_distribution
-    const exchangeBySupply = messariData.exchange_supply_native
-    const rollupsByTvl = await this.getRollupsByTvl()
-    const bridgesByTvl = await this.getBridgesByTvl()
+    console.log('\nRunning report . . .\n')
+
+    let blockBuilderData
+
+    try {
+      log('Querying Relayscan . . .')
+
+      blockBuilderData = await this.getBlockBuilderData()
+    } catch(e) {
+      log(e.message)
+    }
+
+    let executionNodesByCountry
+
+    try {
+      log('Querying Ethernodes . . .')
+
+      executionNodesByCountry = await this.getExecutionNodesByCountry()
+    } catch(e) {
+      log(e.message)
+    }
+
+    await sleep(1000)
+
+    let executionNodesByClientBase
+
+    try {
+      log('Querying Ethernodes . . .')
+
+      executionNodesByClientBase = await this.getExecutionNodesByClientBase()
+    } catch (e) {
+      log(e.message)
+    }
+
+    let consensusNodesByCountry
+
+    try {
+      log('Querying Miga Labs (countries) . . .')
+
+      consensusNodesByCountry = await this.getConsensusNodesByCountry(countries)
+    } catch (e) {
+      log(e.message)
+    }
+
+    await sleep(1000)
+
+    let consensusNodesByClient
+
+    try {
+      log('Querying Miga Labs (clients) . . .')
+
+      consensusNodesByClient = await this.getConsensusNodesByClient()
+    } catch (e) {
+      log(e.message)
+    }
+
+    let amountStakedByPool
+
+    try {
+      log('Querying Dune Analytics (stakng pools) . . .')
+
+      amountStakedByPool = await this.getAmountStakedByPool()
+    } catch (e) {
+      log(e.message)
+    }
+
+    let stablecoinsByTvl
+
+    try {
+      log('Querying DefiLlama (stablecoins) . . .')
+
+      stablecoinsByTvl = await this.getStablecoinsByTvl()
+    } catch (e) {
+      log(e.message)
+    }
+
+    let activityByBundler
+
+    try {
+      log('Querying Dune Analytics (4337 bundlers) . . .')
+
+      activityByBundler = await this.getActivityByBundler()
+    } catch (e) {
+      log(e.message)
+    }
+
+    let blocksByRelays, blocksByBuilder
+
+    try {
+      log('Querying mevboost.org . . .')
+
+      const result = await this.getBlockProposedByBuilder()
+
+      blocksByRelays = result.blocksByRelays
+      blocksByBuilder = result.blocksByBuilder
+    } catch (e) {
+      log(e.message)
+    }
+
+    let messariData, nativeAssetsByAddress, exchangeBySupply
+
+    try {
+      log('Querying Messari . . .')
+
+      messariData = await this.getMessariData()
+
+      nativeAssetsByAddress = messariData.asset_distribution
+      exchangeBySupply = messariData.exchange_supply_native
+    } catch (e) {
+      log(e.message)
+    }
+
+    let rollupsByTvl
+
+    try {
+      log('Querying L2Beat . . .')
+
+      rollupsByTvl = await this.getRollupsByTvl()
+    } catch (e) {
+      log(e.message)
+    }
+
+    let bridgesByTvl
+
+    try {
+      log('Querying DefiLlama (bridges) . . .')
+
+      bridgesByTvl = await this.getBridgesByTvl()
+    } catch (e) {
+      log(e.message)
+    }
+
 
     data = {
       ...data,
@@ -54,6 +162,7 @@ class DataFetcher {
       consensusNodesByCountry,
       consensusNodesByClient,
       amountStakedByPool,
+      blockBuilderData,
       blocksByRelays,
       blocksByBuilder,
       nativeAssetsByAddress,
@@ -64,9 +173,31 @@ class DataFetcher {
       bridgesByTvl,
     }
 
+    const datestring = new Date().toISOString().slice(0, 10)
+
+    const datafile = path.resolve(__dirname, `data_${datestring}.json`)
+
     fs.writeFileSync(datafile, JSON.stringify(data, null, 2), 'utf8')
 
     return data
+  }
+
+  // TODO: https://www.relayscan.io/overview/md
+  async getBlockBuilderData() {
+    const res = await axios.get('https://www.relayscan.io/builder-profit/md')
+    const data = res && res.data
+    const parsedData = data.split('\n').slice(5, -1).map(n => n.split('|').slice(1, -1).map(i => i.trim()))
+
+    const result = parsedData.map(k => ({
+      builderExtraData: k[0],
+      blocks: Number(k[1]),
+      blocksProfit: Number(k[2]),
+      blocksSubsidy: Number(k[3]),
+      profitTotal: Number(k[4]),
+      subsidiesTotal: Number(k[5]),
+    }))
+
+    return result
   }
 
   formatData(data) {
@@ -294,8 +425,6 @@ class DataFetcher {
   }
 
   async getBlockProposedByBuilder() {
-    console.log('\nQuerying mevboost.org . . .')
-
     const builderMapping = require('./builder-mapping.json')
 
     const builders = builderMapping.reduce((acc, cur) => ({ ...acc, [cur.address]: cur.name }), {})
@@ -315,8 +444,6 @@ class DataFetcher {
   // measures transactions to entrypoint contract on mainnet
   // https://dune.com/queries/2490033
   async getActivityByBundler() {
-    console.log('\nQuerying Dune Analytics (4337 bundlers) . . .')
-
     const url = 'https://api.dune.com/api/v1/query/2490033/results?api_key='
 
     const apiKey = 'pEnrXN8hLJOkxYVT4hnok6FsY8KbVp5o'
@@ -334,8 +461,6 @@ class DataFetcher {
   }
 
   async getAmountStakedByPool() {
-    console.log('\nQuerying Dune Analytics (stakng pools) . . .')
-
     const url = 'https://api.dune.com/api/v1/query/2394100/results?api_key='
 
     const apiKey = 'pEnrXN8hLJOkxYVT4hnok6FsY8KbVp5o'
@@ -356,8 +481,6 @@ class DataFetcher {
   }
 
   async getBridgesByTvl() {
-    console.log('\nQuerying DefiLlama (bridges) . . .')
-
     const res = await axios.get('https://bridges.llama.fi/bridges')
 
     const data = res.data && res.data.bridges
@@ -390,8 +513,6 @@ class DataFetcher {
   }
 
   async getStablecoinsByTvl() {
-    console.log('\nQuerying DefiLlama (stablecoins) . . .')
-
     const res = await axios.get('https://stablecoins.llama.fi/stablecoins?includePrices=true')
 
     const data = res.data && res.data.peggedAssets
@@ -417,8 +538,6 @@ class DataFetcher {
   }
 
   async getRollupsByTvl() {
-    console.log('\nQuerying L2Beat . . .')
-
     const res = await axios.get('https://l2beat.com/scaling/tvl')
 
     const htmlString = res.data
@@ -467,8 +586,6 @@ class DataFetcher {
   }
 
   async getExecutionNodesByCountry() {
-    console.log('\nQuerying Ethernodes . . .')
-
     const res = await axios.get('https://www.ethernodes.org/countries')
 
     const pattern =
@@ -503,8 +620,6 @@ class DataFetcher {
   }
 
   async getConsensusNodesByClient() {
-    console.log('\nQuerying Miga Labs (clients) . . .')
-
     const res = await axios.get('https://migalabs.es/api/v1/client-distribution')
 
     const nodes = []
@@ -517,8 +632,6 @@ class DataFetcher {
   }
 
   async getConsensusNodesByCountry(countryCodes) {
-    console.log('\nQuerying Miga Labs (countries) . . .')
-
     const res = await axios.get('https://migalabs.es/api/v1/geo-distribution')
 
     const nodes = []
@@ -533,8 +646,6 @@ class DataFetcher {
   }
 
   async getMessariData() {
-    console.log('\nQuerying Messari . . .')
-
     const endpoint = `https://data.messari.io/api/v1/assets/ethereum/metrics`
 
     let res

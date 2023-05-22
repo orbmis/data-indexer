@@ -3,9 +3,13 @@ const DataFetcher = require('./datafetcher')
 const dataFetcher = new DataFetcher()
 
 dataFetcher.getData()
+
+/*
+dataFetcher.getData()
   .then(dataFetcher.formatData)
   .then(dataFetcher.getGiniCoefficients)
   .then(console.log)
+*/
 
 /**
  * The Atkinson index: This is a measure of inequality that takes into account the distribution of income or wealth beyond a certain threshold. It is calculated as a weighted average of the percentage of income or wealth held by each individual or group, where the weight for each group depends on their level of income or wealth.
