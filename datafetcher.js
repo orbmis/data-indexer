@@ -5,6 +5,9 @@ const mongoose = require('mongoose')
 const sleep = require('util').promisify(setTimeout)
 const util = require('util')
 
+// https://www.relayscan.io/builder-profit?t=24h
+// https://www.relayscan.io/builder-profit/md
+
 class DataFetcher {
   constructor() {
     // initialize variables
@@ -112,7 +115,7 @@ class DataFetcher {
       ...acc, [cur[0]]: DataFetcher.calculateHerfindahlHirschmanIndex(cur[1].map(i => i.value))
     }), {})
 
-    console.log('\nHerfindahl Hirschman Indices:\n', herfindahlHirschmanIndices)
+    console.log('\nHerfindahl-Hirschman Indices:\n', herfindahlHirschmanIndices)
 
     console.log('\nGini Coefficients:\n')
 
@@ -214,6 +217,75 @@ class DataFetcher {
     return Number(herfindahlHirschmanIndex.toFixed(2))
   }
 
+  static calculateAtkinsonIndex(data, epsilon) {
+    const n = data.length
+    const mean = data.reduce((sum, value) => sum + value, 0) / n
+
+    const numerator = data.reduce((sum, value) => sum + (value ** (1 - epsilon)), 0)
+    const denominator = n * (mean ** (1 - epsilon))
+
+    const atkinsonIndex = 1 - (numerator / denominator) ** (1 / (1 - epsilon))
+
+    return atkinsonIndex
+  }
+
+  // https://gist.github.com/jabney/5018b4adc9b2bf488696
+  static calculateShannonEntropy(data) {
+    var textLength = text.length
+
+    // find symbolCount of all symbols
+    var symbolCount = {}
+
+    for (var i = 0; i < textLength; i++) {
+        var symbol = text[i]
+
+        if (symbolCount[symbol] === undefined) {
+            symbolCount[symbol] = 1
+        } else {
+            symbolCount[symbol]++
+        }
+    }
+
+    var complexity = 0
+    var allCounts = Object.values(symbolCount)
+    var allCountsLength = allCounts.length
+
+    for (var i = 0; i < allCountsLength; i++) {
+        complexity = complexity - allCounts[i]/textLength * Math.log2(allCounts[i]/textLength)
+    }
+
+    return complexity
+  }
+
+  // ChatGPT
+  static calculateEntropy(data) {
+    let total = 0
+
+    for (let exchange in data) {
+      total += data[exchange]
+    }
+    
+    let probabilities = []
+
+    for (let exchange in data) {
+      probabilities.push(data[exchange] / total)
+    }
+    
+    let informationContent = []
+
+    for (let i = 0; i < probabilities.length; i++) {
+      informationContent.push(-Math.log2(probabilities[i]))
+    }
+    
+    let entropy = 0
+
+    for (let i = 0; i < probabilities.length; i++) {
+      entropy -= probabilities[i] * informationContent[i]
+    }
+    
+    return entropy
+  }
+
   async getBlockProposedByBuilder() {
     console.log('\nQuerying mevboost.org . . .')
 
@@ -233,6 +305,8 @@ class DataFetcher {
     return { blocksByRelays, blocksByBuilder }
   }
 
+  // TODO: https://dune.com/johnrising/erc-4337
+  // ALSO: https://dune.com/niftytable/account-abstraction
   async getAmountStakedByPool() {
     console.log('\nQuerying Dune Analytics . . .')
 
