@@ -4,6 +4,7 @@ const axios = require('axios')
 const mongoose = require('mongoose')
 const sleep = require('util').promisify(setTimeout)
 const util = require('util')
+const cheerio = require('cheerio')
 
 // https://www.relayscan.io/builder-profit?t=24h
 // https://www.relayscan.io/builder-profit/md
@@ -43,6 +44,8 @@ class DataFetcher {
     const messariData = await this.getMessariData()
     const nativeAssetsByAddress = messariData.asset_distribution
     const exchangeBySupply = messariData.exchange_supply_native
+    const rollupsByTvl = await this.getRollupsByTvl()
+    const bridgesByTvl = await this.getBridgesByTvl()
 
     data = {
       ...data,
@@ -57,6 +60,8 @@ class DataFetcher {
       exchangeBySupply,
       activityByBundler,
       stablecoinsByTvl,
+      rollupsByTvl,
+      bridgesByTvl,
     }
 
     fs.writeFileSync(datafile, JSON.stringify(data, null, 2), 'utf8')
@@ -350,8 +355,42 @@ class DataFetcher {
     return data
   }
 
+  async getBridgesByTvl() {
+    console.log('\nQuerying DefiLlama (bridges) . . .')
+
+    const res = await axios.get('https://bridges.llama.fi/bridges')
+
+    const data = res.data && res.data.bridges
+
+    const bridgeIds = data.filter(d => d.chains.includes('Ethereum')).map(d => d.id)
+
+    const bridgeData = await Promise.all(bridgeIds.map(async (id) => {
+      await sleep(500)
+
+      return await DataFetcher.getBridgeData(id)
+    }))
+
+    return bridgeData
+  }
+
+  static async getBridgeData(bridgeId) {
+    const res = await axios.get('https://bridges.llama.fi/bridge/' + bridgeId)
+
+    const data = res.data
+
+    const result = {
+      name: data.displayName,
+      totalVolume: Math.floor(data.lastDailyVolume),
+      ethereumVolume: Math.floor(data.chainBreakdown.Ethereum.currentDayVolume),
+      numberDeposits: data.chainBreakdown.Ethereum.currentDayTxs.deposits,
+      numberWithdrawals: data.chainBreakdown.Ethereum.currentDayTxs.withdrawals,
+    }
+
+    return result
+  }
+
   async getStablecoinsByTvl() {
-    console.log('\nQuerying DefiLlama . . .')
+    console.log('\nQuerying DefiLlama (stablecoins) . . .')
 
     const res = await axios.get('https://stablecoins.llama.fi/stablecoins?includePrices=true')
 
@@ -375,6 +414,56 @@ class DataFetcher {
     .filter(d => !isNaN(d.TVL))
 
     return [ ...usdValues, ...eurValues ]
+  }
+
+  async getRollupsByTvl() {
+    console.log('\nQuerying L2Beat . . .')
+
+    const res = await axios.get('https://l2beat.com/scaling/tvl')
+
+    const htmlString = res.data
+    const $ = cheerio.load(htmlString)
+    const firstTable = $('table:first')
+    const tableCells = firstTable.find('tr > td')
+
+    const cellTexts = tableCells.map(function(i, elem) {
+      return $(this).text().replace(/\s\s+/g, ' ').trim()
+    }).get()
+
+    let result = []
+
+    const chunkSize = 7
+
+    for (let i = 0; i < cellTexts.length; i += chunkSize) {
+      result.push(cellTexts.slice(i, i + chunkSize))
+    }
+
+    const data = result.map(r => ({
+      name: r[1],
+      technology: r[3],
+      purpose: r[4],
+      tvl: r[5],
+      marketShare: r[6],
+    }))
+
+    const formatted = data.map(d => {
+      const match = d.tvl.match(/^\$(.*)\s[BMK].*$/);
+      let tvl = match ? match[1] : d.tvl;
+
+      if (d.tvl.includes('B')) {
+        tvl = tvl * 10**9
+      } else if (d.tvl.includes('M')) {
+        tvl = tvl * 10**6
+      } else if (d.tvl.includes('K')) {
+        tvl = tvl * 10**3
+      } else {
+        tvl = Math.floor(tvl.slice(1, -1))
+      }
+
+      return { ...d, tvl }
+    })
+
+    return formatted
   }
 
   async getExecutionNodesByCountry() {
