@@ -1,8 +1,16 @@
 const DataFetcher = require('./datafetcher')
+const DataAnalyzer = require('./dataanalyzer')
 
 const dataFetcher = new DataFetcher()
 
-dataFetcher.getData()
+const dataAnalyzer = new DataAnalyzer()
+
+if (process.argv[process.argv.length - 1] === 'analyze') {
+  console.log('analyzing data . . . ')
+  dataAnalyzer.loadData()
+} else {
+  dataFetcher.getData()
+}
 
 /*
 dataFetcher.getData()
