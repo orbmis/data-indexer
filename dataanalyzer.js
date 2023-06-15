@@ -107,7 +107,7 @@ class DataAnalyzer {
     data.nativeAssetsByAddress = DataAnalyzer.normalizeNativeAssetDistribution(data.nativeAssetsByAddress)
 
     const giniCoefficients = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: DataAnalyzer.calculateGiniCoefficient(cur[1].map(i => i.value))
+      ...acc, [cur[0]]: DataAnalyzer.calculateGini(cur[1].map(i => i.value))
     }), {})
 
     const herfindahlHirschmanIndices = Object.entries(data).reduce((acc, cur) => ({
@@ -162,6 +162,43 @@ class DataAnalyzer {
 
     const n = data.length
 
+    // data.forEach(i => console.log(i))
+
+    /*
+    let sum = 0
+    let f = {}
+    let p = []
+    let q = []
+
+    for (let i = 0; i < n; i++) {
+      if (!f[sorted[i]]) {
+        // frequency of this value is . . .
+        for (let j = 0; j < n; j++) {
+          if (sorted[j] === sorted[i]) {
+            f[sorted[i]] = f[sorted[i]] ? f[sorted[i]] + 1 : 1
+          }
+        }
+      }
+
+      p[i] = f[sorted[i]] / n
+      q[i] = (sorted[i] * f[sorted[i]]) / sumOfAllValues
+    }
+
+    // turn proportions into cumulative proportions
+    for (let i = 1; i < n; i++) {
+      p[i] += p[i - 1]
+      q[i] += q[i - 1]
+    }
+
+    for (let i = 1; i < n; i++) {
+      sum += (q[i] + q[i - 1]) * (p[i] - p[i - 1])
+    }
+
+    const G = 1 - sum
+
+    console.log('G:', G)
+    */
+
     const rows = sorted.reduce((acc, cur, index) => {
       // don't count values that have already been counted
       if (acc.length > 0 && acc[acc.length - 1].value === cur) {
@@ -203,8 +240,80 @@ class DataAnalyzer {
 
     const giniCoefficient = 1 - sumOfRows
 
+    console.log(DataAnalyzer.calculateFairShare(data))
+    console.log(DataAnalyzer.calculateGini(data))
+    console.log(DataAnalyzer.calculateG(data))
+    console.log(giniCoefficient)
+
     return Number(giniCoefficient.toFixed(2))
   }
+
+  static calculateG(array) {
+    // Sort and normalize the data
+    array.sort((a, b) => a - b);
+    const total = array.reduce((a, b) => a + b, 0);
+    array = array.map(x => x / total);
+
+    // Add a 0 at the start of the array
+    array.unshift(0);
+    
+    // Calculate the area under the Lorenz curve (trapezoid method)
+    let lorenzCurveArea = 0;
+    
+    for (let i = 1; i < array.length; i++) {
+        const p_i = i / (array.length - 1);
+        const p_i_1 = (i - 1) / (array.length - 1);
+        const q_i = array.slice(0, i + 1).reduce((a, b) => a + b, 0);
+        const q_i_1 = array.slice(0, i).reduce((a, b) => a + b, 0);
+        
+        // Area of the trapezoid under the Lorenz curve
+        lorenzCurveArea += (p_i - p_i_1) * (q_i + q_i_1) / 2;
+    }
+    
+    // The Gini coefficient is 1 minus the area under the Lorenz curve
+    const giniCoefficient = 1 - lorenzCurveArea;
+
+    return giniCoefficient;
+  }
+  
+
+  // based on relative mean absolute difference
+  // this directly implements the formula on the paper
+  static calculateGini(array) {
+    let sum = 0
+    let n = array.length
+    let arraySum = array.reduce((a, b) => a + b, 0)
+    let μ = arraySum / n
+
+    for(let i = 0; i < n; i++) {
+        for(let j = 0; j < n; j++) {
+            sum += Math.abs(array[i] - array[j])
+        }
+    }
+
+    const giniCoefficient = sum / (2 * n * n * μ)
+
+    return Number(giniCoefficient.toFixed(2))
+  }
+  
+
+  static calculateFairShare(array) {
+    // Ensure the array is sorted in ascending order
+    array.sort((a, b) => a - b)
+
+    let sum = 0
+    let arrayLength = array.length
+
+    array.forEach((value, index) => {
+        let rank = index + 1; // Rank starts from 1
+        sum += (arrayLength - rank + 0.5) * value
+    });
+
+    const fairShare = arrayLength * array.reduce((a, b) => a + b, 0) / 2
+
+    return (fairShare - sum) / fairShare
+  }
+  
 
   // calculates the Herfindahl-Hirschman Index for a set of data
   static calculateHerfindahlHirschmanIndex(data) {
@@ -214,12 +323,14 @@ class DataAnalyzer {
     const shares = data.map(value => value / totalAmount)
 
     // Square each market share
-    const squaredShares = shares.map((share) => share ** 2)
+    const squaredShares = shares.map((share) => (share * 100) ** 2)
 
     // Sum the squared market shares
     const herfindahlHirschmanIndex = squaredShares.reduce((acc, cur) => acc + cur, 0)
 
-    return Number(herfindahlHirschmanIndex.toFixed(2))
+    const normalized = herfindahlHirschmanIndex / (10 ** 4)
+
+    return Number(normalized.toFixed(2))
   }
 
   static calculateAtkinsonIndex(data, epsilon) {
