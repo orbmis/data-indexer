@@ -7,6 +7,8 @@ class DataAnalyzer {
 
     const calculateIndices = this.calculateIndices
 
+    const capitalize = k => k.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())
+
     fs.readdirSync(testFolder).forEach(file => {
       const date = file.replace('data_', '').replace('.json', '')
 
@@ -20,17 +22,23 @@ class DataAnalyzer {
 
       const transposedData = keys.reduce((acc, k) => ({
         ...acc,
-        [k]: {
-          giniCoefficients: indices.giniCoefficients[k],
-          herfindahlHirschmanIndices: indices.herfindahlHirschmanIndices[k],
-          atkinsonIndex: indices.atkinsonIndex[k],
-          shannonEntropy: indices.shannonEntropy[k],
+        [capitalize(k)]: {
+          Gini: indices.giniCoefficients[k],
+          HHI: indices.herfindahlHirschmanIndices[k],
+          Atkinson: indices.atkinsonIndex[k],
+          Shannon: indices.shannonEntropy[k],
         }
       }), {})
 
       console.log(`\n${date}:`)
       console.table(transposedData)
+
+      const csv = this.createCsv(transposedData)
     })
+  }
+
+  createCsv(data) {
+    return data
   }
 
   formatData(data) {
