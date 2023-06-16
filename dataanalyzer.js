@@ -107,7 +107,7 @@ class DataAnalyzer {
     data.nativeAssetsByAddress = DataAnalyzer.normalizeNativeAssetDistribution(data.nativeAssetsByAddress)
 
     const giniCoefficients = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: DataAnalyzer.calculateGini(cur[1].map(i => i.value))
+      ...acc, [cur[0]]: DataAnalyzer.calculateGiniCoefficient(cur[1].map(i => i.value))
     }), {})
 
     const herfindahlHirschmanIndices = Object.entries(data).reduce((acc, cur) => ({
@@ -121,10 +121,6 @@ class DataAnalyzer {
     const shannonEntropy = Object.entries(data).reduce((acc, cur) => ({
       ...acc, [cur[0]]: DataAnalyzer.calculateEntropy(cur[1].map(i => i.value))
     }), {})
-
-    // console.log('\nHerfindahl-Hirschman Indices:\n', herfindahlHirschmanIndices)
-
-    // console.log('\nGini Coefficients:\n')
 
     return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy }
   }
@@ -143,143 +139,9 @@ class DataAnalyzer {
     return data
   }
 
-  // https://www.wallstreetmojo.com/lorenz-curve/
-  // https://www.wallstreetmojo.com/gini-coefficient/
-  // https://economics.stackexchange.com/questions/16444/calculating-gini-coeffecient
-  // https://shsr2001.github.io/beacondigest/notebooks/2021/07/19/measuring_decentralization.html
-  // https://docs.glassnode.com/basic-api/endpoints/addresses#addresses-with-balance-1k
-  static calculateGiniCoefficient(data) {
-    // the following row is test data
-    // data = [10, 10, 10, 10, 10, 10, 20, 20, 20, 80]
-
-    // Sort the data by value in increasing order
-    let sorted = data.sort((a, b) => (a - b))
-
-    // normalize arrays that have negative values
-    sorted = sorted[0] < 0 ? sorted.map(n => n + (sorted[0] * -1) + 1) : sorted
-
-    const sumOfAllValues = data.reduce((b, c) => b += c, 0)
-
-    const n = data.length
-
-    // data.forEach(i => console.log(i))
-
-    /*
-    let sum = 0
-    let f = {}
-    let p = []
-    let q = []
-
-    for (let i = 0; i < n; i++) {
-      if (!f[sorted[i]]) {
-        // frequency of this value is . . .
-        for (let j = 0; j < n; j++) {
-          if (sorted[j] === sorted[i]) {
-            f[sorted[i]] = f[sorted[i]] ? f[sorted[i]] + 1 : 1
-          }
-        }
-      }
-
-      p[i] = f[sorted[i]] / n
-      q[i] = (sorted[i] * f[sorted[i]]) / sumOfAllValues
-    }
-
-    // turn proportions into cumulative proportions
-    for (let i = 1; i < n; i++) {
-      p[i] += p[i - 1]
-      q[i] += q[i - 1]
-    }
-
-    for (let i = 1; i < n; i++) {
-      sum += (q[i] + q[i - 1]) * (p[i] - p[i - 1])
-    }
-
-    const G = 1 - sum
-
-    console.log('G:', G)
-    */
-
-    const rows = sorted.reduce((acc, cur, index) => {
-      // don't count values that have already been counted
-      if (acc.length > 0 && acc[acc.length - 1].value === cur) {
-        return acc
-      }
-
-      const frequency = sorted.reduce((sum, value) => {
-        sum += value === cur ? 1 : 0
-
-        return sum
-      }, 0)
-
-      const fractionOfDistribution = (frequency * cur) / sumOfAllValues
-      const fractionOfPopulation = frequency / n
-
-      const numberOfPopulationWithMore = sorted.reduce((a,c) => {
-        a += c > cur ? 1 : 0
-
-        return a
-      }, 0)
-
-      const fractionOfPopulationWithMore = numberOfPopulationWithMore / n
-
-      const score = fractionOfDistribution * (fractionOfPopulation + (2 * fractionOfPopulationWithMore))
-
-      acc.push({
-        value: cur,
-        frequency,
-        fractionOfDistribution,
-        fractionOfPopulation,
-        fractionOfPopulationWithMore,
-        score,
-      })
-
-      return acc
-    }, [])
-
-    const sumOfRows = rows.reduce((acc, cur) => acc += cur.score, 0)
-
-    const giniCoefficient = 1 - sumOfRows
-
-    console.log(DataAnalyzer.calculateFairShare(data))
-    console.log(DataAnalyzer.calculateGini(data))
-    console.log(DataAnalyzer.calculateG(data))
-    console.log(giniCoefficient)
-
-    return Number(giniCoefficient.toFixed(2))
-  }
-
-  static calculateG(array) {
-    // Sort and normalize the data
-    array.sort((a, b) => a - b);
-    const total = array.reduce((a, b) => a + b, 0);
-    array = array.map(x => x / total);
-
-    // Add a 0 at the start of the array
-    array.unshift(0);
-    
-    // Calculate the area under the Lorenz curve (trapezoid method)
-    let lorenzCurveArea = 0;
-    
-    for (let i = 1; i < array.length; i++) {
-        const p_i = i / (array.length - 1);
-        const p_i_1 = (i - 1) / (array.length - 1);
-        const q_i = array.slice(0, i + 1).reduce((a, b) => a + b, 0);
-        const q_i_1 = array.slice(0, i).reduce((a, b) => a + b, 0);
-        
-        // Area of the trapezoid under the Lorenz curve
-        lorenzCurveArea += (p_i - p_i_1) * (q_i + q_i_1) / 2;
-    }
-    
-    // The Gini coefficient is 1 minus the area under the Lorenz curve
-    const giniCoefficient = 1 - lorenzCurveArea;
-
-    return giniCoefficient;
-  }
-  
-
   // based on relative mean absolute difference
   // this directly implements the formula on the paper
-  static calculateGini(array) {
+  static calculateGiniCoefficient(array) {
     let sum = 0
     let n = array.length
     let arraySum = array.reduce((a, b) => a + b, 0)
@@ -295,25 +157,6 @@ class DataAnalyzer {
 
     return Number(giniCoefficient.toFixed(2))
   }
-  
-
-  static calculateFairShare(array) {
-    // Ensure the array is sorted in ascending order
-    array.sort((a, b) => a - b)
-
-    let sum = 0
-    let arrayLength = array.length
-
-    array.forEach((value, index) => {
-        let rank = index + 1; // Rank starts from 1
-        sum += (arrayLength - rank + 0.5) * value
-    });
-
-    const fairShare = arrayLength * array.reduce((a, b) => a + b, 0) / 2
-
-    return (fairShare - sum) / fairShare
-  }
-  
 
   // calculates the Herfindahl-Hirschman Index for a set of data
   static calculateHerfindahlHirschmanIndex(data) {
@@ -331,18 +174,6 @@ class DataAnalyzer {
     const normalized = herfindahlHirschmanIndex / (10 ** 4)
 
     return Number(normalized.toFixed(2))
-  }
-
-  static calculateAtkinsonIndex(data, epsilon) {
-    const n = data.length
-    const mean = data.reduce((sum, value) => sum + value, 0) / n
-
-    const numerator = data.reduce((sum, value) => sum + (value ** (1 - epsilon)), 0)
-    const denominator = n * (mean ** (1 - epsilon))
-
-    const atkinsonIndex = 1 - (numerator / denominator) ** (1 / (1 - epsilon))
-
-    return Number(atkinsonIndex.toFixed(2))
   }
 
   // https://gist.github.com/jabney/5018b4adc9b2bf488696
@@ -371,6 +202,29 @@ class DataAnalyzer {
     }
 
     return complexity
+  }
+
+  static calculateAtkinsonIndex(incomes, epsilon) {
+    let N = incomes.length
+
+    // Calculate mean income
+    let mu = incomes.reduce((a, b) => a + b, 0) / N
+
+    let atkinsonIndex
+
+    if (epsilon === 1) {
+      // Use the geometric mean when epsilon = 1
+      const product = incomes.reduce((a, b) => a * Math.pow(b, 1/N), 1)
+
+      atkinsonIndex = 1 - product / mu
+    } else {
+      // Use the general formula when epsilon != 1
+      const sum = incomes.reduce((a, b) => a + Math.pow(b / mu, 1 - epsilon), 0)
+
+      atkinsonIndex = 1 - Math.pow(sum / N, 1 / (1 - epsilon))
+    }
+
+    return Number(atkinsonIndex.toFixed(2))
   }
 
   // ChatGPT
