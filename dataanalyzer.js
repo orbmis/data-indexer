@@ -2,12 +2,33 @@ const fs = require('fs')
 
 class DataAnalyzer {
 
+  constructor() {
+    this.dataCache = null
+  }
+
   loadData() {
     const testFolder = './data/'
 
     const calculateIndices = this.calculateIndices
 
     const capitalize = k => k.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())
+
+    const cacheData = this.cacheData.bind(this)
+
+    const weightings = {
+      executionNodesByCountry: 1,
+      executionNodesByClientBase: 1,
+      consensusNodesByCountry: 1,
+      consensusNodesByClient: 1,
+      amountStakedByPool: 1,
+      blocksByRelays: 0.7,
+      blocksByBuilder: 0.7,
+      nativeAssetsByAddress: 1,
+      exchangeBySupply: 0.7,
+      activityByBundler: 0.2,
+      stablecoinsByTvl: 0.3,
+      rollupsByTvl: 0.5,
+    }
 
     fs.readdirSync(testFolder).forEach(file => {
       const date = file.replace('data_', '').replace('.json', '')
@@ -16,9 +37,19 @@ class DataAnalyzer {
 
       const formattedData = this.formatData(data)
 
-      const indices = calculateIndices(formattedData)
+      const previousRoundsData = this.dataCache
+
+      const indices = calculateIndices(formattedData, previousRoundsData)
+
+      cacheData(formattedData)
 
       const keys = Object.keys(Object.entries(indices)[0][1])
+
+      const masterIndices = Object.entries(indices).reduce((acc, index) => {
+        return { ...acc, [index[0]]: this.calculateMasterIndex(index[1], weightings) }
+      }, {})
+
+      console.log(masterIndices)
 
       const transposedData = keys.reduce((acc, k) => ({
         ...acc,
@@ -27,14 +58,27 @@ class DataAnalyzer {
           HHI: indices.herfindahlHirschmanIndices[k],
           Atkinson: indices.atkinsonIndex[k],
           Shannon: indices.shannonEntropy[k],
+          euclideanDistance: indices.euclideanDistance[k],
         }
       }), {})
+
+      transposedData.masterIndex = {
+        Gini: masterIndices.giniCoefficients,
+        HHI: masterIndices.herfindahlHirschmanIndices,
+        Atkinson: masterIndices.atkinsonIndex,
+        Shannon: masterIndices.shannonEntropy,
+        euclideanDistance: masterIndices.euclideanDistance,
+      }
 
       console.log(`\n${date}:`)
       console.table(transposedData)
 
       const csv = this.createCsv(transposedData)
     })
+  }
+
+  cacheData(data) {
+    this.dataCache = data
   }
 
   createCsv(data) {
@@ -101,7 +145,7 @@ class DataAnalyzer {
     return payload
   }
 
-  calculateIndices(data) {
+  calculateIndices(data, previousRoundsData) {
     const keys = Object.keys(data)
 
     data.nativeAssetsByAddress = DataAnalyzer.normalizeNativeAssetDistribution(data.nativeAssetsByAddress)
@@ -122,7 +166,13 @@ class DataAnalyzer {
       ...acc, [cur[0]]: DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value))
     }), {})
 
-    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy }
+    const euclideanDistance = Object.entries(data).reduce((acc, cur) => {
+      const previousData = previousRoundsData ? previousRoundsData[cur[0]].map(i => i.value) : []
+
+      return { ...acc, [cur[0]]: DataAnalyzer.calculateEuclideanDistance(cur[1].map(i => i.value), previousData) }
+    }, {})
+
+    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, euclideanDistance }
   }
 
   static normalizeNativeAssetDistribution(data) {
@@ -225,6 +275,41 @@ class DataAnalyzer {
 
     return Number(atkinsonIndex.toFixed(2))
   }
+
+  static calculateEuclideanDistance(data, previousData) {
+    const n = data.length
+
+    let distance = 0
+
+    for (let i = 0; i < n; i++) {
+      const ED = Math.pow(data[i] - previousData[i], 2)
+      distance += ED
+    }
+
+    const euclideanDistance = Math.sqrt(distance)
+
+    return Number(euclideanDistance.toFixed(2))
+  }
+
+  calculateMasterIndex(metrics, weightings) {
+    const beta = Object.entries(metrics).map(metric => metric.pop())
+    const omega = Object.entries(weightings).map(metric => metric.pop())
+    const n = beta.length
+
+    // Check if arrays have the same length
+    if (n !== omega.length) {
+      throw new Error("Arrays beta and omega must have the same length.")
+    }
+
+    // Calculate product of all (beta[i] * omega[i]) values
+    const product = beta.reduce((acc, betaValue, i) => acc * (betaValue * omega[i]), 1)
+
+    // Calculate gamma
+    const gamma = (Math.pow(product, 1 / n) - Math.min(...beta)) / (Math.max(...beta) - Math.min(...beta))
+
+    return Number(gamma.toFixed(2))
+  }
+  
 }
 
 module.exports = DataAnalyzer
