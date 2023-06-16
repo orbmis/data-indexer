@@ -119,7 +119,7 @@ class DataAnalyzer {
     }), {})
 
     const shannonEntropy = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: DataAnalyzer.calculateEntropy(cur[1].map(i => i.value))
+      ...acc, [cur[0]]: DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value))
     }), {})
 
     return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy }
@@ -176,33 +176,32 @@ class DataAnalyzer {
     return Number(normalized.toFixed(2))
   }
 
-  // https://gist.github.com/jabney/5018b4adc9b2bf488696
+  // https://www.omnicalculator.com/ecology/shannon-index
   static calculateShannonEntropy(data) {
-    var textLength = text.length
+    const totalCount = data.length
+    const counts = {}
 
-    // find symbolCount of all symbols
-    var symbolCount = {}
+    // Count the frequency of each unique value/category in the data
+    for (let i = 0; i < totalCount; i++) {
+      const value = data[i]
 
-    for (var i = 0; i < textLength; i++) {
-        var symbol = text[i]
-
-        if (symbolCount[symbol] === undefined) {
-            symbolCount[symbol] = 1
-        } else {
-            symbolCount[symbol]++
-        }
+      counts[value] = counts[value] ? counts[value] + 1 : 1
     }
 
-    var complexity = 0
-    var allCounts = Object.values(symbolCount)
-    var allCountsLength = allCounts.length
+    const numberDistinctValues = Object.keys(counts).length
 
-    for (var i = 0; i < allCountsLength; i++) {
-        complexity = complexity - allCounts[i]/textLength * Math.log2(allCounts[i]/textLength)
+    let entropy = 0
+
+    // Calculate the entropy using the formula
+    for (const value in counts) {
+      const probability = counts[value] / totalCount
+
+      entropy -= probability * Math.log2(probability)
     }
 
-    return complexity
+    return Number((entropy / 10).toFixed(2))
   }
+  
 
   static calculateAtkinsonIndex(incomes, epsilon) {
     let N = incomes.length
@@ -225,35 +224,6 @@ class DataAnalyzer {
     }
 
     return Number(atkinsonIndex.toFixed(2))
-  }
-
-  // ChatGPT
-  static calculateEntropy(data) {
-    let total = 0
-
-    for (let exchange in data) {
-      total += data[exchange]
-    }
-    
-    let probabilities = []
-
-    for (let exchange in data) {
-      probabilities.push(data[exchange] / total)
-    }
-    
-    let informationContent = []
-
-    for (let i = 0; i < probabilities.length; i++) {
-      informationContent.push(-Math.log2(probabilities[i]))
-    }
-    
-    let entropy = 0
-
-    for (let i = 0; i < probabilities.length; i++) {
-      entropy -= probabilities[i] * informationContent[i]
-    }
-    
-    return Number(entropy.toFixed(2))
   }
 }
 
