@@ -37,11 +37,19 @@ class DataAnalyzer {
 
       const formattedData = this.formatData(data)
 
-      const previousRoundsData = this.dataCache
+      const previousRoundsData = this.dataCache ? this.formatData(this.dataCache) : null
 
       const indices = calculateIndices(formattedData, previousRoundsData)
 
-      cacheData(formattedData)
+      let pandq
+
+      if (this.dataCache) {
+        pandq = this.getComparisonData(data, this.dataCache)
+      }
+
+      // TODO: calculate JSD for 30 day intervals
+
+      cacheData(data)
 
       const keys = Object.keys(Object.entries(indices)[0][1])
 
@@ -57,7 +65,7 @@ class DataAnalyzer {
           Atkinson: indices.atkinsonIndex[k],
           Shannon: indices.shannonEntropy[k],
           euclideanDistance: indices.euclideanDistance[k],
-          js_divergence: indices.js_divergence[k],
+          js_divergence: pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : null,
         }
       }), {})
 
@@ -82,6 +90,102 @@ class DataAnalyzer {
 
   createCsv(data) {
     return data
+  }
+
+  transpose(data) {
+    const p = data.map(i => i.p)
+    const q = data.map(i => i.q)
+
+    return [ p, q ]
+  }
+
+  getComparisonData(data, datacache) {
+    const findByKey = (dataset, match, key, value) => {
+      let datum = dataset.find(i => i[key] === match)
+
+      datum = datum ? datum[value] : null
+
+      return datum || 0
+    }
+
+    // TODO:  we need to decide which dataset is larger, and iterate through that one, and pad the other
+
+    const amountStakedByPool = this.transpose(data.amountStakedByPool.map(record => ({
+      p: record.amount_staked,
+      q: findByKey(datacache.amountStakedByPool, record.entity, 'entity', 'amount_staked'),
+    })))
+
+    const executionNodesByCountry = this.transpose(data.executionNodesByCountry.map(record => ({
+      p: record.value,
+      q: findByKey(datacache.executionNodesByCountry, record.key, 'key', 'value'),
+    })))
+
+    const executionNodesByClientBase = this.transpose(data.executionNodesByClientBase.map(record => ({
+      p: record.value,
+      q: findByKey(datacache.executionNodesByClientBase, record.key, 'key', 'value'),
+    })))
+
+    const consensusNodesByCountry = this.transpose(data.consensusNodesByCountry.map(record => ({
+      p: record.value,
+      q: findByKey(datacache.consensusNodesByCountry, record.key, 'key', 'value'),
+    })))
+
+    const consensusNodesByClient = this.transpose(data.consensusNodesByClient.map(record => ({
+      p: record.value,
+      q: findByKey(datacache.consensusNodesByClient, record.key, 'key', 'value'),
+    })))
+
+    const blocksByRelays = this.transpose(data.blocksByRelays.map(record => ({
+      p: record.value,
+      q: findByKey(datacache.blocksByRelays, record.name, 'name', 'value'),
+    })))
+
+    const blocksByBuilder = this.transpose(data.blocksByBuilder.map(record => ({
+      p: record.count,
+      q: findByKey(datacache.blocksByBuilder, record.name, 'name', 'count'),
+    })))
+
+    const nativeAssetsByAddress = this.transpose(Object.entries(data.nativeAssetsByAddress).map(record => ({
+      p: record[1],
+      q: findByKey(Object.entries(data.nativeAssetsByAddress), record[0], 0, 1),
+    })))
+
+    const exchangeBySupply = this.transpose(Object.entries(data.exchangeBySupply).map(record => ({
+      p: record[1] || 0,
+      q: findByKey(Object.entries(data.exchangeBySupply), record[0], 0, 1),
+    })))
+
+    const activityByBundler = this.transpose(data.activityByBundler.map(record => ({
+      p: record.numberTransactions,
+      q: findByKey(datacache.activityByBundler, record.bundler, 'bundler', 'numberTransactions'),
+    })))
+
+    const stablecoinsByTvl = this.transpose(data.stablecoinsByTvl.map(record => ({
+      p: record.TVL,
+      q: findByKey(datacache.stablecoinsByTvl, record.symbol, 'symbol', 'TVL'),
+    })))
+
+    const rollupsByTvl = this.transpose(data.rollupsByTvl.map(record => ({
+      p: record.tvl,
+      q: findByKey(datacache.rollupsByTvl, record.name, 'name', 'tvl'),
+    })))
+
+    const payload = {
+      executionNodesByCountry,
+      executionNodesByClientBase,
+      consensusNodesByCountry,
+      consensusNodesByClient,
+      amountStakedByPool,
+      blocksByRelays,
+      blocksByBuilder,
+      nativeAssetsByAddress,
+      exchangeBySupply,
+      activityByBundler,
+      stablecoinsByTvl,
+      rollupsByTvl,
+    }
+
+    return payload
   }
 
   formatData(data) {
@@ -165,19 +269,13 @@ class DataAnalyzer {
       ...acc, [cur[0]]: DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value))
     }), {})
 
-    const js_divergence = Object.entries(data).reduce((acc, cur) => {
-      const previousData = previousRoundsData ? previousRoundsData[cur[0]].map(i => i.value) : []
-
-      return { ...acc, [cur[0]]: DataAnalyzer.js_divergence(cur[1].map(i => i.value), previousData) }
-    }, {})
-
     const euclideanDistance = Object.entries(data).reduce((acc, cur) => {
       const previousData = previousRoundsData ? previousRoundsData[cur[0]].map(i => i.value) : []
 
       return { ...acc, [cur[0]]: DataAnalyzer.calculateEuclideanDistance(cur[1].map(i => i.value), previousData) }
     }, {})
 
-    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, euclideanDistance, js_divergence }
+    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, euclideanDistance }
   }
 
   static normalizeNativeAssetDistribution(data) {
@@ -341,7 +439,7 @@ class DataAnalyzer {
     const sumq = p.reduce((acc, cur) => acc + cur, 0)
 
     p = p.map(i => i / sump)
-    q = p.map(i => i / sumq)
+    q = q.map(i => i / sumq)
 
     DataAnalyzer.padArray(p, q.length, 0)
     DataAnalyzer.padArray(q, p.length, 0)
@@ -354,9 +452,7 @@ class DataAnalyzer {
 
     const JSD = (0.5 * DataAnalyzer.kl_divergence(p, m) + 0.5 * DataAnalyzer.kl_divergence(q, m)) / Math.log(2)
 
-    console.log('JSD:', JSD)
-
-    return JSD
+    return Number(JSD.toFixed(7))
   }
   
 }
