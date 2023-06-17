@@ -49,8 +49,6 @@ class DataAnalyzer {
         return { ...acc, [index[0]]: this.calculateMasterIndex(index[1], weightings) }
       }, {})
 
-      console.log(masterIndices)
-
       const transposedData = keys.reduce((acc, k) => ({
         ...acc,
         [capitalize(k)]: {
@@ -59,6 +57,7 @@ class DataAnalyzer {
           Atkinson: indices.atkinsonIndex[k],
           Shannon: indices.shannonEntropy[k],
           euclideanDistance: indices.euclideanDistance[k],
+          js_divergence: indices.js_divergence[k],
         }
       }), {})
 
@@ -110,7 +109,7 @@ class DataAnalyzer {
       key: record[0],
       value: record[1],
     }))
-    .filter(i => i.value !== null)
+      .filter(i => i.value !== null)
 
     const activityByBundler = data.activityByBundler.map(record => ({
       key: record.bundler,
@@ -166,13 +165,19 @@ class DataAnalyzer {
       ...acc, [cur[0]]: DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value))
     }), {})
 
+    const js_divergence = Object.entries(data).reduce((acc, cur) => {
+      const previousData = previousRoundsData ? previousRoundsData[cur[0]].map(i => i.value) : []
+
+      return { ...acc, [cur[0]]: DataAnalyzer.js_divergence(cur[1].map(i => i.value), previousData) }
+    }, {})
+
     const euclideanDistance = Object.entries(data).reduce((acc, cur) => {
       const previousData = previousRoundsData ? previousRoundsData[cur[0]].map(i => i.value) : []
 
       return { ...acc, [cur[0]]: DataAnalyzer.calculateEuclideanDistance(cur[1].map(i => i.value), previousData) }
     }, {})
 
-    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, euclideanDistance }
+    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, euclideanDistance, js_divergence }
   }
 
   static normalizeNativeAssetDistribution(data) {
@@ -198,9 +203,9 @@ class DataAnalyzer {
     let μ = arraySum / n
 
     for(let i = 0; i < n; i++) {
-        for(let j = 0; j < n; j++) {
-            sum += Math.abs(array[i] - array[j])
-        }
+      for(let j = 0; j < n; j++) {
+        sum += Math.abs(array[i] - array[j])
+      }
     }
 
     const giniCoefficient = sum / (2 * n * n * μ)
@@ -251,7 +256,7 @@ class DataAnalyzer {
 
     return Number((entropy / 10).toFixed(2))
   }
-  
+
 
   static calculateAtkinsonIndex(incomes, epsilon) {
     let N = incomes.length
@@ -277,6 +282,9 @@ class DataAnalyzer {
   }
 
   static calculateEuclideanDistance(data, previousData) {
+    // console.log('DATA:', data)
+    // console.log('PREVIOUS DATA:', previousData)
+
     const n = data.length
 
     let distance = 0
@@ -308,6 +316,47 @@ class DataAnalyzer {
     const gamma = (Math.pow(product, 1 / n) - Math.min(...beta)) / (Math.max(...beta) - Math.min(...beta))
 
     return Number(gamma.toFixed(2))
+  }
+
+  static padArray(array, size, defaultValue) {
+    while(array.length < size) {
+      array.push(defaultValue)
+    }
+  }
+
+  static kl_divergence(p, q) {
+    let sum = 0
+
+    for(let i = 0; i < p.length; i++) {
+      if(p[i] != 0) {
+        sum += p[i] * Math.log(p[i] / q[i])
+      }
+    }
+
+    return sum
+  }
+
+  static js_divergence(p, q) {
+    const sump = p.reduce((acc, cur) => acc + cur, 0)
+    const sumq = p.reduce((acc, cur) => acc + cur, 0)
+
+    p = p.map(i => i / sump)
+    q = p.map(i => i / sumq)
+
+    DataAnalyzer.padArray(p, q.length, 0)
+    DataAnalyzer.padArray(q, p.length, 0)
+
+    let m = []
+
+    for(let i = 0; i < p.length; i++) {
+      m[i] = 0.5 * (p[i] + q[i])
+    }
+
+    const JSD = (0.5 * DataAnalyzer.kl_divergence(p, m) + 0.5 * DataAnalyzer.kl_divergence(q, m)) / Math.log(2)
+
+    console.log('JSD:', JSD)
+
+    return JSD
   }
   
 }
