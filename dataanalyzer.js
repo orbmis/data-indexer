@@ -64,8 +64,7 @@ class DataAnalyzer {
           HHI: indices.herfindahlHirschmanIndices[k],
           Atkinson: indices.atkinsonIndex[k],
           Shannon: indices.shannonEntropy[k],
-          euclideanDistance: indices.euclideanDistance[k],
-          js_divergence: pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : null,
+          JSD: pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : null,
         }
       }), {})
 
@@ -74,7 +73,6 @@ class DataAnalyzer {
         HHI: masterIndices.herfindahlHirschmanIndices,
         Atkinson: masterIndices.atkinsonIndex,
         Shannon: masterIndices.shannonEntropy,
-        euclideanDistance: masterIndices.euclideanDistance,
       }
 
       console.log(`\n${date}:`)
@@ -99,90 +97,62 @@ class DataAnalyzer {
     return [ p, q ]
   }
 
-  getComparisonData(data, datacache) {
-    const findByKey = (dataset, match, key, value) => {
-      let datum = dataset.find(i => i[key] === match)
+  findByKey(dataset, match, key, value) {
+    let datum = dataset.find(i => i[key] === match)
 
-      datum = datum ? datum[value] : null
+    datum = datum ? datum[value] : null
 
-      return datum || 0
+    return datum || 0
+  }
+
+  createComparisonArrays(data, datacache, k, key, value) {
+    const d = data[k].map(i => i)
+    const dc = datacache[k].map(i => i)
+
+    const paditem = { [key]: 0, [value]: 0 }
+
+    if (d.length > dc.length) {
+      DataAnalyzer.padArray(dc, d.length, paditem )
+    } else if (d.length < dc.length) {
+      DataAnalyzer.padArray(d, dc.length, paditem )
     }
 
-    // TODO:  we need to decide which dataset is larger, and iterate through that one, and pad the other
-
-    const amountStakedByPool = this.transpose(data.amountStakedByPool.map(record => ({
-      p: record.amount_staked,
-      q: findByKey(datacache.amountStakedByPool, record.entity, 'entity', 'amount_staked'),
+    const comparisonArray = this.transpose(d.map(record => ({
+      p: record[value],
+      q: this.findByKey(dc, record[key], key, value),
     })))
 
-    const executionNodesByCountry = this.transpose(data.executionNodesByCountry.map(record => ({
-      p: record.value,
-      q: findByKey(datacache.executionNodesByCountry, record.key, 'key', 'value'),
-    })))
+    return comparisonArray
+  }
 
-    const executionNodesByClientBase = this.transpose(data.executionNodesByClientBase.map(record => ({
-      p: record.value,
-      q: findByKey(datacache.executionNodesByClientBase, record.key, 'key', 'value'),
-    })))
+  getComparisonData(data, datacache) {
+    const prepare = (c, k, v) => this.createComparisonArrays({ ...data }, { ... datacache }, c, k, v)
 
-    const consensusNodesByCountry = this.transpose(data.consensusNodesByCountry.map(record => ({
-      p: record.value,
-      q: findByKey(datacache.consensusNodesByCountry, record.key, 'key', 'value'),
-    })))
-
-    const consensusNodesByClient = this.transpose(data.consensusNodesByClient.map(record => ({
-      p: record.value,
-      q: findByKey(datacache.consensusNodesByClient, record.key, 'key', 'value'),
-    })))
-
-    const blocksByRelays = this.transpose(data.blocksByRelays.map(record => ({
-      p: record.value,
-      q: findByKey(datacache.blocksByRelays, record.name, 'name', 'value'),
-    })))
-
-    const blocksByBuilder = this.transpose(data.blocksByBuilder.map(record => ({
-      p: record.count,
-      q: findByKey(datacache.blocksByBuilder, record.name, 'name', 'count'),
-    })))
-
+    // we don't need to determine which dataset is bigger because this metric is always the same size
     const nativeAssetsByAddress = this.transpose(Object.entries(data.nativeAssetsByAddress).map(record => ({
       p: record[1],
-      q: findByKey(Object.entries(data.nativeAssetsByAddress), record[0], 0, 1),
+      q: this.findByKey(Object.entries(data.nativeAssetsByAddress), record[0], 0, 1),
     })))
 
+    // we're assuming this holds a static number of exchanges
     const exchangeBySupply = this.transpose(Object.entries(data.exchangeBySupply).map(record => ({
       p: record[1] || 0,
-      q: findByKey(Object.entries(data.exchangeBySupply), record[0], 0, 1),
-    })))
-
-    const activityByBundler = this.transpose(data.activityByBundler.map(record => ({
-      p: record.numberTransactions,
-      q: findByKey(datacache.activityByBundler, record.bundler, 'bundler', 'numberTransactions'),
-    })))
-
-    const stablecoinsByTvl = this.transpose(data.stablecoinsByTvl.map(record => ({
-      p: record.TVL,
-      q: findByKey(datacache.stablecoinsByTvl, record.symbol, 'symbol', 'TVL'),
-    })))
-
-    const rollupsByTvl = this.transpose(data.rollupsByTvl.map(record => ({
-      p: record.tvl,
-      q: findByKey(datacache.rollupsByTvl, record.name, 'name', 'tvl'),
+      q: this.findByKey(Object.entries(data.exchangeBySupply), record[0], 0, 1),
     })))
 
     const payload = {
-      executionNodesByCountry,
-      executionNodesByClientBase,
-      consensusNodesByCountry,
-      consensusNodesByClient,
-      amountStakedByPool,
-      blocksByRelays,
-      blocksByBuilder,
+      amountStakedByPool: prepare('amountStakedByPool', 'entity', 'amount_staked'),
+      executionNodesByCountry: prepare('executionNodesByCountry', 'key', 'value'),
+      executionNodesByClientBase: prepare('executionNodesByClientBase', 'key', 'value'),
+      consensusNodesByCountry: prepare('consensusNodesByCountry', 'key', 'value'),
+      consensusNodesByClient: prepare('consensusNodesByClient', 'key', 'value'),
+      blocksByRelays: prepare('blocksByRelays', 'name', 'value'),
+      blocksByBuilder: prepare('blocksByBuilder', 'name', 'count'),
+      activityByBundler: prepare('activityByBundler', 'bundler', 'numberTransactions'),
+      stablecoinsByTvl: prepare('stablecoinsByTvl', 'symbol', 'TVL'),
+      rollupsByTvl: prepare('rollupsByTvl', 'name', 'tvl'),
       nativeAssetsByAddress,
       exchangeBySupply,
-      activityByBundler,
-      stablecoinsByTvl,
-      rollupsByTvl,
     }
 
     return payload
