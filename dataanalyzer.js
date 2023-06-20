@@ -65,6 +65,7 @@ class DataAnalyzer {
           Atkinson: indices.atkinsonIndex[k],
           Shannon: indices.shannonEntropy[k],
           JSD: pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : null,
+          'P90:P10': indices.P90P10[k],
         }
       }), {})
 
@@ -239,13 +240,11 @@ class DataAnalyzer {
       ...acc, [cur[0]]: DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value))
     }), {})
 
-    const euclideanDistance = Object.entries(data).reduce((acc, cur) => {
-      const previousData = previousRoundsData ? previousRoundsData[cur[0]].map(i => i.value) : []
+    const P90P10 = Object.entries(data).reduce((acc, cur) => ({
+      ...acc, [cur[0]]: DataAnalyzer.calculateRatio(cur[1].map(i => i.value), 90, 10)
+    }), {})
 
-      return { ...acc, [cur[0]]: DataAnalyzer.calculateEuclideanDistance(cur[1].map(i => i.value), previousData) }
-    }, {})
-
-    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, euclideanDistance }
+    return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, P90P10 }
   }
 
   static normalizeNativeAssetDistribution(data) {
@@ -424,7 +423,67 @@ class DataAnalyzer {
 
     return Number(JSD.toFixed(7))
   }
-  
+
+  static calculateInterDecileRatio(rawdata, lowerPercentile, upperPercentile) {
+    const data = rawdata.sort((a, b) => a - b)
+
+    const lowerValue = DataAnalyzer.calculatePercentile(data, lowerPercentile)
+    const upperValue = DataAnalyzer.calculatePercentile(data, upperPercentile)
+
+    const ratio = (upperValue / lowerValue) // / data.reduce((acc, cur) => acc + cur, 0)
+
+    return Math.abs(ratio.toFixed(2))
+  }
+
+  static calculateDeciles(data, deciles) {
+    // First sort the data
+    data.sort((a, b) => a - b)
+
+    let results = {}
+
+    deciles.forEach((decile) => {
+      // calculate the rank of the decile
+      let rank = decile / 100.0 * (data.length + 1)
+
+      // identify the surrounding data points
+      let lowerRank = Math.floor(rank)
+      let upperRank = lowerRank + 1
+
+      // account for the fact that array is zero indexed
+      let lowerValue = data[lowerRank - 1]
+      let upperValue = data[upperRank - 1]
+
+      if (lowerValue === undefined) {
+        // special case for the lowest decile
+        results[decile] = upperValue
+      } else if (upperValue === undefined) {
+        // special case for the highest decile
+        results[decile] = lowerValue
+      } else {
+        // calculate the interpolated value
+        let fraction = rank - lowerRank
+
+        results[decile] = lowerValue + (upperValue - lowerValue) * fraction
+      }
+    })
+
+    return results
+  }
+
+  // to convert the ratio to a percentage, multiply it by 100.
+  // e.g. if the P90:P10 ratio is 2.5, the income at the 90th
+  // percentile is 250% of the income at the 10th percentile.
+  static calculateRatio(data, decile1, decile2) {
+    let deciles = DataAnalyzer.calculateDeciles(data, [decile1, decile2])
+
+    const ratio = deciles[decile1] / deciles[decile2]
+
+    const sum = data.reduce((a, c) => a+c, 0)
+
+    const delta = ratio / sum
+
+    return Math.floor(ratio * 100)
+  }
 }
 
 module.exports = DataAnalyzer
