@@ -30,6 +30,10 @@ class DataAnalyzer {
       rollupsByTvl: 0.5,
     }
 
+    let GCSV, HHICSV, SCSV
+
+    let headerRowAdded = false
+
     fs.readdirSync(testFolder).forEach(file => {
       const date = file.replace('data_', '').replace('.json', '')
 
@@ -76,19 +80,35 @@ class DataAnalyzer {
         Shannon: masterIndices.shannonEntropy,
       }
 
+      if (!headerRowAdded) {
+        GCSV = 'Date,' + Object.keys(transposedData).join(',').concat('\n')
+        HHICSV = 'Date,' + Object.keys(transposedData).join(',').concat('\n')
+        SCSV = 'Date,' + Object.keys(transposedData).join(',').concat('\n')
+      }
+
+      headerRowAdded = true
+
       console.log(`\n${date}:`)
       console.table(transposedData)
 
-      const csv = this.createCsv(transposedData)
+      GCSV += this.createCsv(date, transposedData, 'Gini')
+      HHICSV += this.createCsv(date, transposedData, 'HHI')
+      SCSV += this.createCsv(date, transposedData, 'Shannon')
     })
+
+    fs.writeFileSync('./reports/gini.csv', GCSV);
+    fs.writeFileSync('./reports/HHI.csv', HHICSV);
+    fs.writeFileSync('./reports/shannon.csv', SCSV);
   }
 
   cacheData(data) {
     this.dataCache = data
   }
 
-  createCsv(data) {
-    return data
+  createCsv(date, data, index) {
+    const csvrow = Object.entries(data).map(i => i[1][index]).join(',').concat('\n')
+
+    return date.concat(',', csvrow)
   }
 
   transpose(data) {
@@ -346,24 +366,6 @@ class DataAnalyzer {
     }
 
     return Number(atkinsonIndex.toFixed(2))
-  }
-
-  static calculateEuclideanDistance(data, previousData) {
-    // console.log('DATA:', data)
-    // console.log('PREVIOUS DATA:', previousData)
-
-    const n = data.length
-
-    let distance = 0
-
-    for (let i = 0; i < n; i++) {
-      const ED = Math.pow(data[i] - previousData[i], 2)
-      distance += ED
-    }
-
-    const euclideanDistance = Math.sqrt(distance)
-
-    return Number(euclideanDistance.toFixed(2))
   }
 
   calculateMasterIndex(metrics, weightings) {
