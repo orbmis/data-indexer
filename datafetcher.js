@@ -339,6 +339,10 @@ class DataFetcher {
     }))
 
     const formatted = data.map(d => {
+      if (!d.tvl) {
+        return d
+      }
+
       const match = d.tvl.match(/^\$(.*)\s[BMK].*$/);
       let tvl = match ? match[1] : d.tvl;
 
