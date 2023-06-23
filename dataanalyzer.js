@@ -1,4 +1,5 @@
 const fs = require('fs')
+const util = require('util')
 
 class DataAnalyzer {
 
@@ -7,7 +8,7 @@ class DataAnalyzer {
   }
 
   loadData() {
-    const testFolder = './data/'
+    const datafolder = './data/'
 
     const calculateIndices = this.calculateIndices
 
@@ -30,30 +31,46 @@ class DataAnalyzer {
       rollupsByTvl: 0.5,
     }
 
-    let GCSV, HHICSV, SCSV
+    let GCSV, HHICSV, SCSV, masterIndex
 
     let headerRowAdded = false
+    
+    // keys in format: 2023-05-19
+    const relayData = require('./relays.json')
+    const blockBuilderData = require('./block_builders.json')
 
-    fs.readdirSync(testFolder).forEach(file => {
+    fs.readdirSync(datafolder).forEach(file => {
+      if (file.slice(-4) !== 'json') {
+        return
+      }
+
       const date = file.replace('data_', '').replace('.json', '')
 
-      const data = require(testFolder.concat(file))
+      // get corresponding data from alt dataset
+      const dateObject = new Date(date)
+      dateObject.setDate(dateObject.getDate() - 4)
+      const refDate = dateObject.toISOString().split('T')[0]
+
+      const data = require(datafolder.concat(file))
 
       const formattedData = this.formatData(data)
+      
+      formattedData.blocksByBuilder = blockBuilderData[refDate].map(i => ({ key: i.builder, value: i.count }))
+      formattedData.blocksByRelays = relayData[refDate].map(i => ({ key: i.relay, value: i.count }))
 
-      const previousRoundsData = this.dataCache ? this.formatData(this.dataCache) : null
+      const previousRoundsData = this.dataCache ? this.dataCache : null
 
       const indices = calculateIndices(formattedData, previousRoundsData)
 
       let pandq
 
       if (this.dataCache) {
-        pandq = this.getComparisonData(data, this.dataCache)
+        pandq = this.getComparisonData(formattedData, this.dataCache)
       }
 
       // TODO: calculate JSD for 30 day intervals
 
-      cacheData(data)
+      cacheData(formattedData)
 
       const keys = Object.keys(Object.entries(indices)[0][1])
 
@@ -84,6 +101,7 @@ class DataAnalyzer {
         GCSV = 'Date,' + Object.keys(transposedData).join(',').concat('\n')
         HHICSV = 'Date,' + Object.keys(transposedData).join(',').concat('\n')
         SCSV = 'Date,' + Object.keys(transposedData).join(',').concat('\n')
+        masterIndex = 'Date,' + 'Gini,HHI,Atkinson,Shannon\n'
       }
 
       headerRowAdded = true
@@ -94,6 +112,8 @@ class DataAnalyzer {
       GCSV += this.createCsv(date, transposedData, 'Gini')
       HHICSV += this.createCsv(date, transposedData, 'HHI')
       SCSV += this.createCsv(date, transposedData, 'Shannon')
+
+      masterIndex += date + ',' + Object.values(transposedData.masterIndex).join(',').concat('\n')
     })
 
     fs.writeFileSync('./reports/gini.csv', GCSV);
@@ -147,33 +167,21 @@ class DataAnalyzer {
   }
 
   getComparisonData(data, datacache) {
-    const prepare = (c, k, v) => this.createComparisonArrays({ ...data }, { ... datacache }, c, k, v)
-
-    // we don't need to determine which dataset is bigger because this metric is always the same size
-    const nativeAssetsByAddress = this.transpose(Object.entries(data.nativeAssetsByAddress).map(record => ({
-      p: record[1],
-      q: this.findByKey(Object.entries(data.nativeAssetsByAddress), record[0], 0, 1),
-    })))
-
-    // we're assuming this holds a static number of exchanges
-    const exchangeBySupply = this.transpose(Object.entries(data.exchangeBySupply).map(record => ({
-      p: record[1] || 0,
-      q: this.findByKey(Object.entries(data.exchangeBySupply), record[0], 0, 1),
-    })))
+    const prepare = (c, k, v) => this.createComparisonArrays({ ...data }, { ...datacache }, c, k, v)
 
     const payload = {
-      amountStakedByPool: prepare('amountStakedByPool', 'entity', 'amount_staked'),
+      amountStakedByPool: prepare('amountStakedByPool', 'key', 'value'),
       executionNodesByCountry: prepare('executionNodesByCountry', 'key', 'value'),
       executionNodesByClientBase: prepare('executionNodesByClientBase', 'key', 'value'),
       consensusNodesByCountry: prepare('consensusNodesByCountry', 'key', 'value'),
       consensusNodesByClient: prepare('consensusNodesByClient', 'key', 'value'),
-      blocksByRelays: prepare('blocksByRelays', 'name', 'value'),
-      blocksByBuilder: prepare('blocksByBuilder', 'name', 'count'),
-      activityByBundler: prepare('activityByBundler', 'bundler', 'numberTransactions'),
-      stablecoinsByTvl: prepare('stablecoinsByTvl', 'symbol', 'TVL'),
-      rollupsByTvl: prepare('rollupsByTvl', 'name', 'tvl'),
-      nativeAssetsByAddress,
-      exchangeBySupply,
+      blocksByRelays: prepare('blocksByRelays', 'key', 'value'),
+      blocksByBuilder: prepare('blocksByBuilder', 'key', 'value'),
+      activityByBundler: prepare('activityByBundler', 'key', 'value'),
+      stablecoinsByTvl: prepare('stablecoinsByTvl', 'key', 'value'),
+      rollupsByTvl: prepare('rollupsByTvl', 'key', 'value'),
+      nativeAssetsByAddress: prepare('nativeAssetsByAddress', 'key', 'value'),
+      exchangeBySupply: prepare('exchangeBySupply', 'key', 'value'),
     }
 
     return payload
@@ -185,15 +193,15 @@ class DataAnalyzer {
       value: record.amount_staked,
     }))
 
-    const blocksByRelays = data.blocksByRelays.map(record => ({
-      key: record.name,
-      value: record.value,
-    }))
+    // const blocksByRelays = data.blocksByRelays.map(record => ({
+    //   key: record.name,
+    //   value: record.value,
+    // }))
 
-    const blocksByBuilder = data.blocksByBuilder.map(record => ({
-      key: record.name,
-      value: record.count,
-    }))
+    // const blocksByBuilder = data.blocksByBuilder.map(record => ({
+    //   key: record.name,
+    //   value: record.value,
+    // }))
 
     const nativeAssetsByAddress = Object.entries(data.nativeAssetsByAddress).map(record => ({
       key: Number(record[0].replace('above_', '').replace('_', '.')),
@@ -216,9 +224,13 @@ class DataAnalyzer {
       value: record.TVL,
     }))
 
+    if (!data.rollupsByTvl) {
+      console.log(data)
+    }
+
     const rollupsByTvl = data.rollupsByTvl.map(record => ({
       key: record.name,
-      value: record.tvl,
+      value: record.tvl || 0,
     }))
 
     const payload = {
@@ -227,8 +239,8 @@ class DataAnalyzer {
       consensusNodesByCountry: data.consensusNodesByCountry,
       consensusNodesByClient: data.consensusNodesByClient,
       amountStakedByPool,
-      blocksByRelays,
-      blocksByBuilder,
+      // blocksByRelays,
+      // blocksByBuilder,
       nativeAssetsByAddress,
       exchangeBySupply,
       activityByBundler,
@@ -256,9 +268,9 @@ class DataAnalyzer {
       ...acc, [cur[0]]: DataAnalyzer.calculateAtkinsonIndex(cur[1].map(i => i.value), 0.5)
     }), {})
 
-    const shannonEntropy = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value))
-    }), {})
+    const shannonEntropy = Object.entries(data).reduce((acc, cur) => {
+      return { ...acc, [cur[0]]: DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value)) }
+    }, {})
 
     const P90P10 = Object.entries(data).reduce((acc, cur) => ({
       ...acc, [cur[0]]: DataAnalyzer.calculateRatio(cur[1].map(i => i.value), 90, 10)
