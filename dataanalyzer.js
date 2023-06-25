@@ -39,6 +39,17 @@ class DataAnalyzer {
     const relayData = require('./relays.json')
     const blockBuilderData = require('./block_builders.json')
 
+    let summation = {}
+
+    let numberOfDaysInDataSet = 0
+
+    let lastRecordedTransposedData = {}
+    let lastRecordedIndices = {}
+
+    let firstRecordedTransposedData = null
+    let firstRecordedIndices = null
+    let lastRecordedDate = null
+
     fs.readdirSync(datafolder).forEach(file => {
       if (file.slice(-4) !== 'json') {
         return
@@ -68,7 +79,9 @@ class DataAnalyzer {
         pandq = this.getComparisonData(formattedData, this.dataCache)
       }
 
-      // TODO: calculate JSD for 30 day intervals
+      if (!this.firstDataCache) {
+        this.firstDataCache = formattedData
+      }
 
       cacheData(formattedData)
 
@@ -78,17 +91,39 @@ class DataAnalyzer {
         return { ...acc, [index[0]]: this.calculateMasterIndex(index[1], weightings) }
       }, {})
 
-      const transposedData = keys.reduce((acc, k) => ({
-        ...acc,
-        [capitalize(k)]: {
-          Gini: indices.giniCoefficients[k],
-          HHI: indices.herfindahlHirschmanIndices[k],
-          Atkinson: indices.atkinsonIndex[k],
-          Shannon: indices.shannonEntropy[k],
-          JSD: pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : null,
-          'P90:P10': indices.P90P10[k],
+      numberOfDaysInDataSet++
+
+      const transposedData = keys.reduce((acc, k) => {
+        if (summation[capitalize(k)] === undefined) {
+          summation[capitalize(k)] = {
+            Gini: 0,
+            HHI: 0,
+            Atkinson: 0,
+            Shannon: 0,
+            JSD: 0,
+            'P90:P10': 0,
+          }
         }
-      }), {})
+
+        summation[capitalize(k)].Gini += indices.giniCoefficients[k]
+        summation[capitalize(k)].HHI += indices.herfindahlHirschmanIndices[k]
+        summation[capitalize(k)].Atkinson += indices.atkinsonIndex[k]
+        summation[capitalize(k)].Shannon += indices.shannonEntropy[k]
+        summation[capitalize(k)].JSD += pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : null
+        summation[capitalize(k)]['P90:P10'] += indices.P90P10[k]
+
+        return {
+          ...acc,
+          [capitalize(k)]: {
+            Gini: indices.giniCoefficients[k],
+            HHI: indices.herfindahlHirschmanIndices[k],
+            Atkinson: indices.atkinsonIndex[k],
+            Shannon: indices.shannonEntropy[k],
+            JSD: pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : 0,
+            'P90:P10': indices.P90P10[k],
+          }
+        }
+      }, {})
 
       transposedData.masterIndex = {
         Gini: masterIndices.giniCoefficients,
@@ -106,8 +141,20 @@ class DataAnalyzer {
 
       headerRowAdded = true
 
-      console.log(`\n${date}:`)
-      console.table(transposedData)
+      // console.log(`\n${date}:`)
+      // console.table(transposedData)
+
+      lastRecordedTransposedData = transposedData
+      lastRecordedIndices = indices
+      lastRecordedDate = date
+
+      if (!firstRecordedTransposedData) {
+        console.log(`\n${date}:`)
+        console.table(transposedData)
+
+        firstRecordedTransposedData = transposedData
+        firstRecordedIndices = indices
+      }
 
       GCSV += this.createCsv(date, transposedData, 'Gini')
       HHICSV += this.createCsv(date, transposedData, 'HHI')
@@ -115,6 +162,34 @@ class DataAnalyzer {
 
       masterIndex += date + ',' + Object.values(transposedData.masterIndex).join(',').concat('\n')
     })
+
+    console.log(`\n${lastRecordedDate}:`)
+    console.table(lastRecordedTransposedData)
+
+    const pq = this.getComparisonData(this.firstDataCache, this.dataCache)
+    const JSDs = Object.entries(pq).reduce((acc, cur) => {
+      return {
+        ...acc,
+        [cur[0]]: DataAnalyzer.js_divergence(cur[1][0], cur[1][1])
+      }
+    }, {})
+
+    const averages = Object.entries(summation).reduce((acc, cur) => {
+      return {
+        ...acc,
+        [cur[0]]: Object.entries(cur[1]).reduce((a, c) => {
+          return {
+            ...a, [c[0]]: Number((c[1] / numberOfDaysInDataSet).toFixed(2)),
+          }
+        }, {}),
+      }
+    }, {})
+
+    console.log('\n30 Day Averages:')
+    console.table(averages)
+
+    console.log('\n Jensen-Shannon Diverage across 30 days:')
+    console.table(JSDs)
 
     fs.writeFileSync('./reports/gini.csv', GCSV);
     fs.writeFileSync('./reports/HHI.csv', HHICSV);

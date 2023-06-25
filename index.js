@@ -6,7 +6,7 @@ const dataFetcher = new DataFetcher()
 const dataAnalyzer = new DataAnalyzer()
 
 if (process.argv[process.argv.length - 1] === 'analyze') {
-  console.log('analyzing data . . . ')
+  console.log('\nAnalyzing data . . . ')
   dataAnalyzer.loadData()
 } else {
   dataFetcher.getData()
