@@ -1778,187 +1778,163 @@
     {
       "name": "Arbitrum One",
       "technology": "Optimistic Rollup",
-      "purpose": "Stage 1",
-      "tvl": null,
-      "marketShare": "$5.82 B10.89%"
+      "purpose": "Universal",
+      "tvl": 5450000000,
+      "marketShare": "64.80%"
     },
     {
-      "name": "2",
-      "technology": "",
-      "purpose": "Optimistic Rollup",
-      "tvl": null,
-      "marketShare": "Universal"
+      "name": "Optimism",
+      "technology": "Optimistic Rollup",
+      "purpose": "Universal",
+      "tvl": 1540000000,
+      "marketShare": "18.32%"
     },
     {
-      "name": "23.84%",
-      "technology": "zkSync Era",
-      "purpose": "",
-      "tvl": null,
-      "marketShare": "Stage 0"
+      "name": "zkSync Era",
+      "technology": "ZK Rollup",
+      "purpose": "Universal",
+      "tvl": 507000000,
+      "marketShare": "6.03%"
     },
     {
-      "name": "$573 M22.50%",
-      "technology": "4",
-      "purpose": "dYdX",
-      "tvl": "",
-      "marketShare": "ZK Rollup"
+      "name": "dYdX",
+      "technology": "ZK Rollup",
+      "purpose": "Exchange",
+      "tvl": 333000000,
+      "marketShare": "3.96%"
     },
     {
-      "name": "Exchange",
-      "technology": "3.59%",
-      "purpose": "5",
-      "tvl": null,
-      "marketShare": ""
+      "name": "Metis Andromeda",
+      "technology": "Optimistic Chain",
+      "purpose": "Universal",
+      "tvl": 93990000,
+      "marketShare": "1.12%"
     },
     {
-      "name": "n/a",
-      "technology": "$99.09 M7.27%",
-      "purpose": "1.02%",
-      "tvl": 0,
-      "marketShare": "Loopring"
-    },
-    {
-      "name": "ZK Rollup",
-      "technology": "Tokens, NFTs, AMM",
-      "purpose": "$96.29 M8.73%",
-      "tvl": 0,
-      "marketShare": "7"
-    },
-    {
-      "name": "",
-      "technology": "n/a",
-      "purpose": "NFT, Exchange",
-      "tvl": 95480000,
-      "marketShare": "0.99%"
+      "name": "Loopring",
+      "technology": "ZK Rollup",
+      "purpose": "Tokens, NFTs, AMM",
+      "tvl": 90510000,
+      "marketShare": "1.08%"
     },
     {
       "name": "zkSync Lite",
       "technology": "ZK Rollup",
-      "purpose": "Stage 1",
-      "tvl": null,
-      "marketShare": "$93.96 M17.98%"
+      "purpose": "Payments, Tokens",
+      "tvl": 85520000,
+      "marketShare": "1.02%"
     },
     {
-      "name": "9",
-      "technology": "",
-      "purpose": "ZK Rollup",
-      "tvl": null,
-      "marketShare": "Universal"
+      "name": "Immutable X",
+      "technology": "Validium",
+      "purpose": "NFT, Exchange",
+      "tvl": 84730000,
+      "marketShare": "1.01%"
     },
     {
-      "name": "0.70%",
-      "technology": "Polygon zkEVM",
-      "purpose": "",
-      "tvl": null,
-      "marketShare": "Stage 0"
+      "name": "Starknet",
+      "technology": "ZK Rollup",
+      "purpose": "Universal",
+      "tvl": 62970000,
+      "marketShare": "0.75%"
     },
     {
-      "name": "$40.63 M18.94%",
-      "technology": "11",
-      "purpose": "ApeX",
-      "tvl": "",
-      "marketShare": "Validium"
+      "name": "Polygon zkEVM",
+      "technology": "ZK Rollup",
+      "purpose": "Universal",
+      "tvl": 36100000,
+      "marketShare": "0.43%"
     },
     {
-      "name": "Exchange",
-      "technology": "0.28%",
-      "purpose": "12",
-      "tvl": null,
-      "marketShare": ""
-    },
-    {
-      "name": "Stage 0",
-      "technology": "$22.70 M8.52%",
-      "purpose": "0.23%",
-      "tvl": 0,
-      "marketShare": "Sorare"
-    },
-    {
-      "name": "Validium",
-      "technology": "NFT, Exchange",
-      "purpose": "$21.71 M15.72%",
-      "tvl": 0,
-      "marketShare": "14"
-    },
-    {
-      "name": "",
-      "technology": "n/a",
+      "name": "ApeX",
+      "technology": "Validium",
       "purpose": "Exchange",
-      "tvl": 18340000,
-      "marketShare": "0.19%"
+      "tvl": 26550000,
+      "marketShare": "0.32%"
+    },
+    {
+      "name": "ZKSpace",
+      "technology": "ZK Rollup",
+      "purpose": "Tokens, NFTs, AMM",
+      "tvl": 21360000,
+      "marketShare": "0.25%"
+    },
+    {
+      "name": "Sorare",
+      "technology": "Validium",
+      "purpose": "NFT, Exchange",
+      "tvl": 20320000,
+      "marketShare": "0.24%"
+    },
+    {
+      "name": "rhino.fi",
+      "technology": "Validium",
+      "purpose": "Exchange",
+      "tvl": 17370000,
+      "marketShare": "0.21%"
     },
     {
       "name": "Arbitrum Nova",
       "technology": "Optimistic Chain",
-      "purpose": "n/a",
-      "tvl": null,
-      "marketShare": "$17.47 M11.59%"
+      "purpose": "Universal",
+      "tvl": 16170000.000000002,
+      "marketShare": "0.19%"
     },
     {
-      "name": "16",
-      "technology": "",
-      "purpose": "Optimistic Rollup",
-      "tvl": null,
-      "marketShare": "Universal"
+      "name": "Boba Network",
+      "technology": "Optimistic Rollup",
+      "purpose": "Universal",
+      "tvl": 9540000,
+      "marketShare": "0.11%"
     },
     {
-      "name": "0.10%",
-      "technology": "Aztec Connect",
-      "purpose": "",
-      "tvl": null,
-      "marketShare": "Stage 0"
+      "name": "Aztec Connect",
+      "technology": "ZK Rollup",
+      "purpose": "Private DeFi",
+      "tvl": 6300000,
+      "marketShare": "0.07%"
     },
     {
-      "name": "$6.49 M5.66%",
-      "technology": "18",
-      "purpose": "Aztec",
-      "tvl": "",
-      "marketShare": "ZK Rollup"
+      "name": "DeGate",
+      "technology": "ZK Rollup",
+      "purpose": "Exchange",
+      "tvl": 2640000,
+      "marketShare": "0.03%"
     },
     {
-      "name": "Private payments",
-      "technology": "0.03%",
-      "purpose": "19",
-      "tvl": null,
-      "marketShare": ""
+      "name": "Aztec",
+      "technology": "ZK Rollup",
+      "purpose": "Private payments",
+      "tvl": 2530000,
+      "marketShare": "0.03%"
     },
     {
-      "name": "Stage 2",
-      "technology": "$2.45 M1.37%",
-      "purpose": "0.03%",
-      "tvl": 0,
-      "marketShare": "Layer2.Finance"
+      "name": "Layer2.Finance",
+      "technology": "Optimistic Rollup",
+      "purpose": "DeFi aggregation",
+      "tvl": 168000,
+      "marketShare": "0.00%"
     },
     {
-      "name": "Optimistic Rollup",
-      "technology": "DeFi aggregation",
-      "purpose": "$168 K0.09%",
-      "tvl": 0,
-      "marketShare": "21"
-    },
-    {
-      "name": "",
-      "technology": "n/a",
+      "name": "Myria",
+      "technology": "Validium",
       "purpose": "NFT, Exchange",
-      "tvl": 100000,
+      "tvl": 92190,
       "marketShare": "0.00%"
     },
     {
       "name": "Canvas Connect",
       "technology": "Validium",
-      "purpose": "n/a",
-      "tvl": null,
-      "marketShare": "$9.45 K12.70%"
+      "purpose": "Privacy, Finance",
+      "tvl": 8730,
+      "marketShare": "0.00%"
     },
     {
-      "name": "23",
-      "technology": "",
-      "purpose": "Optimistic Rollup",
-      "tvl": null,
-      "marketShare": "Payments"
-    },
-    {
-      "name": "0.00%"
+      "name": "Fuel v1",
+      "technology": "Optimistic Rollup",
+      "purpose": "Payments",
+      "tvl": 4512,
+      "marketShare": "0.00%"
     }
   ],
   "bridgesByTvl": [
