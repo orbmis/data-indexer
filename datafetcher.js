@@ -24,10 +24,25 @@ class DataFetcher {
     let blockBuilderData
 
     try {
-      log('Querying Relayscan . . .')
+      log('Querying Relayscan (builder profit) . . .')
 
       blockBuilderData = await this.getBlockBuilderData()
     } catch(e) {
+      log(e.message)
+    }
+
+    await sleep(1000)
+
+    let blocksByRelays, blocksByBuilder
+
+    try {
+      log('Querying relayscan (overview) . . .')
+
+      const result = await this.getBlockProposedByBuilderAndRelay()
+
+      blocksByRelays = result.blocksByRelays
+      blocksByBuilder = result.blocksByBuilder
+    } catch (e) {
       log(e.message)
     }
 
@@ -105,21 +120,6 @@ class DataFetcher {
       log(e.message)
     }
 
-    /*
-    let blocksByRelays, blocksByBuilder
-
-    try {
-      log('Querying mevboost.org . . .')
-
-      const result = await this.getBlockProposedByBuilder()
-
-      blocksByRelays = result.blocksByRelays
-      blocksByBuilder = result.blocksByBuilder
-    } catch (e) {
-      log(e.message)
-    }
-    */
-
     let messariData, nativeAssetsByAddress, exchangeBySupply
 
     try {
@@ -162,8 +162,8 @@ class DataFetcher {
       consensusNodesByClient,
       amountStakedByPool,
       blockBuilderData,
-      // blocksByRelays,
-      // blocksByBuilder,
+      blocksByRelays,
+      blocksByBuilder,
       nativeAssetsByAddress,
       exchangeBySupply,
       activityByBundler,
@@ -181,7 +181,6 @@ class DataFetcher {
     return data
   }
 
-  // TODO: https://www.relayscan.io/overview/md
   async getBlockBuilderData() {
     const res = await axios.get('https://www.relayscan.io/builder-profit/md')
     const data = res && res.data
@@ -199,7 +198,7 @@ class DataFetcher {
     return result
   }
 
-  async getBlockProposedByBuilder() {
+  async getBlockProposedByBuilder_defunkt() {
     const builderMapping = require('./builder-mapping.json')
 
     const builders = builderMapping.reduce((acc, cur) => ({ ...acc, [cur.address]: cur.name }), {})
@@ -211,6 +210,31 @@ class DataFetcher {
     const blocksByBuilder = res.data.builders.map((b) => ({
       ...b,
       name: builders[b.pubkey] || b.pubkey,
+    }))
+
+    return { blocksByRelays, blocksByBuilder }
+  }
+
+  async getBlockProposedByBuilderAndRelay() {
+    const res = await axios.get('https://www.relayscan.io/overview/md')
+    const data = res && res.data
+    const splitData = data.split('```')
+    const relayData = splitData[1]
+    const builderData = splitData[3]
+
+    const parsedRelayData = relayData.split('\n').slice(5, -1).map(n => n.split('|').slice(1, -1).map(i => i.trim()))
+    const parsedBuilderData = builderData.split('\n').slice(5, -1).map(n => n.split('|').slice(1, -1).map(i => i.trim()))
+
+    const blocksByRelays = parsedRelayData.map(([relay, payloads, share]) => ({
+      relay,
+      payloads: Number(payloads.replaceAll(',', '')),
+      share: Number(share),
+    }))
+
+    const blocksByBuilder = parsedRelayData.map(([builder, blocks, share]) => ({
+      builder,
+      blocks: Number(blocks.replaceAll(',', '')),
+      share: Number(share),
     }))
 
     return { blocksByRelays, blocksByBuilder }
