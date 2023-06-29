@@ -105,6 +105,7 @@ class DataFetcher {
       log(e.message)
     }
 
+    /*
     let blocksByRelays, blocksByBuilder
 
     try {
@@ -117,6 +118,7 @@ class DataFetcher {
     } catch (e) {
       log(e.message)
     }
+    */
 
     let messariData, nativeAssetsByAddress, exchangeBySupply
 
@@ -160,8 +162,8 @@ class DataFetcher {
       consensusNodesByClient,
       amountStakedByPool,
       blockBuilderData,
-      blocksByRelays,
-      blocksByBuilder,
+      // blocksByRelays,
+      // blocksByBuilder,
       nativeAssetsByAddress,
       exchangeBySupply,
       activityByBundler,
@@ -324,7 +326,7 @@ class DataFetcher {
 
     let result = []
 
-    const chunkSize = 7
+    const chunkSize = 8
 
     for (let i = 0; i < cellTexts.length; i += chunkSize) {
       result.push(cellTexts.slice(i, i + chunkSize))
@@ -334,8 +336,8 @@ class DataFetcher {
       name: r[1],
       technology: r[3],
       purpose: r[4],
-      tvl: r[5],
-      marketShare: r[6],
+      tvl: r[6],
+      marketShare: r[7],
     }))
 
     const formatted = data.map(d => {
