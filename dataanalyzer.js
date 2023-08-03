@@ -57,6 +57,8 @@ class DataAnalyzer {
 
       const date = file.replace('data_', '').replace('.json', '')
 
+      console.log('DATE:', date)
+
       // get corresponding data from alt dataset
       const dateObject = new Date(date)
       dateObject.setDate(dateObject.getDate() - 4)
@@ -194,6 +196,7 @@ class DataAnalyzer {
     fs.writeFileSync('./reports/gini.csv', GCSV);
     fs.writeFileSync('./reports/HHI.csv', HHICSV);
     fs.writeFileSync('./reports/shannon.csv', SCSV);
+    fs.writeFileSync('./reports/master.csv', masterIndex);
   }
 
   cacheData(data) {
