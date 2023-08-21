@@ -1,0 +1,2257 @@
+{
+  "executionNodesByCountry": [
+    {
+      "key": "United States",
+      "value": 2921
+    },
+    {
+      "key": "Germany",
+      "value": 782
+    },
+    {
+      "key": "Singapore",
+      "value": 278
+    },
+    {
+      "key": "United Kingdom",
+      "value": 262
+    },
+    {
+      "key": "Canada",
+      "value": 200
+    },
+    {
+      "key": "France",
+      "value": 184
+    },
+    {
+      "key": "Netherlands",
+      "value": 178
+    },
+    {
+      "key": "Japan",
+      "value": 177
+    },
+    {
+      "key": "South Korea",
+      "value": 164
+    },
+    {
+      "key": "Ireland",
+      "value": 154
+    },
+    {
+      "key": "Australia",
+      "value": 151
+    },
+    {
+      "key": "Finland",
+      "value": 111
+    },
+    {
+      "key": "Switzerland",
+      "value": 108
+    },
+    {
+      "key": "Hong Kong",
+      "value": 96
+    },
+    {
+      "key": "Austria",
+      "value": 66
+    },
+    {
+      "key": "Russia",
+      "value": 64
+    },
+    {
+      "key": "Spain",
+      "value": 50
+    },
+    {
+      "key": "Sweden",
+      "value": 50
+    },
+    {
+      "key": "Belgium",
+      "value": 43
+    },
+    {
+      "key": "Taiwan",
+      "value": 39
+    },
+    {
+      "key": "Poland",
+      "value": 37
+    },
+    {
+      "key": "Italy",
+      "value": 34
+    },
+    {
+      "key": "Norway",
+      "value": 26
+    },
+    {
+      "key": "Thailand",
+      "value": 25
+    },
+    {
+      "key": "India",
+      "value": 25
+    },
+    {
+      "key": "Czechia",
+      "value": 24
+    },
+    {
+      "key": "Brazil",
+      "value": 24
+    },
+    {
+      "key": "Portugal",
+      "value": 21
+    },
+    {
+      "key": "Lithuania",
+      "value": 20
+    },
+    {
+      "key": "Croatia",
+      "value": 20
+    },
+    {
+      "key": "Ukraine",
+      "value": 20
+    },
+    {
+      "key": "South Africa",
+      "value": 18
+    },
+    {
+      "key": "New Zealand",
+      "value": 17
+    },
+    {
+      "key": "Israel",
+      "value": 16
+    },
+    {
+      "key": "Hungary",
+      "value": 15
+    },
+    {
+      "key": "Slovenia",
+      "value": 14
+    },
+    {
+      "key": "Romania",
+      "value": 13
+    },
+    {
+      "key": "Bulgaria",
+      "value": 12
+    },
+    {
+      "key": "Estonia",
+      "value": 11
+    },
+    {
+      "key": "Denmark",
+      "value": 11
+    },
+    {
+      "key": "Moldova",
+      "value": 10
+    },
+    {
+      "key": "Malaysia",
+      "value": 10
+    },
+    {
+      "key": "Vietnam",
+      "value": 10
+    },
+    {
+      "key": "Mexico",
+      "value": 10
+    },
+    {
+      "key": "China",
+      "value": 9
+    },
+    {
+      "key": "United Arab Emirates",
+      "value": 9
+    },
+    {
+      "key": "Argentina",
+      "value": 9
+    },
+    {
+      "key": "Slovakia",
+      "value": 7
+    },
+    {
+      "key": "Latvia",
+      "value": 7
+    },
+    {
+      "key": "Turkey",
+      "value": 7
+    },
+    {
+      "key": "Morocco",
+      "value": 6
+    },
+    {
+      "key": "Indonesia",
+      "value": 6
+    },
+    {
+      "key": "Malta",
+      "value": 4
+    },
+    {
+      "key": "Serbia",
+      "value": 4
+    },
+    {
+      "key": "Puerto Rico",
+      "value": 3
+    },
+    {
+      "key": "Greece",
+      "value": 3
+    },
+    {
+      "key": "Cyprus",
+      "value": 3
+    },
+    {
+      "key": "Mauritius",
+      "value": 3
+    },
+    {
+      "key": "Luxembourg",
+      "value": 3
+    },
+    {
+      "key": "Seychelles",
+      "value": 2
+    },
+    {
+      "key": "Chile",
+      "value": 2
+    },
+    {
+      "key": "Réunion",
+      "value": 2
+    },
+    {
+      "key": "Peru",
+      "value": 2
+    },
+    {
+      "key": "Kenya",
+      "value": 1
+    },
+    {
+      "key": "Cambodia",
+      "value": 1
+    },
+    {
+      "key": "Albania",
+      "value": 1
+    },
+    {
+      "key": "Iceland",
+      "value": 1
+    },
+    {
+      "key": "Uruguay",
+      "value": 1
+    },
+    {
+      "key": "Oman",
+      "value": 1
+    },
+    {
+      "key": "Colombia",
+      "value": 1
+    },
+    {
+      "key": "Tunisia",
+      "value": 1
+    },
+    {
+      "key": "Kazakhstan",
+      "value": 1
+    },
+    {
+      "key": "Macao",
+      "value": 1
+    },
+    {
+      "key": "Georgia",
+      "value": 1
+    },
+    {
+      "key": "Montenegro",
+      "value": 1
+    },
+    {
+      "key": "Monaco",
+      "value": 1
+    }
+  ],
+  "executionNodesByClientBase": [
+    {
+      "key": "geth",
+      "value": 3842
+    },
+    {
+      "key": "nethermind",
+      "value": 1277
+    },
+    {
+      "key": "erigon",
+      "value": 817
+    },
+    {
+      "key": "besu",
+      "value": 671
+    },
+    {
+      "key": "reth",
+      "value": 10
+    },
+    {
+      "key": "teth",
+      "value": 3
+    },
+    {
+      "key": "openethereum",
+      "value": 2
+    },
+    {
+      "key": "coregeth",
+      "value": 1
+    }
+  ],
+  "consensusNodesByCountry": [
+    {
+      "key": "Andorra",
+      "value": 4
+    },
+    {
+      "key": "United Arab Emirates",
+      "value": 12
+    },
+    {
+      "key": "Albania",
+      "value": 1
+    },
+    {
+      "key": "Argentina",
+      "value": 13
+    },
+    {
+      "key": "Austria",
+      "value": 96
+    },
+    {
+      "key": "Australia",
+      "value": 231
+    },
+    {
+      "key": "Azerbaijan",
+      "value": 2
+    },
+    {
+      "key": "Bosnia and Herzegovina",
+      "value": 2
+    },
+    {
+      "key": "Belgium",
+      "value": 68
+    },
+    {
+      "key": "Bulgaria",
+      "value": 30
+    },
+    {
+      "key": "Brazil",
+      "value": 23
+    },
+    {
+      "key": "Belarus",
+      "value": 1
+    },
+    {
+      "key": "Canada",
+      "value": 350
+    },
+    {
+      "key": "Switzerland",
+      "value": 197
+    },
+    {
+      "key": "Chile",
+      "value": 7
+    },
+    {
+      "key": "China",
+      "value": 96
+    },
+    {
+      "key": "Colombia",
+      "value": 2
+    },
+    {
+      "key": "Costa Rica",
+      "value": 3
+    },
+    {
+      "key": "Cyprus",
+      "value": 1
+    },
+    {
+      "key": "Czechia",
+      "value": 38
+    },
+    {
+      "key": "Germany",
+      "value": 1889
+    },
+    {
+      "key": "Denmark",
+      "value": 24
+    },
+    {
+      "key": "Dominican Republic",
+      "value": 1
+    },
+    {
+      "key": "Ecuador",
+      "value": 1
+    },
+    {
+      "key": "Estonia",
+      "value": 13
+    },
+    {
+      "key": "Spain",
+      "value": 86
+    },
+    {
+      "key": "Finland",
+      "value": 558
+    },
+    {
+      "key": "France",
+      "value": 398
+    },
+    {
+      "key": "Great Britain",
+      "value": 440
+    },
+    {
+      "key": "Georgia",
+      "value": 1
+    },
+    {
+      "key": "Greece",
+      "value": 11
+    },
+    {
+      "key": "Hong Kong",
+      "value": 152
+    },
+    {
+      "key": "Croatia",
+      "value": 13
+    },
+    {
+      "key": "Hungary",
+      "value": 15
+    },
+    {
+      "key": "Indonesia",
+      "value": 12
+    },
+    {
+      "key": "Ireland",
+      "value": 190
+    },
+    {
+      "key": "Israel",
+      "value": 21
+    },
+    {
+      "key": "India",
+      "value": 37
+    },
+    {
+      "key": "Iran",
+      "value": 4
+    },
+    {
+      "key": "Iceland",
+      "value": 3
+    },
+    {
+      "key": "Italy",
+      "value": 45
+    },
+    {
+      "key": "Jersey",
+      "value": 1
+    },
+    {
+      "key": "Japan",
+      "value": 284
+    },
+    {
+      "key": "Kenya",
+      "value": 1
+    },
+    {
+      "key": "Cambodia",
+      "value": 1
+    },
+    {
+      "key": "Korea (the Republic of)",
+      "value": 212
+    },
+    {
+      "key": "Cayman Islands",
+      "value": 1
+    },
+    {
+      "key": "Kazakhstan",
+      "value": 4
+    },
+    {
+      "key": "Lithuania",
+      "value": 35
+    },
+    {
+      "key": "Luxembourg",
+      "value": 8
+    },
+    {
+      "key": "Latvia",
+      "value": 12
+    },
+    {
+      "key": "Morocco",
+      "value": 2
+    },
+    {
+      "key": "Monaco",
+      "value": 2
+    },
+    {
+      "key": "Moldova",
+      "value": 42
+    },
+    {
+      "key": "Montenegro",
+      "value": 4
+    },
+    {
+      "key": "Macao",
+      "value": 3
+    },
+    {
+      "key": "Malta",
+      "value": 8
+    },
+    {
+      "key": "Mauritius",
+      "value": 1
+    },
+    {
+      "key": "Mexico",
+      "value": 13
+    },
+    {
+      "key": "Malaysia",
+      "value": 13
+    },
+    {
+      "key": "Nigeria",
+      "value": 1
+    },
+    {
+      "key": "Netherlands",
+      "value": 353
+    },
+    {
+      "key": "Norway",
+      "value": 31
+    },
+    {
+      "key": "New Zealand",
+      "value": 31
+    },
+    {
+      "key": "Oman",
+      "value": 1
+    },
+    {
+      "key": "Panama",
+      "value": 1
+    },
+    {
+      "key": "Peru",
+      "value": 2
+    },
+    {
+      "key": "French Polynesia",
+      "value": 1
+    },
+    {
+      "key": "Philippines",
+      "value": 1
+    },
+    {
+      "key": "Poland",
+      "value": 80
+    },
+    {
+      "key": "Puerto Rico",
+      "value": 5
+    },
+    {
+      "key": "Portugal",
+      "value": 46
+    },
+    {
+      "key": "Qatar",
+      "value": 1
+    },
+    {
+      "key": "Réunion",
+      "value": 1
+    },
+    {
+      "key": "Romania",
+      "value": 25
+    },
+    {
+      "key": "Serbia",
+      "value": 11
+    },
+    {
+      "key": "Russian Federation",
+      "value": 120
+    },
+    {
+      "key": "Sweden",
+      "value": 79
+    },
+    {
+      "key": "Singapore",
+      "value": 382
+    },
+    {
+      "key": "Slovenia",
+      "value": 27
+    },
+    {
+      "key": "Slovakia",
+      "value": 12
+    },
+    {
+      "key": "El Salvador",
+      "value": 1
+    },
+    {
+      "key": "Thailand",
+      "value": 30
+    },
+    {
+      "key": "Tunisia",
+      "value": 2
+    },
+    {
+      "key": "Türkiye",
+      "value": 26
+    },
+    {
+      "key": "Taiwan",
+      "value": 50
+    },
+    {
+      "key": "Ukraine",
+      "value": 20
+    },
+    {
+      "key": "Uganda",
+      "value": 1
+    },
+    {
+      "key": "United States of America",
+      "value": 3681
+    },
+    {
+      "key": "Uruguay",
+      "value": 1
+    },
+    {
+      "key": "Viet Nam",
+      "value": 16
+    },
+    {
+      "key": "South Africa",
+      "value": 19
+    }
+  ],
+  "consensusNodesByClient": [
+    {
+      "key": "erigon",
+      "value": 54
+    },
+    {
+      "key": "grandine",
+      "value": 231
+    },
+    {
+      "key": "lighthouse",
+      "value": 3963
+    },
+    {
+      "key": "lodestar",
+      "value": 190
+    },
+    {
+      "key": "nimbus",
+      "value": 739
+    },
+    {
+      "key": "prysm",
+      "value": 4123
+    },
+    {
+      "key": "teku",
+      "value": 1482
+    },
+    {
+      "key": "unknown",
+      "value": 11
+    }
+  ],
+  "amountStakedByPool": [
+    {
+      "amount_staked": 8162501.762196283,
+      "entity": "Lido",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.3183714263803195,
+      "validators": 255078.18006863384
+    },
+    {
+      "amount_staked": 2306400.616518135,
+      "entity": "Coinbase",
+      "entity_category": "CEX",
+      "marketshare": 0.089959190880193,
+      "validators": 72075.01926619172
+    },
+    {
+      "amount_staked": 1242336.17906345,
+      "entity": "Binance",
+      "entity_category": "CEX",
+      "marketshare": 0.04845626413266256,
+      "validators": 38823.005595732815
+    },
+    {
+      "amount_staked": 1061472,
+      "entity": "Figment",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.041401810933495035,
+      "validators": 33171
+    },
+    {
+      "amount_staked": 784224.5675148009,
+      "entity": "Kraken",
+      "entity_category": "CEX",
+      "marketshare": 0.03058801105789856,
+      "validators": 24507.01773483753
+    },
+    {
+      "amount_staked": 775583.008224067,
+      "entity": "Rocket Pool",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.030250954400798277,
+      "validators": 24236.969007002095
+    },
+    {
+      "amount_staked": 665508.629066563,
+      "entity": "Staked.us",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.025957597030560692,
+      "validators": 20797.144658330093
+    },
+    {
+      "amount_staked": 647168,
+      "entity": "Kiln",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.025242236420940086,
+      "validators": 20224
+    },
+    {
+      "amount_staked": 439200,
+      "entity": "Bitcoin Suisse",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.017130621779934862,
+      "validators": 13725
+    },
+    {
+      "amount_staked": 363873,
+      "entity": "OKX",
+      "entity_category": "CEX",
+      "marketshare": 0.01419255632725464,
+      "validators": 11371.03125
+    },
+    {
+      "amount_staked": 309248.146576356,
+      "entity": "stakefish",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.012061960462535094,
+      "validators": 9664.004580511126
+    },
+    {
+      "amount_staked": 202144,
+      "entity": "Frax Finance",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.007884454483340513,
+      "validators": 6317
+    },
+    {
+      "amount_staked": 158176,
+      "entity": "Celsius",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.006169520106245393,
+      "validators": 4943
+    },
+    {
+      "amount_staked": 138656,
+      "entity": "P2P.org",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.005408159138248289,
+      "validators": 4333
+    },
+    {
+      "amount_staked": 84608,
+      "entity": "Stakewise",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0033000629498104025,
+      "validators": 2644
+    },
+    {
+      "amount_staked": 63938.929778076,
+      "entity": "MyEtherWallet",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.0024938834768716634,
+      "validators": 1998.091555564875
+    },
+    {
+      "amount_staked": 62688,
+      "entity": "Bitstamp",
+      "entity_category": "CEX",
+      "marketshare": 0.0024450920267316866,
+      "validators": 1959
+    },
+    {
+      "amount_staked": 62208,
+      "entity": "StakeHound",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.002426370035715364,
+      "validators": 1944
+    },
+    {
+      "amount_staked": 46816,
+      "entity": "Huobi",
+      "entity_category": "CEX",
+      "marketshare": 0.0018260181904586304,
+      "validators": 1463
+    },
+    {
+      "amount_staked": 45856,
+      "entity": "Swell",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.001788574208425986,
+      "validators": 1433
+    },
+    {
+      "amount_staked": 38758.464678921,
+      "entity": "Stkr (Ankr)",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.001511740890677505,
+      "validators": 1211.2020212162813
+    },
+    {
+      "amount_staked": 34656,
+      "entity": "imToken",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.0013517277513784667,
+      "validators": 1083
+    },
+    {
+      "amount_staked": 26464,
+      "entity": "KuCoin",
+      "entity_category": "CEX",
+      "marketshare": 0.001032205771366567,
+      "validators": 827
+    },
+    {
+      "amount_staked": 23360,
+      "entity": "Cake DeFi",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.000911136896127683,
+      "validators": 730
+    },
+    {
+      "amount_staked": 19906.937372528002,
+      "entity": "Bitfinex",
+      "entity_category": "CEX",
+      "marketshare": 0.0007764531305228312,
+      "validators": 622.0917928915001
+    },
+    {
+      "amount_staked": 16000,
+      "entity": "WEX Exchange",
+      "entity_category": "CEX",
+      "marketshare": 0.0006240663672107418,
+      "validators": 500
+    },
+    {
+      "amount_staked": 13216,
+      "entity": "Harbour",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0005154788193160728,
+      "validators": 413
+    },
+    {
+      "amount_staked": 12800,
+      "entity": "Poloniex",
+      "entity_category": "CEX",
+      "marketshare": 0.0004992530937685934,
+      "validators": 400
+    },
+    {
+      "amount_staked": 11616,
+      "entity": "Bitpie",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.00045307218259499853,
+      "validators": 363
+    },
+    {
+      "amount_staked": 8864,
+      "entity": "StaFi",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.00034573276743475096,
+      "validators": 277
+    },
+    {
+      "amount_staked": 8608,
+      "entity": "StakeWise Solos",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.0003357477055593791,
+      "validators": 269
+    },
+    {
+      "amount_staked": 7232,
+      "entity": "SharedStake",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0002820779979792553,
+      "validators": 226
+    },
+    {
+      "amount_staked": 6976,
+      "entity": "Vitalik Buterin",
+      "entity_category": "Independent Staker",
+      "marketshare": 0.0002720929361038834,
+      "validators": 218
+    },
+    {
+      "amount_staked": 6592,
+      "entity": "cryptostake.com",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.00025711534329082565,
+      "validators": 206
+    },
+    {
+      "amount_staked": 6336,
+      "entity": "Everstake Pool",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.00024713028141545374,
+      "validators": 198
+    },
+    {
+      "amount_staked": 5280,
+      "entity": "Node DAO",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0002059419011795448,
+      "validators": 165
+    },
+    {
+      "amount_staked": 4928,
+      "entity": "KingHash",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.00019221244110090847,
+      "validators": 154
+    },
+    {
+      "amount_staked": 4608,
+      "entity": "Teku Team",
+      "entity_category": "Independent Staker",
+      "marketshare": 0.00017973111375669363,
+      "validators": 144
+    },
+    {
+      "amount_staked": 4608,
+      "entity": "Prysm Team",
+      "entity_category": "Independent Staker",
+      "marketshare": 0.00017973111375669363,
+      "validators": 144
+    },
+    {
+      "amount_staked": 4608,
+      "entity": "Nimbus Team",
+      "entity_category": "Independent Staker",
+      "marketshare": 0.00017973111375669363,
+      "validators": 144
+    },
+    {
+      "amount_staked": 4608,
+      "entity": "Sigma Prime Team",
+      "entity_category": "Independent Staker",
+      "marketshare": 0.00017973111375669363,
+      "validators": 144
+    },
+    {
+      "amount_staked": 3584,
+      "entity": "TokenPocket",
+      "entity_category": "Others",
+      "marketshare": 0.00013979086625520617,
+      "validators": 112
+    },
+    {
+      "amount_staked": 3232,
+      "entity": "Bifrost",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.00012606140617656985,
+      "validators": 101
+    },
+    {
+      "amount_staked": 2464,
+      "entity": "RockX",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.00009610622055045423,
+      "validators": 77
+    },
+    {
+      "amount_staked": 2304,
+      "entity": "MintDice.com",
+      "entity_category": "Others",
+      "marketshare": 0.00008986555687834682,
+      "validators": 72
+    },
+    {
+      "amount_staked": 992,
+      "entity": "Blox Staking",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.00003869211476706599,
+      "validators": 31
+    },
+    {
+      "amount_staked": 960,
+      "entity": "staked.finance",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.00003744398203264451,
+      "validators": 30
+    },
+    {
+      "amount_staked": 480,
+      "entity": "neukind.com",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.000018721991016322254,
+      "validators": 15
+    },
+    {
+      "amount_staked": 416,
+      "entity": "Ethereum Hive",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.000016225725547479286,
+      "validators": 13
+    },
+    {
+      "amount_staked": 320,
+      "entity": "Tetranode",
+      "entity_category": "Independent Staker",
+      "marketshare": 0.000012481327344214836,
+      "validators": 10
+    },
+    {
+      "amount_staked": 288,
+      "entity": "stereum.net",
+      "entity_category": "Others",
+      "marketshare": 0.000011233194609793352,
+      "validators": 9
+    },
+    {
+      "amount_staked": 96,
+      "entity": "SenseiNode",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.000003744398203264451,
+      "validators": 3
+    },
+    {
+      "amount_staked": 64,
+      "entity": "MyColdWallet",
+      "entity_category": "Others",
+      "marketshare": 0.0000024962654688429674,
+      "validators": 2
+    },
+    {
+      "amount_staked": 64,
+      "entity": "Blockdaemon.com",
+      "entity_category": "Others",
+      "marketshare": 0.0000024962654688429674,
+      "validators": 2
+    },
+    {
+      "amount_staked": 32,
+      "entity": "WeekInEth",
+      "entity_category": "Others",
+      "marketshare": 0.0000012481327344214837,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "boxfish.studio",
+      "entity_category": "Others",
+      "marketshare": 0.0000012481327344214837,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "Eden Network",
+      "entity_category": "Others",
+      "marketshare": 0.0000012481327344214837,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "FOAM Signal",
+      "entity_category": "Others",
+      "marketshare": 0.0000012481327344214837,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "ssv.network",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0.0000012481327344214837,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "Ethereum on ARM",
+      "entity_category": "Others",
+      "marketshare": 0.0000012481327344214837,
+      "validators": 1
+    },
+    {
+      "amount_staked": 32,
+      "entity": "Unagii",
+      "entity_category": "Staking Pools",
+      "marketshare": 0.0000012481327344214837,
+      "validators": 1
+    },
+    {
+      "amount_staked": 0.13112914600060321,
+      "entity": "Gate.io",
+      "entity_category": "CEX",
+      "marketshare": 5.114580611252714e-9,
+      "validators": 0.0040977858125188504
+    },
+    {
+      "amount_staked": 0,
+      "entity": "Tranchess",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "PieDAO",
+      "entity_category": "Staking Pools",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "CREAM",
+      "entity_category": "Liquid Staking",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "Eth2Stake",
+      "entity_category": "Staking Pools",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "Consensus Cell Network",
+      "entity_category": "Others",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "TideBit",
+      "entity_category": "Others",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 0,
+      "entity": "Gemini",
+      "entity_category": "CEX",
+      "marketshare": 0,
+      "validators": 0
+    },
+    {
+      "amount_staked": 7730178.438169809,
+      "entity": "Unidentified",
+      "entity_category": "Unidentified",
+      "marketshare": 0.3015090234874649,
+      "validators": 241568.07619280653
+    }
+  ],
+  "blockBuilderData": [
+    {
+      "builderExtraData": "beaverbuild.org",
+      "blocks": null,
+      "blocksProfit": null,
+      "blocksSubsidy": 0,
+      "profitTotal": 40.3324,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "BuildAI (https://buildai.net)",
+      "blocks": 63,
+      "blocksProfit": 31,
+      "blocksSubsidy": 32,
+      "profitTotal": 26.5735,
+      "subsidiesTotal": 0.0206
+    },
+    {
+      "builderExtraData": "rsync-builder.xyz",
+      "blocks": null,
+      "blocksProfit": 231,
+      "blocksSubsidy": 538,
+      "profitTotal": 5.6751,
+      "subsidiesTotal": 0.1729
+    },
+    {
+      "builderExtraData": "builder0x69",
+      "blocks": 445,
+      "blocksProfit": 128,
+      "blocksSubsidy": 317,
+      "profitTotal": 1.227,
+      "subsidiesTotal": 0.0543
+    },
+    {
+      "builderExtraData": "Titan (titanbuilder.xyz)",
+      "blocks": null,
+      "blocksProfit": 137,
+      "blocksSubsidy": 133,
+      "profitTotal": 0.8112,
+      "subsidiesTotal": 0.0415
+    },
+    {
+      "builderExtraData": "",
+      "blocks": 18,
+      "blocksProfit": 16,
+      "blocksSubsidy": 0,
+      "profitTotal": 0.5874,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "geth go1.20.7 linux",
+      "blocks": 13,
+      "blocksProfit": 13,
+      "blocksSubsidy": 0,
+      "profitTotal": 0.4665,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "payload.de",
+      "blocks": 6,
+      "blocksProfit": 5,
+      "blocksSubsidy": 1,
+      "profitTotal": 0.3037,
+      "subsidiesTotal": 0.0008
+    },
+    {
+      "builderExtraData": "https://eth-builder.com",
+      "blocks": 21,
+      "blocksProfit": 11,
+      "blocksSubsidy": 10,
+      "profitTotal": 0.1117,
+      "subsidiesTotal": 0.0152
+    },
+    {
+      "builderExtraData": "nfactorial.xyz",
+      "blocks": 6,
+      "blocksProfit": 6,
+      "blocksSubsidy": 0,
+      "profitTotal": 0.06,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "Gambit Labs (https://gmbit.co)",
+      "blocks": 5,
+      "blocksProfit": 5,
+      "blocksSubsidy": 0,
+      "profitTotal": 0.0396,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "f1b.io",
+      "blocks": 89,
+      "blocksProfit": 11,
+      "blocksSubsidy": 78,
+      "profitTotal": 0.0058,
+      "subsidiesTotal": 0.0394
+    },
+    {
+      "builderExtraData": "I can haz block?",
+      "blocks": 1,
+      "blocksProfit": 1,
+      "blocksSubsidy": 0,
+      "profitTotal": 0.0004,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "Illuminate Dmocratize Dstribute",
+      "blocks": 670,
+      "blocksProfit": 6,
+      "blocksSubsidy": 0,
+      "profitTotal": 0.0002,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "rpc.tbuilder.xyz",
+      "blocks": 1,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "Powered by bloXroute",
+      "blocks": 92,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "uwu.builders",
+      "blocks": 4,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "https://edennetwork.io",
+      "blocks": 2,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "bobTheBuilder",
+      "blocks": 8,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "It's Free Real Estate",
+      "blocks": 2,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "Illuminate Dmocrtz Dstrib Prtct",
+      "blocks": 4,
+      "blocksProfit": 1,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "red ocean surfer",
+      "blocks": 4,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "Manifold: coinbase",
+      "blocks": 2,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "lightspeedbuilder.info",
+      "blocks": 9,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "antbuilder",
+      "blocks": 2,
+      "blocksProfit": 0,
+      "blocksSubsidy": 0,
+      "profitTotal": 0,
+      "subsidiesTotal": 0
+    },
+    {
+      "builderExtraData": "boba-builder.com",
+      "blocks": 11,
+      "blocksProfit": 6,
+      "blocksSubsidy": 5,
+      "profitTotal": -0.0063,
+      "subsidiesTotal": 0.0069
+    },
+    {
+      "builderExtraData": "Made on the moon by Blocknative",
+      "blocks": 213,
+      "blocksProfit": 16,
+      "blocksSubsidy": 189,
+      "profitTotal": -0.108,
+      "subsidiesTotal": 0.1363
+    }
+  ],
+  "blocksByRelays": [
+    {
+      "relay": "boost-relay.flashbots.net",
+      "payloads": 2035,
+      "share": 16.34
+    },
+    {
+      "relay": "bloxroute.regulated.blxrbdn.com",
+      "payloads": 1772,
+      "share": 14.23
+    },
+    {
+      "relay": "agnostic-relay.net",
+      "payloads": 1741,
+      "share": 13.98
+    },
+    {
+      "relay": "builder-relay-mainnet.blocknative.com",
+      "payloads": 1210,
+      "share": 9.72
+    },
+    {
+      "relay": "aestus.live",
+      "payloads": 239,
+      "share": 1.92
+    },
+    {
+      "relay": "relay.edennetwork.io",
+      "payloads": 96,
+      "share": 0.77
+    },
+    {
+      "relay": "mainnet-relay.securerpc.com",
+      "payloads": 6,
+      "share": 0.05
+    },
+    {
+      "relay": "bloxroute.ethical.blxrbdn.com",
+      "payloads": 1,
+      "share": 0.01
+    }
+  ],
+  "blocksByBuilder": [
+    {
+      "builder": "boost-relay.flashbots.net",
+      "blocks": 2035,
+      "share": 16.34
+    },
+    {
+      "builder": "bloxroute.regulated.blxrbdn.com",
+      "blocks": 1772,
+      "share": 14.23
+    },
+    {
+      "builder": "agnostic-relay.net",
+      "blocks": 1741,
+      "share": 13.98
+    },
+    {
+      "builder": "builder-relay-mainnet.blocknative.com",
+      "blocks": 1210,
+      "share": 9.72
+    },
+    {
+      "builder": "aestus.live",
+      "blocks": 239,
+      "share": 1.92
+    },
+    {
+      "builder": "relay.edennetwork.io",
+      "blocks": 96,
+      "share": 0.77
+    },
+    {
+      "builder": "mainnet-relay.securerpc.com",
+      "blocks": 6,
+      "share": 0.05
+    },
+    {
+      "builder": "bloxroute.ethical.blxrbdn.com",
+      "blocks": 1,
+      "share": 0.01
+    }
+  ],
+  "nativeAssetsByAddress": {
+    "above_0_001": 51506140,
+    "above_0_01": 24679486,
+    "above_0_1": 5095704,
+    "above_1": 1752380,
+    "above_10": 354641,
+    "above_100": 47734,
+    "above_1000": 6625,
+    "above_10000": 1186,
+    "above_100000": 113,
+    "above_1000000": 7
+  },
+  "exchangeBySupply": {
+    "binance": 3949682.0613514627,
+    "bitfinex": 2276347.366089598,
+    "bitmex": null,
+    "bitstamp": 53842.17894574023,
+    "bittrex": 64928.478096684004,
+    "gemini": 472245.69536666526,
+    "huobi": 5891.431860817786,
+    "kraken": 1657623.1534958514,
+    "poloniex": 8424.946713543908
+  },
+  "activityByBundler": [
+    {
+      "bundler": "0x25df024637d4e56c1ae9563987bf3e92c9f534c0",
+      "numberTransactions": 24
+    },
+    {
+      "bundler": "0xcd87158ea795d9b9a742328aeac1d9ae474dd0d3",
+      "numberTransactions": 15
+    }
+  ],
+  "stablecoinsByTvl": [
+    {
+      "name": "Tether",
+      "symbol": "USDT",
+      "TVL": 35550720307
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "TVL": 20969621957
+    },
+    {
+      "name": "TerraClassicUSD",
+      "symbol": "USTC",
+      "TVL": 392000261
+    },
+    {
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "TVL": 2030277633
+    },
+    {
+      "name": "Dai",
+      "symbol": "DAI",
+      "TVL": 3489249008
+    },
+    {
+      "name": "Frax",
+      "symbol": "FRAX",
+      "TVL": 744368261
+    },
+    {
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "TVL": 696366361
+    },
+    {
+      "name": "Liquity USD",
+      "symbol": "LUSD",
+      "TVL": 280903186
+    },
+    {
+      "name": "Fei USD",
+      "symbol": "FEI",
+      "TVL": 35096186
+    },
+    {
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "TVL": 43072678
+    },
+    {
+      "name": "Pax Dollar",
+      "symbol": "USDP",
+      "TVL": 504671940
+    },
+    {
+      "name": "Neutrino USD",
+      "symbol": "USDN",
+      "TVL": 6925622
+    },
+    {
+      "name": "USDD",
+      "symbol": "USDD",
+      "TVL": 99622368
+    },
+    {
+      "name": "Dola",
+      "symbol": "DOLA",
+      "TVL": 28362619
+    },
+    {
+      "name": "HUSD",
+      "symbol": "HUSD",
+      "TVL": 187808283
+    },
+    {
+      "name": "Nexus USD",
+      "symbol": "NUSD",
+      "TVL": 4927886
+    },
+    {
+      "name": "Gemini Dollar",
+      "symbol": "GUSD",
+      "TVL": 361274821
+    },
+    {
+      "name": "Alchemix USD",
+      "symbol": "ALUSD",
+      "TVL": 43595858
+    },
+    {
+      "name": "flexUSD",
+      "symbol": "FLEXUSD",
+      "TVL": 92590161
+    },
+    {
+      "name": "sUSD",
+      "symbol": "SUSD",
+      "TVL": 39479944
+    },
+    {
+      "name": "Origin Dollar",
+      "symbol": "OUSD",
+      "TVL": 19046123
+    },
+    {
+      "name": "Celo Dollar",
+      "symbol": "CUSD",
+      "TVL": 159540
+    },
+    {
+      "name": "Reserve",
+      "symbol": "RSV",
+      "TVL": 425079
+    },
+    {
+      "name": "mStable USD",
+      "symbol": "MUSD",
+      "TVL": 3641989
+    },
+    {
+      "name": "USDK",
+      "symbol": "USDK",
+      "TVL": 174985
+    },
+    {
+      "name": "Dollar on Chain",
+      "symbol": "DOC",
+      "TVL": 309
+    },
+    {
+      "name": "SpiceUSD",
+      "symbol": "USDS",
+      "TVL": 611482
+    },
+    {
+      "name": "USDP Stablecoin",
+      "symbol": "USDP",
+      "TVL": 2557455
+    },
+    {
+      "name": "MAI",
+      "symbol": "MAI",
+      "TVL": 6631055
+    },
+    {
+      "name": "ZUSD",
+      "symbol": "ZUSD",
+      "TVL": 15421595
+    },
+    {
+      "name": "dForce USD",
+      "symbol": "USX",
+      "TVL": 1842032
+    },
+    {
+      "name": "HomeCoin",
+      "symbol": "HOME",
+      "TVL": 6310109
+    },
+    {
+      "name": "Fixed Income Asset Token",
+      "symbol": "FIAT",
+      "TVL": 8107
+    },
+    {
+      "name": "PUSd",
+      "symbol": "PUSD",
+      "TVL": 1486485
+    },
+    {
+      "name": "Bean",
+      "symbol": "BEAN",
+      "TVL": 35238791
+    },
+    {
+      "name": "Interest Protocol",
+      "symbol": "USDI",
+      "TVL": 431848
+    },
+    {
+      "name": "BOB",
+      "symbol": "BOB",
+      "TVL": 252335
+    },
+    {
+      "name": "Zunami USD",
+      "symbol": "UZD",
+      "TVL": 17214000
+    },
+    {
+      "name": "USDi",
+      "symbol": "USDI",
+      "TVL": 8132
+    },
+    {
+      "name": "XAI",
+      "symbol": "XAI",
+      "TVL": 13192249
+    },
+    {
+      "name": "Meme Dollar",
+      "symbol": "PINA",
+      "TVL": 913470
+    },
+    {
+      "name": "BaoUSD",
+      "symbol": "BAOUSD",
+      "TVL": 2310018
+    },
+    {
+      "name": "Coin98 Dollar",
+      "symbol": "CUSD",
+      "TVL": 335717
+    },
+    {
+      "name": "Digital Standard Unit",
+      "symbol": "DSU",
+      "TVL": 156955
+    },
+    {
+      "name": "Offshift anonUSD",
+      "symbol": "ANONUSD",
+      "TVL": 25574
+    },
+    {
+      "name": "Davos Protocol",
+      "symbol": "DUSD",
+      "TVL": 12053
+    },
+    {
+      "name": "Electronic USD",
+      "symbol": "EUSD",
+      "TVL": 19758691
+    },
+    {
+      "name": "Deuterium",
+      "symbol": "d2O",
+      "TVL": 490
+    },
+    {
+      "name": "eUSD",
+      "symbol": "EUSD",
+      "TVL": 174237989
+    },
+    {
+      "name": "crvUSD",
+      "symbol": "crvUSD",
+      "TVL": 85266876
+    },
+    {
+      "name": "CLever USD",
+      "symbol": "clevUSD",
+      "TVL": 1170680
+    },
+    {
+      "name": "R",
+      "symbol": "R",
+      "TVL": 25855093
+    },
+    {
+      "name": "GRAI",
+      "symbol": "GRAI",
+      "TVL": 13687249
+    },
+    {
+      "name": "GHO",
+      "symbol": "GHO",
+      "TVL": 20818625
+    },
+    {
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "TVL": 287712018
+    },
+    {
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "TVL": 2000809
+    },
+    {
+      "name": "Euro Tether",
+      "symbol": "EURT",
+      "TVL": 34499360
+    },
+    {
+      "name": "Euro Coin",
+      "symbol": "EUROC",
+      "TVL": 43967156
+    },
+    {
+      "name": "Stasis Euro",
+      "symbol": "EURS",
+      "TVL": 37184131
+    },
+    {
+      "name": "Celo Euro",
+      "symbol": "CEUR",
+      "TVL": 10
+    },
+    {
+      "name": "sEUR",
+      "symbol": "SEUR",
+      "TVL": 3229682
+    },
+    {
+      "name": "agEUR",
+      "symbol": "AGEUR",
+      "TVL": 13261114
+    },
+    {
+      "name": "Parallel",
+      "symbol": "PAR",
+      "TVL": 4999928
+    },
+    {
+      "name": "LUGH",
+      "symbol": "EURL",
+      "TVL": 6010
+    },
+    {
+      "name": "Iron Bank EURO",
+      "symbol": "IBEUR",
+      "TVL": 15499999
+    },
+    {
+      "name": "EUROe Stablecoin",
+      "symbol": "EUROe",
+      "TVL": 1323287
+    },
+    {
+      "name": "Monerium EUR emoney",
+      "symbol": "EURE",
+      "TVL": 5302821
+    }
+  ],
+  "rollupsByTvl": [
+    {
+      "name": "Arbitrum One",
+      "technology": "Optimistic Rollup",
+      "purpose": "Stage 1",
+      "tvl": 5560000000,
+      "marketShare": "56.36%"
+    },
+    {
+      "name": "OP Mainnet",
+      "technology": "Optimistic Rollup",
+      "purpose": "Stage 0",
+      "tvl": 2590000000,
+      "marketShare": "26.26%"
+    },
+    {
+      "name": "zkSync Era",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 433000000,
+      "marketShare": "4.38%"
+    },
+    {
+      "name": "dYdX",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 1",
+      "tvl": 340000000,
+      "marketShare": "3.45%"
+    },
+    {
+      "name": "Base",
+      "technology": "Optimistic Rollup",
+      "purpose": "Stage 0",
+      "tvl": 220000000,
+      "marketShare": "2.23%"
+    },
+    {
+      "name": "Starknet",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 104000000,
+      "marketShare": "1.05%"
+    },
+    {
+      "name": "Immutable X",
+      "technology": "Validium",
+      "purpose": "n/a",
+      "tvl": 90670000,
+      "marketShare": "0.92%"
+    },
+    {
+      "name": "Mantle",
+      "technology": "Optimistic Chain",
+      "purpose": "n/a",
+      "tvl": 87000000,
+      "marketShare": "0.88%"
+    },
+    {
+      "name": "Loopring",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 81940000,
+      "marketShare": "0.83%"
+    },
+    {
+      "name": "zkSync Lite",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 1",
+      "tvl": 75490000,
+      "marketShare": "0.76%"
+    },
+    {
+      "name": "Metis Andromeda",
+      "technology": "Optimistic Chain",
+      "purpose": "n/a",
+      "tvl": 72730000,
+      "marketShare": "0.74%"
+    },
+    {
+      "name": "Polygon zkEVM",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 47420000,
+      "marketShare": "0.48%"
+    },
+    {
+      "name": "ApeX",
+      "technology": "Validium",
+      "purpose": "n/a",
+      "tvl": 32570000,
+      "marketShare": "0.33%"
+    },
+    {
+      "name": "Linea",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 30470000,
+      "marketShare": "0.31%"
+    },
+    {
+      "name": "ZKSpace",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 20220000,
+      "marketShare": "0.20%"
+    },
+    {
+      "name": "Sorare",
+      "technology": "Validium",
+      "purpose": "n/a",
+      "tvl": 18700000,
+      "marketShare": "0.19%"
+    },
+    {
+      "name": "Arbitrum Nova",
+      "technology": "Optimistic Chain",
+      "purpose": "n/a",
+      "tvl": 18360000,
+      "marketShare": "0.19%"
+    },
+    {
+      "name": "rhino.fi",
+      "technology": "Validium",
+      "purpose": "n/a",
+      "tvl": 15460000,
+      "marketShare": "0.16%"
+    },
+    {
+      "name": "Boba Network",
+      "technology": "Optimistic Rollup",
+      "purpose": "Stage 0",
+      "tvl": 9480000,
+      "marketShare": "0.10%"
+    },
+    {
+      "name": "Aztec Connect",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 5100000,
+      "marketShare": "0.05%"
+    },
+    {
+      "name": "Zora Network",
+      "technology": "Optimistic Rollup",
+      "purpose": "Stage 0",
+      "tvl": 4190000.0000000005,
+      "marketShare": "0.04%"
+    },
+    {
+      "name": "Aztec",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 0",
+      "tvl": 2340000,
+      "marketShare": "0.02%"
+    },
+    {
+      "name": "DeGate",
+      "technology": "ZK Rollup",
+      "purpose": "Stage 2",
+      "tvl": 1980000,
+      "marketShare": "0.02%"
+    },
+    {
+      "name": "Brine",
+      "technology": "Validium",
+      "purpose": "n/a",
+      "tvl": 554000,
+      "marketShare": "0.01%"
+    },
+    {
+      "name": "Layer2.Finance",
+      "technology": "Optimistic Rollup",
+      "purpose": "In review",
+      "tvl": 168000,
+      "marketShare": "0.00%"
+    },
+    {
+      "name": "Public Goods Network",
+      "technology": "Optimistic Rollup",
+      "purpose": "Stage 0",
+      "tvl": 163000,
+      "marketShare": "0.00%"
+    },
+    {
+      "name": "Myria",
+      "technology": "Validium",
+      "purpose": "n/a",
+      "tvl": 88940,
+      "marketShare": "0.00%"
+    },
+    {
+      "name": "Canvas Connect",
+      "technology": "Validium",
+      "purpose": "n/a",
+      "tvl": 8450,
+      "marketShare": "0.00%"
+    },
+    {
+      "name": "Fuel v1",
+      "technology": "Optimistic Rollup",
+      "purpose": "Stage 2",
+      "tvl": 4369,
+      "marketShare": "0.00%"
+    }
+  ],
+  "bridgesByTvl": [
+    {
+      "name": "zkSync Era Bridge",
+      "totalVolume": 95029256,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Stargate",
+      "totalVolume": 56873809,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Arbitrum Bridge",
+      "totalVolume": 33982564,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Polygon PoS Bridge",
+      "totalVolume": 30036030,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Across",
+      "totalVolume": 10313377,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Optimism Gateway",
+      "totalVolume": 7712699,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Portal by Wormhole",
+      "totalVolume": 6119939,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Hop",
+      "totalVolume": 4287113,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Synapse",
+      "totalVolume": 4042734,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Meson",
+      "totalVolume": 2592332,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Avalanche Bridge",
+      "totalVolume": 2543205,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "xDai Bridge",
+      "totalVolume": 2064274,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Symbiosis",
+      "totalVolume": 1471890,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Base Bridge",
+      "totalVolume": 1100580,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Polygon zkEVM Bridge",
+      "totalVolume": 955641,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Celer cBridge",
+      "totalVolume": 901277,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Rainbow Bridge",
+      "totalVolume": 678582,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Mantle Bridge",
+      "totalVolume": 50081,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Allbridge Core",
+      "totalVolume": 12406,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    },
+    {
+      "name": "Multichain",
+      "totalVolume": 88,
+      "ethereumVolume": 0,
+      "numberDeposits": 0,
+      "numberWithdrawals": 0
+    }
+  ]
+}
