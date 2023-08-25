@@ -1,416 +1,4 @@
 {
-    "2023-05-19": [
-        {
-            "builder": "0x83bee51799e65130296f5d60ce7d78",
-            "count": 28
-        },
-        {
-            "builder": "BloXroute",
-            "count": 148
-        },
-        {
-            "builder": "Blocknative",
-            "count": 143
-        },
-        {
-            "builder": "Bob the builder",
-            "count": 13
-        },
-        {
-            "builder": "BuildAI (https://buildai.net)",
-            "count": 36
-        },
-        {
-            "builder": "FC",
-            "count": 1
-        },
-        {
-            "builder": "Flashbots",
-            "count": 1541
-        },
-        {
-            "builder": "Flashbots SGX",
-            "count": 11
-        },
-        {
-            "builder": "Gambit Labs (https://gmbit.co)",
-            "count": 32
-        },
-        {
-            "builder": "Geth Go",
-            "count": 1
-        },
-        {
-            "builder": "It's Free Real Estate",
-            "count": 26
-        },
-        {
-            "builder": "Manifold",
-            "count": 4
-        },
-        {
-            "builder": "PLC.eth",
-            "count": 1
-        },
-        {
-            "builder": "Titan Builder",
-            "count": 212
-        },
-        {
-            "builder": "antbuilder",
-            "count": 2
-        },
-        {
-            "builder": "beaverbuild.org",
-            "count": 1411
-        },
-        {
-            "builder": "builder0x69",
-            "count": 2404
-        },
-        {
-            "builder": "f1b.io",
-            "count": 68
-        },
-        {
-            "builder": "https://edennetwork.io",
-            "count": 2
-        },
-        {
-            "builder": "https://eth-builder.com",
-            "count": 11
-        },
-        {
-            "builder": "lightspeedbuilder.info",
-            "count": 15
-        },
-        {
-            "builder": "nfactorial.xyz",
-            "count": 8
-        },
-        {
-            "builder": "payload.de",
-            "count": 29
-        },
-        {
-            "builder": "rsync-builder.xyz",
-            "count": 1441
-        },
-        {
-            "builder": "spiderbuilder.net",
-            "count": 4
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 3
-        }
-    ],
-    "2023-05-20": [
-        {
-            "builder": "0x83bee51799e65130296f5d60ce7d78",
-            "count": 18
-        },
-        {
-            "builder": "BloXroute",
-            "count": 202
-        },
-        {
-            "builder": "Blocknative",
-            "count": 140
-        },
-        {
-            "builder": "Bob the builder",
-            "count": 10
-        },
-        {
-            "builder": "BuildAI (https://buildai.net)",
-            "count": 56
-        },
-        {
-            "builder": "Flashbots",
-            "count": 1721
-        },
-        {
-            "builder": "Flashbots SGX",
-            "count": 5
-        },
-        {
-            "builder": "Gambit Labs (https://gmbit.co)",
-            "count": 14
-        },
-        {
-            "builder": "Geth Go",
-            "count": 2
-        },
-        {
-            "builder": "It's Free Real Estate",
-            "count": 46
-        },
-        {
-            "builder": "Manifold",
-            "count": 6
-        },
-        {
-            "builder": "Titan Builder",
-            "count": 434
-        },
-        {
-            "builder": "antbuilder",
-            "count": 17
-        },
-        {
-            "builder": "beaverbuild.org",
-            "count": 1610
-        },
-        {
-            "builder": "builder0x69",
-            "count": 2037
-        },
-        {
-            "builder": "f1b.io",
-            "count": 79
-        },
-        {
-            "builder": "https://edennetwork.io",
-            "count": 1
-        },
-        {
-            "builder": "https://eth-builder.com",
-            "count": 23
-        },
-        {
-            "builder": "lightspeedbuilder.info",
-            "count": 28
-        },
-        {
-            "builder": "nfactorial.xyz",
-            "count": 10
-        },
-        {
-            "builder": "payload.de",
-            "count": 52
-        },
-        {
-            "builder": "rsync-builder.xyz",
-            "count": 1165
-        },
-        {
-            "builder": "spiderbuilder.net",
-            "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 14
-        }
-    ],
-    "2023-05-21": [
-        {
-            "builder": "0x83bee51799e65130296f5d60ce7d78",
-            "count": 30
-        },
-        {
-            "builder": "BloXroute",
-            "count": 241
-        },
-        {
-            "builder": "Blocknative",
-            "count": 95
-        },
-        {
-            "builder": "Bob the builder",
-            "count": 20
-        },
-        {
-            "builder": "BuildAI (https://buildai.net)",
-            "count": 28
-        },
-        {
-            "builder": "Flashbots",
-            "count": 1551
-        },
-        {
-            "builder": "Flashbots SGX",
-            "count": 7
-        },
-        {
-            "builder": "Gambit Labs (https://gmbit.co)",
-            "count": 6
-        },
-        {
-            "builder": "Geth Go",
-            "count": 1
-        },
-        {
-            "builder": "It's Free Real Estate",
-            "count": 40
-        },
-        {
-            "builder": "Manifold",
-            "count": 7
-        },
-        {
-            "builder": "Titan Builder",
-            "count": 437
-        },
-        {
-            "builder": "antbuilder",
-            "count": 16
-        },
-        {
-            "builder": "beaverbuild.org",
-            "count": 1947
-        },
-        {
-            "builder": "builder0x69",
-            "count": 1840
-        },
-        {
-            "builder": "f1b.io",
-            "count": 108
-        },
-        {
-            "builder": "https://edennetwork.io",
-            "count": 2
-        },
-        {
-            "builder": "https://eth-builder.com",
-            "count": 51
-        },
-        {
-            "builder": "lightspeedbuilder.info",
-            "count": 17
-        },
-        {
-            "builder": "nfactorial.xyz",
-            "count": 6
-        },
-        {
-            "builder": "payload.de",
-            "count": 131
-        },
-        {
-            "builder": "rsync-builder.xyz",
-            "count": 1053
-        },
-        {
-            "builder": "smithbot.xyz",
-            "count": 1
-        },
-        {
-            "builder": "spiderbuilder.net",
-            "count": 2
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 19
-        }
-    ],
-    "2023-05-22": [
-        {
-            "builder": "0x83bee51799e65130296f5d60ce7d78",
-            "count": 17
-        },
-        {
-            "builder": "BloXroute",
-            "count": 110
-        },
-        {
-            "builder": "Blocknative",
-            "count": 99
-        },
-        {
-            "builder": "Bob the builder",
-            "count": 16
-        },
-        {
-            "builder": "BuildAI (https://buildai.net)",
-            "count": 27
-        },
-        {
-            "builder": "FC",
-            "count": 1
-        },
-        {
-            "builder": "Flashbots",
-            "count": 1372
-        },
-        {
-            "builder": "Flashbots SGX",
-            "count": 15
-        },
-        {
-            "builder": "Gambit Labs (https://gmbit.co)",
-            "count": 5
-        },
-        {
-            "builder": "It's Free Real Estate",
-            "count": 23
-        },
-        {
-            "builder": "Manifold",
-            "count": 2
-        },
-        {
-            "builder": "Titan Builder",
-            "count": 269
-        },
-        {
-            "builder": "aequitas et integritas",
-            "count": 2
-        },
-        {
-            "builder": "antbuilder",
-            "count": 1
-        },
-        {
-            "builder": "beaverbuild.org",
-            "count": 1845
-        },
-        {
-            "builder": "builder0x69",
-            "count": 2226
-        },
-        {
-            "builder": "f1b.io",
-            "count": 55
-        },
-        {
-            "builder": "https://edennetwork.io",
-            "count": 9
-        },
-        {
-            "builder": "https://eth-builder.com",
-            "count": 19
-        },
-        {
-            "builder": "lightspeedbuilder.info",
-            "count": 4
-        },
-        {
-            "builder": "nfactorial.xyz",
-            "count": 12
-        },
-        {
-            "builder": "payload.de",
-            "count": 52
-        },
-        {
-            "builder": "rsync-builder.xyz",
-            "count": 1367
-        },
-        {
-            "builder": "smithbot.xyz",
-            "count": 1
-        },
-        {
-            "builder": "spiderbuilder.net",
-            "count": 4
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 12
-        }
-    ],
     "2023-05-23": [
         {
             "builder": "0x83bee51799e65130296f5d60ce7d78",
@@ -469,6 +57,10 @@
             "count": 1752
         },
         {
+            "builder": "boba-builder.com",
+            "count": 21
+        },
+        {
             "builder": "builder0x69",
             "count": 2129
         },
@@ -503,10 +95,6 @@
         {
             "builder": "spiderbuilder.net",
             "count": 2
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 21
         }
     ],
     "2023-05-24": [
@@ -559,6 +147,10 @@
             "count": 1945
         },
         {
+            "builder": "boba-builder.com",
+            "count": 28
+        },
+        {
             "builder": "builder0x69",
             "count": 1971
         },
@@ -593,10 +185,6 @@
         {
             "builder": "spiderbuilder.net",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 28
         }
     ],
     "2023-05-25": [
@@ -653,6 +241,10 @@
             "count": 1918
         },
         {
+            "builder": "boba-builder.com",
+            "count": 19
+        },
+        {
             "builder": "builder0x69",
             "count": 2075
         },
@@ -691,10 +283,6 @@
         {
             "builder": "spiderbuilder.net",
             "count": 2
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 19
         }
     ],
     "2023-05-26": [
@@ -747,6 +335,10 @@
             "count": 2194
         },
         {
+            "builder": "boba-builder.com",
+            "count": 21
+        },
+        {
             "builder": "builder0x69",
             "count": 2051
         },
@@ -785,10 +377,6 @@
         {
             "builder": "spiderbuilder.net",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 21
         }
     ],
     "2023-05-27": [
@@ -845,6 +433,10 @@
             "count": 1710
         },
         {
+            "builder": "boba-builder.com",
+            "count": 15
+        },
+        {
             "builder": "builder0x69",
             "count": 2304
         },
@@ -879,10 +471,6 @@
         {
             "builder": "spiderbuilder.net",
             "count": 5
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 15
         }
     ],
     "2023-05-28": [
@@ -935,6 +523,10 @@
             "count": 2586
         },
         {
+            "builder": "boba-builder.com",
+            "count": 7
+        },
+        {
             "builder": "builder0x69",
             "count": 2123
         },
@@ -965,20 +557,12 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 1116
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 7
         }
     ],
     "2023-05-29": [
         {
             "builder": "0x83bee51799e65130296f5d60ce7d78",
             "count": 15
-        },
-        {
-            "builder": "0x97e1f5ff2c279516b70d9f736e4ef5",
-            "count": 1
         },
         {
             "builder": "0xa109b0cc0f318de0dd1bbee1d4f553",
@@ -1033,8 +617,16 @@
             "count": 382
         },
         {
+            "builder": "aequitas et integritas",
+            "count": 1
+        },
+        {
             "builder": "beaverbuild.org",
             "count": 2128
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 5
         },
         {
             "builder": "builder0x69",
@@ -1070,10 +662,6 @@
         },
         {
             "builder": "spiderbuilder.net",
-            "count": 5
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
             "count": 5
         }
     ],
@@ -1127,6 +715,10 @@
             "count": 2264
         },
         {
+            "builder": "boba-builder.com",
+            "count": 4
+        },
+        {
             "builder": "builder0x69",
             "count": 1944
         },
@@ -1157,10 +749,6 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 1136
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 4
         }
     ],
     "2023-05-31": [
@@ -1225,6 +813,10 @@
             "count": 2215
         },
         {
+            "builder": "boba-builder.com",
+            "count": 11
+        },
+        {
             "builder": "builder0x69",
             "count": 1999
         },
@@ -1259,10 +851,6 @@
         {
             "builder": "spiderbuilder.net",
             "count": 3
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 11
         }
     ],
     "2023-06-01": [
@@ -1319,6 +907,10 @@
             "count": 2189
         },
         {
+            "builder": "boba-builder.com",
+            "count": 27
+        },
+        {
             "builder": "builder0x69",
             "count": 2009
         },
@@ -1353,10 +945,6 @@
         {
             "builder": "spiderbuilder.net",
             "count": 2
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 27
         }
     ],
     "2023-06-02": [
@@ -1417,6 +1005,10 @@
             "count": 2244
         },
         {
+            "builder": "boba-builder.com",
+            "count": 26
+        },
+        {
             "builder": "builder0x69",
             "count": 1523
         },
@@ -1447,10 +1039,6 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 1478
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 26
         }
     ],
     "2023-06-03": [
@@ -1503,6 +1091,10 @@
             "count": 1860
         },
         {
+            "builder": "boba-builder.com",
+            "count": 31
+        },
+        {
             "builder": "builder0x69",
             "count": 1716
         },
@@ -1537,10 +1129,6 @@
         {
             "builder": "xxxx",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 31
         }
     ],
     "2023-06-04": [
@@ -1589,6 +1177,10 @@
             "count": 2054
         },
         {
+            "builder": "boba-builder.com",
+            "count": 14
+        },
+        {
             "builder": "builder0x69",
             "count": 1600
         },
@@ -1623,10 +1215,6 @@
         {
             "builder": "xxxx",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 14
         }
     ],
     "2023-06-05": [
@@ -1636,7 +1224,7 @@
         },
         {
             "builder": "BloXroute",
-            "count": 179
+            "count": 121
         },
         {
             "builder": "Blocknative",
@@ -1683,6 +1271,10 @@
             "count": 2865
         },
         {
+            "builder": "boba-builder.com",
+            "count": 24
+        },
+        {
             "builder": "builder0x69",
             "count": 1675
         },
@@ -1721,10 +1313,6 @@
         {
             "builder": "xxxx",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 24
         }
     ],
     "2023-06-06": [
@@ -1734,7 +1322,7 @@
         },
         {
             "builder": "BloXroute",
-            "count": 256
+            "count": 135
         },
         {
             "builder": "Blocknative",
@@ -1785,6 +1373,10 @@
             "count": 3330
         },
         {
+            "builder": "boba-builder.com",
+            "count": 20
+        },
+        {
             "builder": "builder0x69",
             "count": 1483
         },
@@ -1815,10 +1407,6 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 1255
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 20
         }
     ],
     "2023-06-07": [
@@ -1828,11 +1416,11 @@
         },
         {
             "builder": "BloXroute",
-            "count": 414
+            "count": 157
         },
         {
             "builder": "Blocknative",
-            "count": 131
+            "count": 125
         },
         {
             "builder": "Bob the builder",
@@ -1840,7 +1428,7 @@
         },
         {
             "builder": "BuildAI (https://buildai.net)",
-            "count": 50
+            "count": 49
         },
         {
             "builder": "FC",
@@ -1848,15 +1436,15 @@
         },
         {
             "builder": "Flashbots",
-            "count": 1285
+            "count": 1235
         },
         {
             "builder": "Flashbots SGX",
-            "count": 8
+            "count": 7
         },
         {
             "builder": "Gambit Labs (https://gmbit.co)",
-            "count": 7
+            "count": 6
         },
         {
             "builder": "It's Free Real Estate",
@@ -1864,23 +1452,27 @@
         },
         {
             "builder": "Manifold",
-            "count": 3
+            "count": 2
         },
         {
             "builder": "Titan Builder",
-            "count": 191
+            "count": 182
         },
         {
             "builder": "beaverbuild.org",
-            "count": 2648
+            "count": 2556
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 18
         },
         {
             "builder": "builder0x69",
-            "count": 1646
+            "count": 1572
         },
         {
             "builder": "f1b.io",
-            "count": 94
+            "count": 92
         },
         {
             "builder": "https://edennetwork.io",
@@ -1888,7 +1480,7 @@
         },
         {
             "builder": "https://eth-builder.com",
-            "count": 130
+            "count": 127
         },
         {
             "builder": "lightspeedbuilder.info",
@@ -1900,15 +1492,11 @@
         },
         {
             "builder": "payload.de",
-            "count": 84
+            "count": 78
         },
         {
             "builder": "rsync-builder.xyz",
-            "count": 1531
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 18
+            "count": 1465
         }
     ],
     "2023-06-08": [
@@ -1918,7 +1506,7 @@
         },
         {
             "builder": "BloXroute",
-            "count": 647
+            "count": 114
         },
         {
             "builder": "Blocknative",
@@ -1965,6 +1553,10 @@
             "count": 2413
         },
         {
+            "builder": "boba-builder.com",
+            "count": 16
+        },
+        {
             "builder": "builder0x69",
             "count": 1863
         },
@@ -1999,10 +1591,6 @@
         {
             "builder": "smithbot.xyz",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 16
         }
     ],
     "2023-06-09": [
@@ -2012,7 +1600,7 @@
         },
         {
             "builder": "BloXroute",
-            "count": 581
+            "count": 211
         },
         {
             "builder": "Blocknative",
@@ -2067,6 +1655,10 @@
             "count": 1648
         },
         {
+            "builder": "boba-builder.com",
+            "count": 23
+        },
+        {
             "builder": "builder0x69",
             "count": 1480
         },
@@ -2097,10 +1689,6 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 2425
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 23
         }
     ],
     "2023-06-10": [
@@ -2110,7 +1698,7 @@
         },
         {
             "builder": "BloXroute",
-            "count": 916
+            "count": 265
         },
         {
             "builder": "Blocknative",
@@ -2157,6 +1745,10 @@
             "count": 1144
         },
         {
+            "builder": "boba-builder.com",
+            "count": 16
+        },
+        {
             "builder": "builder0x69",
             "count": 1139
         },
@@ -2187,10 +1779,6 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 3123
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 16
         }
     ],
     "2023-06-11": [
@@ -2208,7 +1796,7 @@
         },
         {
             "builder": "BloXroute",
-            "count": 694
+            "count": 224
         },
         {
             "builder": "Blocknative",
@@ -2259,6 +1847,10 @@
             "count": 1304
         },
         {
+            "builder": "boba-builder.com",
+            "count": 15
+        },
+        {
             "builder": "builder0x69",
             "count": 1038
         },
@@ -2293,10 +1885,6 @@
         {
             "builder": "smithbot.xyz",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 15
         }
     ],
     "2023-06-12": [
@@ -2306,7 +1894,7 @@
         },
         {
             "builder": "BloXroute",
-            "count": 214
+            "count": 143
         },
         {
             "builder": "Blocknative",
@@ -2361,6 +1949,10 @@
             "count": 2348
         },
         {
+            "builder": "boba-builder.com",
+            "count": 21
+        },
+        {
             "builder": "builder0x69",
             "count": 1455
         },
@@ -2391,10 +1983,6 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 1698
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 21
         }
     ],
     "2023-06-13": [
@@ -2447,6 +2035,10 @@
             "count": 1758
         },
         {
+            "builder": "boba-builder.com",
+            "count": 30
+        },
+        {
             "builder": "builder0x69",
             "count": 1446
         },
@@ -2481,10 +2073,6 @@
         {
             "builder": "smithbot.xyz",
             "count": 2
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 30
         }
     ],
     "2023-06-14": [
@@ -2553,6 +2141,10 @@
             "count": 2948
         },
         {
+            "builder": "boba-builder.com",
+            "count": 13
+        },
+        {
             "builder": "builder0x69",
             "count": 1258
         },
@@ -2587,10 +2179,6 @@
         {
             "builder": "smithbot.xyz",
             "count": 1
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 13
         }
     ],
     "2023-06-15": [
@@ -2659,6 +2247,10 @@
             "count": 3088
         },
         {
+            "builder": "boba-builder.com",
+            "count": 15
+        },
+        {
             "builder": "builder0x69",
             "count": 1448
         },
@@ -2689,10 +2281,6 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 1227
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 15
         }
     ],
     "2023-06-16": [
@@ -2757,6 +2345,10 @@
             "count": 2697
         },
         {
+            "builder": "boba-builder.com",
+            "count": 13
+        },
+        {
             "builder": "builder0x69",
             "count": 2061
         },
@@ -2787,10 +2379,6 @@
         {
             "builder": "xxxx",
             "count": 4
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 13
         }
     ],
     "2023-06-17": [
@@ -2851,6 +2439,10 @@
             "count": 2096
         },
         {
+            "builder": "boba-builder.com",
+            "count": 27
+        },
+        {
             "builder": "builder0x69",
             "count": 1224
         },
@@ -2885,10 +2477,6 @@
         {
             "builder": "xxxx",
             "count": 2
-        },
-        {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
-            "count": 27
         }
     ],
     "2023-06-18": [
@@ -2957,6 +2545,10 @@
             "count": 1799
         },
         {
+            "builder": "boba-builder.com",
+            "count": 15
+        },
+        {
             "builder": "builder0x69",
             "count": 1068
         },
@@ -2987,10 +2579,6438 @@
         {
             "builder": "rsync-builder.xyz",
             "count": 1996
+        }
+    ],
+    "2023-06-19": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 31
         },
         {
-            "builder": "youtube.com/watch?v=dQw4w9WgXcQ",
+            "builder": "BloXroute",
+            "count": 247
+        },
+        {
+            "builder": "Blocknative",
+            "count": 97
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 130
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1373
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 3
+        },
+        {
+            "builder": "Geth Go",
+            "count": 4
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 1
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 22
+        },
+        {
+            "builder": "Manifold",
+            "count": 21
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 706
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2017
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 10
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1170
+        },
+        {
+            "builder": "f1b.io",
+            "count": 167
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 16
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 269
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 70
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 437
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1808
+        },
+        {
+            "builder": "xxxx",
+            "count": 2
+        }
+    ],
+    "2023-06-20": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 19
+        },
+        {
+            "builder": "0xaac5c82a766c3570ebaa3e5ac92802",
+            "count": 8
+        },
+        {
+            "builder": "BloXroute",
+            "count": 287
+        },
+        {
+            "builder": "Blocknative",
+            "count": 113
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 101
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1368
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "Geth Go",
+            "count": 8
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 14
+        },
+        {
+            "builder": "Manifold",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 530
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2514
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 11
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1242
+        },
+        {
+            "builder": "f1b.io",
+            "count": 197
+        },
+        {
+            "builder": "https://edennetwork.io",
             "count": 15
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 186
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 64
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 134
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1666
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 1
+        },
+        {
+            "builder": "xxxx",
+            "count": 3
+        }
+    ],
+    "2023-06-21": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 14
+        },
+        {
+            "builder": "BloXroute",
+            "count": 248
+        },
+        {
+            "builder": "Blocknative",
+            "count": 212
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 125
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1413
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 7
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 9
+        },
+        {
+            "builder": "Geth Go",
+            "count": 1
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 9
+        },
+        {
+            "builder": "Manifold",
+            "count": 7
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 525
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2731
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 7
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1366
+        },
+        {
+            "builder": "f1b.io",
+            "count": 116
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 17
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 166
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 127
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 14
+        },
+        {
+            "builder": "payload.de",
+            "count": 102
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1317
+        },
+        {
+            "builder": "xxxx",
+            "count": 5
+        }
+    ],
+    "2023-06-22": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 23
+        },
+        {
+            "builder": "BloXroute",
+            "count": 230
+        },
+        {
+            "builder": "Blocknative",
+            "count": 188
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 97
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1288
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 12
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 20
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 512
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2576
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 16
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1382
+        },
+        {
+            "builder": "f1b.io",
+            "count": 183
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 19
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 212
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 107
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 11
+        },
+        {
+            "builder": "payload.de",
+            "count": 112
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1504
+        },
+        {
+            "builder": "xxxx",
+            "count": 3
+        }
+    ],
+    "2023-06-23": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 12
+        },
+        {
+            "builder": "BloXroute",
+            "count": 208
+        },
+        {
+            "builder": "Blocknative",
+            "count": 149
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 6
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 101
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1320
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 8
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 6
+        },
+        {
+            "builder": "Geth Go",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 17
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 667
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2785
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 25
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1333
+        },
+        {
+            "builder": "f1b.io",
+            "count": 161
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 13
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 117
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 115
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 11
+        },
+        {
+            "builder": "payload.de",
+            "count": 81
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1587
+        },
+        {
+            "builder": "xxxx",
+            "count": 1
+        }
+    ],
+    "2023-06-24": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 13
+        },
+        {
+            "builder": "BloXroute",
+            "count": 196
+        },
+        {
+            "builder": "Blocknative",
+            "count": 124
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 10
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 104
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1259
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 9
+        },
+        {
+            "builder": "Geth Go",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 11
+        },
+        {
+            "builder": "Manifold",
+            "count": 10
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 976
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2338
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 52
+        },
+        {
+            "builder": "builder0x69",
+            "count": 971
+        },
+        {
+            "builder": "f1b.io",
+            "count": 258
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 13
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 243
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 128
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 8
+        },
+        {
+            "builder": "payload.de",
+            "count": 178
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1861
+        },
+        {
+            "builder": "xxxx",
+            "count": 1
+        }
+    ],
+    "2023-06-25": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 21
+        },
+        {
+            "builder": "BloXroute",
+            "count": 109
+        },
+        {
+            "builder": "Blocknative",
+            "count": 113
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 5
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 94
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1127
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 8
+        },
+        {
+            "builder": "Geth Go",
+            "count": 2
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 5
+        },
+        {
+            "builder": "Manifold",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 624
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3867
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 30
+        },
+        {
+            "builder": "builder0x69",
+            "count": 629
+        },
+        {
+            "builder": "f1b.io",
+            "count": 203
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 4
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 263
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 83
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 190
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1498
+        },
+        {
+            "builder": "xxxx",
+            "count": 6
+        }
+    ],
+    "2023-06-26": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 14
+        },
+        {
+            "builder": "BloXroute",
+            "count": 273
+        },
+        {
+            "builder": "Blocknative",
+            "count": 122
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 1
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 78
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1432
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 9
+        },
+        {
+            "builder": "Geth Go",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 26
+        },
+        {
+            "builder": "Manifold",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 648
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2622
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 15
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1113
+        },
+        {
+            "builder": "f1b.io",
+            "count": 302
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 12
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 186
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 7
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 4
+        },
+        {
+            "builder": "payload.de",
+            "count": 137
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1567
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 3
+        },
+        {
+            "builder": "xxxx",
+            "count": 3
+        }
+    ],
+    "2023-06-27": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 18
+        },
+        {
+            "builder": "BloXroute",
+            "count": 234
+        },
+        {
+            "builder": "Blocknative",
+            "count": 145
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 2
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 89
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1343
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 8
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 9
+        },
+        {
+            "builder": "Geth Go",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 20
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 534
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2528
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 236
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1417
+        },
+        {
+            "builder": "f1b.io",
+            "count": 202
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 9
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 152
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 21
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 7
+        },
+        {
+            "builder": "payload.de",
+            "count": 83
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1694
+        },
+        {
+            "builder": "xxxx",
+            "count": 3
+        }
+    ],
+    "2023-06-28": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 21
+        },
+        {
+            "builder": "BloXroute",
+            "count": 200
+        },
+        {
+            "builder": "Blocknative",
+            "count": 239
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 5
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 142
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1345
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 1
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 8
+        },
+        {
+            "builder": "Geth Go",
+            "count": 6
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 2
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 19
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 431
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2509
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 473
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1715
+        },
+        {
+            "builder": "f1b.io",
+            "count": 56
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 15
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 92
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 6
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 5
+        },
+        {
+            "builder": "payload.de",
+            "count": 75
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1908
+        }
+    ],
+    "2023-06-29": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 21
+        },
+        {
+            "builder": "BloXroute",
+            "count": 154
+        },
+        {
+            "builder": "Blocknative",
+            "count": 193
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 191
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1345
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "Geth Go",
+            "count": 21
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 31
+        },
+        {
+            "builder": "Manifold",
+            "count": 1
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 839
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2677
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 137
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1710
+        },
+        {
+            "builder": "f1b.io",
+            "count": 64
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 16
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 49
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 59
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 4
+        },
+        {
+            "builder": "payload.de",
+            "count": 57
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2020
+        },
+        {
+            "builder": "xxxx",
+            "count": 1
+        }
+    ],
+    "2023-06-30": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 20
+        },
+        {
+            "builder": "BloXroute",
+            "count": 262
+        },
+        {
+            "builder": "Blocknative",
+            "count": 179
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 163
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1662
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 6
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 4
+        },
+        {
+            "builder": "Geth Go",
+            "count": 20
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 1
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 13
+        },
+        {
+            "builder": "Manifold",
+            "count": 5
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 540
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3557
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 43
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1525
+        },
+        {
+            "builder": "f1b.io",
+            "count": 71
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 13
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 74
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 71
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 47
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1465
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 15
+        },
+        {
+            "builder": "xxxx",
+            "count": 1
+        }
+    ],
+    "2023-07-01": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 31
+        },
+        {
+            "builder": "BloXroute",
+            "count": 181
+        },
+        {
+            "builder": "Blocknative",
+            "count": 173
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 2
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 150
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1348
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 1
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "Geth Go",
+            "count": 34
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 12
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 518
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2582
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 90
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1712
+        },
+        {
+            "builder": "f1b.io",
+            "count": 285
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 9
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 99
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 103
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 114
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2352
+        },
+        {
+            "builder": "xxxx",
+            "count": 1
+        }
+    ],
+    "2023-07-02": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 25
+        },
+        {
+            "builder": "BloXroute",
+            "count": 142
+        },
+        {
+            "builder": "Blocknative",
+            "count": 134
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 113
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1377
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "Geth Go",
+            "count": 19
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 20
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 606
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2654
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 103
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1582
+        },
+        {
+            "builder": "f1b.io",
+            "count": 498
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 13
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 97
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 98
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 10
+        },
+        {
+            "builder": "payload.de",
+            "count": 80
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2439
+        },
+        {
+            "builder": "xxxx",
+            "count": 3
+        }
+    ],
+    "2023-07-03": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 21
+        },
+        {
+            "builder": "BloXroute",
+            "count": 222
+        },
+        {
+            "builder": "Blocknative",
+            "count": 184
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 6
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 116
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1502
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 1
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 6
+        },
+        {
+            "builder": "Geth Go",
+            "count": 17
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 5
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 584
+        },
+        {
+            "builder": "antbuilder",
+            "count": 2
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2989
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 110
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1684
+        },
+        {
+            "builder": "f1b.io",
+            "count": 242
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 14
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 78
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 82
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 8
+        },
+        {
+            "builder": "payload.de",
+            "count": 66
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2065
+        },
+        {
+            "builder": "xxxx",
+            "count": 3
+        }
+    ],
+    "2023-07-04": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 15
+        },
+        {
+            "builder": "BloXroute",
+            "count": 282
+        },
+        {
+            "builder": "Blocknative",
+            "count": 155
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 244
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1644
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "Geth Go",
+            "count": 38
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 17
+        },
+        {
+            "builder": "Manifold",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 770
+        },
+        {
+            "builder": "antbuilder",
+            "count": 5
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3155
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 96
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1362
+        },
+        {
+            "builder": "f1b.io",
+            "count": 248
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 9
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 100
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 78
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 5
+        },
+        {
+            "builder": "payload.de",
+            "count": 56
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1627
+        }
+    ],
+    "2023-07-05": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 36
+        },
+        {
+            "builder": "0xa3e5b2fe1183312c0be6bbc498fd95",
+            "count": 2
+        },
+        {
+            "builder": "BloXroute",
+            "count": 325
+        },
+        {
+            "builder": "Blocknative",
+            "count": 92
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 428
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1230
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 6
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 16
+        },
+        {
+            "builder": "Geth Go",
+            "count": 33
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 15
+        },
+        {
+            "builder": "Manifold",
+            "count": 8
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1443
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3743
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 64
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1637
+        },
+        {
+            "builder": "f1b.io",
+            "count": 91
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 8
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 105
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 68
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 12
+        },
+        {
+            "builder": "payload.de",
+            "count": 18
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1347
+        }
+    ],
+    "2023-07-06": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 52
+        },
+        {
+            "builder": "BloXroute",
+            "count": 312
+        },
+        {
+            "builder": "Blocknative",
+            "count": 160
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 2
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 322
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1594
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 6
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "Geth Go",
+            "count": 38
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 12
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 988
+        },
+        {
+            "builder": "antbuilder",
+            "count": 3
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3288
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 31
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1648
+        },
+        {
+            "builder": "f1b.io",
+            "count": 116
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 10
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 55
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 54
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 21
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1745
+        }
+    ],
+    "2023-07-07": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 29
+        },
+        {
+            "builder": "BloXroute",
+            "count": 201
+        },
+        {
+            "builder": "Blocknative",
+            "count": 219
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 2
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 80
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1621
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 2
+        },
+        {
+            "builder": "Geth Go",
+            "count": 15
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 13
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 780
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3090
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 45
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1753
+        },
+        {
+            "builder": "f1b.io",
+            "count": 119
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 10
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 22
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 65
+        },
+        {
+            "builder": "payload.de",
+            "count": 21
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2380
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 1
+        }
+    ],
+    "2023-07-08": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 24
+        },
+        {
+            "builder": "BloXroute",
+            "count": 187
+        },
+        {
+            "builder": "Blocknative",
+            "count": 211
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 89
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1509
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 7
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 8
+        },
+        {
+            "builder": "Geth Go",
+            "count": 28
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 16
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 781
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2501
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 58
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1848
+        },
+        {
+            "builder": "f1b.io",
+            "count": 253
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 14
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 54
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 110
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 11
+        },
+        {
+            "builder": "payload.de",
+            "count": 41
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2718
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 4
+        }
+    ],
+    "2023-07-09": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 13
+        },
+        {
+            "builder": "0xa109b0cc0f318de0dd1bbee1d4f553",
+            "count": 1
+        },
+        {
+            "builder": "BloXroute",
+            "count": 114
+        },
+        {
+            "builder": "Blocknative",
+            "count": 197
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 6
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 84
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1327
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 7
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 12
+        },
+        {
+            "builder": "Geth Go",
+            "count": 18
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 908
+        },
+        {
+            "builder": "aequitas et integritas",
+            "count": 3
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2403
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 56
+        },
+        {
+            "builder": "builder0x69",
+            "count": 2005
+        },
+        {
+            "builder": "f1b.io",
+            "count": 259
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 10
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 40
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 114
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 70
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2898
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 1
+        }
+    ],
+    "2023-07-10": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 27
+        },
+        {
+            "builder": "0xa3e5b2fe1183312c0be6bbc498fd95",
+            "count": 3
+        },
+        {
+            "builder": "BloXroute",
+            "count": 216
+        },
+        {
+            "builder": "Blocknative",
+            "count": 260
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 2
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 96
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1607
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 11
+        },
+        {
+            "builder": "Geth Go",
+            "count": 20
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 5
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 854
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2821
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 19
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1465
+        },
+        {
+            "builder": "f1b.io",
+            "count": 199
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 5
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 53
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 88
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 45
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2799
+        }
+    ],
+    "2023-07-11": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 11
+        },
+        {
+            "builder": "BloXroute",
+            "count": 191
+        },
+        {
+            "builder": "Blocknative",
+            "count": 238
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 88
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1564
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 5
+        },
+        {
+            "builder": "Geth Go",
+            "count": 18
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 10
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 554
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2868
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 39
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1798
+        },
+        {
+            "builder": "f1b.io",
+            "count": 152
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 15
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 45
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 143
+        },
+        {
+            "builder": "payload.de",
+            "count": 59
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2771
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 1
+        }
+    ],
+    "2023-07-12": [
+        {
+            "builder": "0x81d48582fd1f11548ddcb4d82b281d",
+            "count": 1
+        },
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 31
+        },
+        {
+            "builder": "BloXroute",
+            "count": 209
+        },
+        {
+            "builder": "Blocknative",
+            "count": 143
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 5
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 97
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1595
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 7
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 26
+        },
+        {
+            "builder": "Geth Go",
+            "count": 16
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 11
+        },
+        {
+            "builder": "Manifold",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 258
+        },
+        {
+            "builder": "aequitas et integritas",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2692
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 47
+        },
+        {
+            "builder": "builder0x69",
+            "count": 2466
+        },
+        {
+            "builder": "f1b.io",
+            "count": 238
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 13
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 46
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 119
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 8
+        },
+        {
+            "builder": "payload.de",
+            "count": 29
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2666
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 2
+        }
+    ],
+    "2023-07-13": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 41
+        },
+        {
+            "builder": "BloXroute",
+            "count": 263
+        },
+        {
+            "builder": "Blocknative",
+            "count": 152
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 56
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1501
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 29
+        },
+        {
+            "builder": "Geth Go",
+            "count": 4
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 4
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 15
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 190
+        },
+        {
+            "builder": "antbuilder",
+            "count": 3
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3284
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 15
+        },
+        {
+            "builder": "builder0x69",
+            "count": 2007
+        },
+        {
+            "builder": "f1b.io",
+            "count": 308
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 11
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 41
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 101
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 30
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2587
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 1
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 4
+        }
+    ],
+    "2023-07-14": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 19
+        },
+        {
+            "builder": "BloXroute",
+            "count": 245
+        },
+        {
+            "builder": "Blocknative",
+            "count": 213
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 85
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1384
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 6
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 16
+        },
+        {
+            "builder": "Geth Go",
+            "count": 19
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 1
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 8
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "PLC.eth",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 304
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 4352
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 43
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1509
+        },
+        {
+            "builder": "f1b.io",
+            "count": 273
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 8
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 105
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 17
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 4
+        },
+        {
+            "builder": "payload.de",
+            "count": 32
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 1928
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 3
+        }
+    ],
+    "2023-07-15": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 28
+        },
+        {
+            "builder": "BloXroute",
+            "count": 143
+        },
+        {
+            "builder": "Blocknative",
+            "count": 236
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 2
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 66
+        },
+        {
+            "builder": "FC",
+            "count": 2
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1604
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 26
+        },
+        {
+            "builder": "Geth Go",
+            "count": 23
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 26
+        },
+        {
+            "builder": "Manifold",
+            "count": 8
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 591
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2486
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 97
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1763
+        },
+        {
+            "builder": "f1b.io",
+            "count": 573
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 6
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 124
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 1
+        },
+        {
+            "builder": "payload.de",
+            "count": 82
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2043
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 2
+        }
+    ],
+    "2023-07-16": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 10
+        },
+        {
+            "builder": "BloXroute",
+            "count": 168
+        },
+        {
+            "builder": "Blocknative",
+            "count": 232
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 1
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 74
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1287
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 1
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 17
+        },
+        {
+            "builder": "Geth Go",
+            "count": 20
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 4
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 23
+        },
+        {
+            "builder": "Manifold",
+            "count": 44
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 723
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2389
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 39
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1899
+        },
+        {
+            "builder": "f1b.io",
+            "count": 435
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 18
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 45
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 34
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 62
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2690
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 1
+        }
+    ],
+    "2023-07-17": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 21
+        },
+        {
+            "builder": "BloXroute",
+            "count": 217
+        },
+        {
+            "builder": "Blocknative",
+            "count": 129
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 94
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1432
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 6
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 11
+        },
+        {
+            "builder": "Geth Go",
+            "count": 18
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 24
+        },
+        {
+            "builder": "Manifold",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 616
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2775
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 51
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1993
+        },
+        {
+            "builder": "f1b.io",
+            "count": 272
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 26
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 33
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 50
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 58
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2409
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 4
+        }
+    ],
+    "2023-07-18": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 34
+        },
+        {
+            "builder": "ArmenArakelian",
+            "count": 1
+        },
+        {
+            "builder": "BloXroute",
+            "count": 426
+        },
+        {
+            "builder": "Blocknative",
+            "count": 124
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 135
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1474
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 17
+        },
+        {
+            "builder": "Geth Go",
+            "count": 36
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 1
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 30
+        },
+        {
+            "builder": "Manifold",
+            "count": 8
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 888
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2150
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 22
+        },
+        {
+            "builder": "builder0x69",
+            "count": 2294
+        },
+        {
+            "builder": "f1b.io",
+            "count": 343
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 4
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 26
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 74
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 37
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2050
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 1
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 4
+        }
+    ],
+    "2023-07-19": [
+        {
+            "builder": "0x805492e33b23293a17d0defd5be6ab",
+            "count": 1
+        },
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 36
+        },
+        {
+            "builder": "0xa3e5b2fe1183312c0be6bbc498fd95",
+            "count": 2
+        },
+        {
+            "builder": "BloXroute",
+            "count": 388
+        },
+        {
+            "builder": "Blocknative",
+            "count": 76
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 5
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 116
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1752
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 7
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 15
+        },
+        {
+            "builder": "Geth Go",
+            "count": 14
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 11
+        },
+        {
+            "builder": "Manifold",
+            "count": 5
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1054
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2289
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 52
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1204
+        },
+        {
+            "builder": "f1b.io",
+            "count": 379
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 10
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 33
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 115
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 4
+        },
+        {
+            "builder": "payload.de",
+            "count": 68
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2769
+        }
+    ],
+    "2023-07-20": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 27
+        },
+        {
+            "builder": "BloXroute",
+            "count": 404
+        },
+        {
+            "builder": "Blocknative",
+            "count": 92
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 8
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 84
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1690
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 12
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 15
+        },
+        {
+            "builder": "Geth Go",
+            "count": 38
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 5
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 967
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2078
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 41
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1031
+        },
+        {
+            "builder": "f1b.io",
+            "count": 318
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 9
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 28
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 79
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 123
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3165
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 4
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 9
+        }
+    ],
+    "2023-07-21": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 34
+        },
+        {
+            "builder": "BloXroute",
+            "count": 383
+        },
+        {
+            "builder": "Blocknative",
+            "count": 100
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 146
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1540
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 14
+        },
+        {
+            "builder": "Geth Go",
+            "count": 21
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 19
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 5
+        },
+        {
+            "builder": "Manifold",
+            "count": 8
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1109
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 1896
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 25
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1311
+        },
+        {
+            "builder": "f1b.io",
+            "count": 295
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 19
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 26
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 76
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 104
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3142
+        }
+    ],
+    "2023-07-22": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 30
+        },
+        {
+            "builder": "BloXroute",
+            "count": 317
+        },
+        {
+            "builder": "Blocknative",
+            "count": 148
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 9
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 134
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1600
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 2
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 16
+        },
+        {
+            "builder": "Geth Go",
+            "count": 23
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 9
+        },
+        {
+            "builder": "Manifold",
+            "count": 7
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 979
+        },
+        {
+            "builder": "antbuilder",
+            "count": 2
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 1652
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 38
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1151
+        },
+        {
+            "builder": "f1b.io",
+            "count": 508
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 7
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 32
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 133
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 191
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3480
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 1
+        }
+    ],
+    "2023-07-23": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 37
+        },
+        {
+            "builder": "BloXroute",
+            "count": 267
+        },
+        {
+            "builder": "Blocknative",
+            "count": 119
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 9
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 109
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1476
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 1
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 22
+        },
+        {
+            "builder": "Geth Go",
+            "count": 26
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 3
+        },
+        {
+            "builder": "Manifold",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 969
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2109
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 53
+        },
+        {
+            "builder": "builder0x69",
+            "count": 963
+        },
+        {
+            "builder": "f1b.io",
+            "count": 449
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 7
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 36
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 97
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 7
+        },
+        {
+            "builder": "payload.de",
+            "count": 229
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3629
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 5
+        }
+    ],
+    "2023-07-24": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 43
+        },
+        {
+            "builder": "ArmenArakelian",
+            "count": 6
+        },
+        {
+            "builder": "BloXroute",
+            "count": 368
+        },
+        {
+            "builder": "Blocknative",
+            "count": 140
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 118
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1523
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 2
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 4
+        },
+        {
+            "builder": "Geth Go",
+            "count": 21
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 3
+        },
+        {
+            "builder": "Manifold",
+            "count": 5
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 7
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 969
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2005
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 28
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1176
+        },
+        {
+            "builder": "f1b.io",
+            "count": 368
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 9
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 25
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 51
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 112
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3490
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 1
+        }
+    ],
+    "2023-07-25": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 36
+        },
+        {
+            "builder": "BloXroute",
+            "count": 310
+        },
+        {
+            "builder": "Blocknative",
+            "count": 97
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 8
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 89
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1634
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 7
+        },
+        {
+            "builder": "Geth Go",
+            "count": 15
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 2
+        },
+        {
+            "builder": "Manifold",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1059
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2152
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 33
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1186
+        },
+        {
+            "builder": "f1b.io",
+            "count": 468
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 4
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 20
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 4
+        },
+        {
+            "builder": "payload.de",
+            "count": 136
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3167
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 5
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 1
+        }
+    ],
+    "2023-07-26": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 48
+        },
+        {
+            "builder": "BloXroute",
+            "count": 267
+        },
+        {
+            "builder": "Blocknative",
+            "count": 82
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 2
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 81
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1624
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 8
+        },
+        {
+            "builder": "Geth Go",
+            "count": 28
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 4
+        },
+        {
+            "builder": "Manifold",
+            "count": 6
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 871
+        },
+        {
+            "builder": "antbuilder",
+            "count": 2
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2217
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 35
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1019
+        },
+        {
+            "builder": "f1b.io",
+            "count": 549
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 4
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 33
+        },
+        {
+            "builder": "payload.de",
+            "count": 158
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3138
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 5
+        }
+    ],
+    "2023-07-27": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 62
+        },
+        {
+            "builder": "BloXroute",
+            "count": 329
+        },
+        {
+            "builder": "Blocknative",
+            "count": 78
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 1
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 103
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1523
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 12
+        },
+        {
+            "builder": "Geth Go",
+            "count": 34
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 1
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "PLC.eth",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1158
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2273
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 15
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1186
+        },
+        {
+            "builder": "f1b.io",
+            "count": 394
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 6
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 24
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 131
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2868
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 5
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 2
+        }
+    ],
+    "2023-07-28": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 67
+        },
+        {
+            "builder": "ArmenArakelian",
+            "count": 1
+        },
+        {
+            "builder": "BloXroute",
+            "count": 328
+        },
+        {
+            "builder": "Blocknative",
+            "count": 95
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 154
+        },
+        {
+            "builder": "FC",
+            "count": 2
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1359
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 17
+        },
+        {
+            "builder": "Geth Go",
+            "count": 27
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 12
+        },
+        {
+            "builder": "Manifold",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1273
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2524
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 36
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1364
+        },
+        {
+            "builder": "f1b.io",
+            "count": 469
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 7
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 32
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 14
+        },
+        {
+            "builder": "payload.de",
+            "count": 219
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3345
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 3
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 5
+        }
+    ],
+    "2023-07-29": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 18
+        },
+        {
+            "builder": "BloXroute",
+            "count": 326
+        },
+        {
+            "builder": "Blocknative",
+            "count": 455
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 88
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1281
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 7
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 12
+        },
+        {
+            "builder": "Geth Go",
+            "count": 12
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 13
+        },
+        {
+            "builder": "Manifold",
+            "count": 7
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1033
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2688
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 39
+        },
+        {
+            "builder": "builder0x69",
+            "count": 856
+        },
+        {
+            "builder": "f1b.io",
+            "count": 651
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 2
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 51
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 1
+        },
+        {
+            "builder": "payload.de",
+            "count": 193
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3374
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 1
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 3
+        }
+    ],
+    "2023-07-30": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 79
+        },
+        {
+            "builder": "0xa3e5b2fe1183312c0be6bbc498fd95",
+            "count": 1
+        },
+        {
+            "builder": "BloXroute",
+            "count": 299
+        },
+        {
+            "builder": "Blocknative",
+            "count": 266
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 7
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 158
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1262
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 2
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 13
+        },
+        {
+            "builder": "Geth Go",
+            "count": 15
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 9
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 29
+        },
+        {
+            "builder": "Manifold",
+            "count": 9
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 601
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2891
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 85
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1000
+        },
+        {
+            "builder": "f1b.io",
+            "count": 865
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 6
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 96
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 8
+        },
+        {
+            "builder": "payload.de",
+            "count": 394
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2694
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 13
+        }
+    ],
+    "2023-07-31": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 62
+        },
+        {
+            "builder": "BloXroute",
+            "count": 492
+        },
+        {
+            "builder": "Blocknative",
+            "count": 135
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 10
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 152
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1417
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 10
+        },
+        {
+            "builder": "Geth Go",
+            "count": 22
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 1
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 25
+        },
+        {
+            "builder": "Manifold",
+            "count": 5
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 752
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3798
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 6
+        },
+        {
+            "builder": "builder0x69",
+            "count": 974
+        },
+        {
+            "builder": "f1b.io",
+            "count": 313
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 5
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 90
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 291
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3032
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 11
+        }
+    ],
+    "2023-08-01": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 10
+        },
+        {
+            "builder": "BloXroute",
+            "count": 245
+        },
+        {
+            "builder": "Blocknative",
+            "count": 138
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 8
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 103
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 2
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1463
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 11
+        },
+        {
+            "builder": "Geth Go",
+            "count": 14
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 7
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 944
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 4326
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 20
+        },
+        {
+            "builder": "builder0x69",
+            "count": 836
+        },
+        {
+            "builder": "f1b.io",
+            "count": 216
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 13
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 30
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 8
+        },
+        {
+            "builder": "payload.de",
+            "count": 195
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 16
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3547
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 8
+        }
+    ],
+    "2023-08-02": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 48
+        },
+        {
+            "builder": "BloXroute",
+            "count": 216
+        },
+        {
+            "builder": "Blocknative",
+            "count": 193
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 8
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 121
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1602
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 1
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 22
+        },
+        {
+            "builder": "Geth Go",
+            "count": 7
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 7
+        },
+        {
+            "builder": "Manifold",
+            "count": 11
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1522
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3267
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 40
+        },
+        {
+            "builder": "builder0x69",
+            "count": 768
+        },
+        {
+            "builder": "f1b.io",
+            "count": 129
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 11
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 24
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 296
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 46
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3455
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 7
+        }
+    ],
+    "2023-08-03": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 31
+        },
+        {
+            "builder": "BloXroute",
+            "count": 173
+        },
+        {
+            "builder": "Blocknative",
+            "count": 305
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 132
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1652
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 16
+        },
+        {
+            "builder": "Geth Go",
+            "count": 11
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 18
+        },
+        {
+            "builder": "Manifold",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1761
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2531
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 29
+        },
+        {
+            "builder": "builder0x69",
+            "count": 993
+        },
+        {
+            "builder": "f1b.io",
+            "count": 264
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 3
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 23
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 5
+        },
+        {
+            "builder": "payload.de",
+            "count": 148
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 29
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3159
+        }
+    ],
+    "2023-08-04": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 27
+        },
+        {
+            "builder": "BloXroute",
+            "count": 246
+        },
+        {
+            "builder": "Blocknative",
+            "count": 369
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 133
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1633
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 2
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 13
+        },
+        {
+            "builder": "Geth Go",
+            "count": 44
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 15
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1380
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2662
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 69
+        },
+        {
+            "builder": "builder0x69",
+            "count": 767
+        },
+        {
+            "builder": "f1b.io",
+            "count": 225
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 4
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 54
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 170
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 32
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3574
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 7
+        }
+    ],
+    "2023-08-05": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 31
+        },
+        {
+            "builder": "BloXroute",
+            "count": 99
+        },
+        {
+            "builder": "Blocknative",
+            "count": 265
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 5
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 205
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1510
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 6
+        },
+        {
+            "builder": "Geth Go",
+            "count": 50
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 9
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1153
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2524
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 95
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1676
+        },
+        {
+            "builder": "f1b.io",
+            "count": 178
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 5
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 45
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 394
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 7
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3383
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 18
+        }
+    ],
+    "2023-08-06": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 21
+        },
+        {
+            "builder": "0xa3e5b2fe1183312c0be6bbc498fd95",
+            "count": 1
+        },
+        {
+            "builder": "BloXroute",
+            "count": 99
+        },
+        {
+            "builder": "Blocknative",
+            "count": 239
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 144
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1537
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 17
+        },
+        {
+            "builder": "Geth Go",
+            "count": 34
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 15
+        },
+        {
+            "builder": "Manifold",
+            "count": 6
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1330
+        },
+        {
+            "builder": "antbuilder",
+            "count": 4
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 2673
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 61
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1294
+        },
+        {
+            "builder": "f1b.io",
+            "count": 223
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 3
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 60
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 9
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 5
+        },
+        {
+            "builder": "payload.de",
+            "count": 390
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 30
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3616
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 15
+        }
+    ],
+    "2023-08-07": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 18
+        },
+        {
+            "builder": "BloXroute",
+            "count": 111
+        },
+        {
+            "builder": "Blocknative",
+            "count": 149
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 6
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 153
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1544
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 17
+        },
+        {
+            "builder": "Geth Go",
+            "count": 15
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 4
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 8
+        },
+        {
+            "builder": "Manifold",
+            "count": 11
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1607
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3434
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 40
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1012
+        },
+        {
+            "builder": "f1b.io",
+            "count": 201
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 3
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 29
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 130
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 3
+        },
+        {
+            "builder": "payload.de",
+            "count": 129
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 4
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3150
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 7
+        }
+    ],
+    "2023-08-08": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 27
+        },
+        {
+            "builder": "0xa46444fdef3a72da9a069e95da0703",
+            "count": 1
+        },
+        {
+            "builder": "BloXroute",
+            "count": 128
+        },
+        {
+            "builder": "Blocknative",
+            "count": 174
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 3
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 161
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1715
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 29
+        },
+        {
+            "builder": "Geth Go",
+            "count": 17
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 9
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1524
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3017
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 30
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1371
+        },
+        {
+            "builder": "f1b.io",
+            "count": 286
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 3
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 19
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 139
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 8
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 12
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2856
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 4
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 2
+        }
+    ],
+    "2023-08-09": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 17
+        },
+        {
+            "builder": "BloXroute",
+            "count": 176
+        },
+        {
+            "builder": "Blocknative",
+            "count": 183
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 8
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 122
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1781
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 21
+        },
+        {
+            "builder": "Geth Go",
+            "count": 8
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 17
+        },
+        {
+            "builder": "Manifold",
+            "count": 9
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1582
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3699
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 79
+        },
+        {
+            "builder": "builder0x69",
+            "count": 876
+        },
+        {
+            "builder": "f1b.io",
+            "count": 263
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 9
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 41
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 154
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 8
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 16
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2678
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 1
+        }
+    ],
+    "2023-08-10": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 21
+        },
+        {
+            "builder": "0xa3e5b2fe1183312c0be6bbc498fd95",
+            "count": 2
+        },
+        {
+            "builder": "BloXroute",
+            "count": 170
+        },
+        {
+            "builder": "Blocknative",
+            "count": 179
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 4
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 207
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1132
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 16
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 16
+        },
+        {
+            "builder": "Geth Go",
+            "count": 8
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 12
+        },
+        {
+            "builder": "Manifold",
+            "count": 4
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1830
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3144
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 65
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1092
+        },
+        {
+            "builder": "f1b.io",
+            "count": 194
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 10
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 24
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 185
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 11
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 9
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3452
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 9
+        }
+    ],
+    "2023-08-11": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 24
+        },
+        {
+            "builder": "BloXroute",
+            "count": 167
+        },
+        {
+            "builder": "Blocknative",
+            "count": 240
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 6
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 188
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 2
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1291
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 27
+        },
+        {
+            "builder": "Geth Go",
+            "count": 10
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 13
+        },
+        {
+            "builder": "Manifold",
+            "count": 7
+        },
+        {
+            "builder": "Shared/Default",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1732
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3541
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 47
+        },
+        {
+            "builder": "builder0x69",
+            "count": 658
+        },
+        {
+            "builder": "f1b.io",
+            "count": 233
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 3
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 37
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 176
+        },
+        {
+            "builder": "payload.de",
+            "count": 13
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 7
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3344
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 12
+        }
+    ],
+    "2023-08-12": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 20
+        },
+        {
+            "builder": "BloXroute",
+            "count": 173
+        },
+        {
+            "builder": "Blocknative",
+            "count": 270
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 147
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1571
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 3
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 25
+        },
+        {
+            "builder": "Geth Go",
+            "count": 29
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 11
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1580
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3740
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 47
+        },
+        {
+            "builder": "builder0x69",
+            "count": 737
+        },
+        {
+            "builder": "f1b.io",
+            "count": 217
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 4
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 34
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 32
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 27
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 7
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3391
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 1
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 12
+        }
+    ],
+    "2023-08-13": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 11
+        },
+        {
+            "builder": "BloXroute",
+            "count": 113
+        },
+        {
+            "builder": "Blocknative",
+            "count": 226
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 8
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 207
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 2
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1514
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 18
+        },
+        {
+            "builder": "Geth Go",
+            "count": 4
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 15
+        },
+        {
+            "builder": "Manifold",
+            "count": 11
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1225
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3461
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 73
+        },
+        {
+            "builder": "builder0x69",
+            "count": 860
+        },
+        {
+            "builder": "f1b.io",
+            "count": 680
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 17
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 53
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 25
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 6
+        },
+        {
+            "builder": "payload.de",
+            "count": 31
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 6
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3331
+        },
+        {
+            "builder": "smithbot.xyz",
+            "count": 1
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 8
+        }
+    ],
+    "2023-08-14": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 28
+        },
+        {
+            "builder": "BloXroute",
+            "count": 200
+        },
+        {
+            "builder": "Blocknative",
+            "count": 213
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 11
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 140
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1441
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 34
+        },
+        {
+            "builder": "Geth Go",
+            "count": 16
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1892
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3794
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 68
+        },
+        {
+            "builder": "builder0x69",
+            "count": 749
+        },
+        {
+            "builder": "f1b.io",
+            "count": 330
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 7
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 17
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 5
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 28
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 7
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2987
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 7
+        }
+    ],
+    "2023-08-15": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 38
+        },
+        {
+            "builder": "0xa3e5b2fe1183312c0be6bbc498fd95",
+            "count": 3
+        },
+        {
+            "builder": "BloXroute",
+            "count": 152
+        },
+        {
+            "builder": "Blocknative",
+            "count": 131
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 1
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 128
+        },
+        {
+            "builder": "EigenPhi",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1213
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 2
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 14
+        },
+        {
+            "builder": "Geth Go",
+            "count": 25
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 5
+        },
+        {
+            "builder": "Manifold",
+            "count": 31
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 1953
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3316
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 29
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1187
+        },
+        {
+            "builder": "f1b.io",
+            "count": 117
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 8
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 172
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 13
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 7
+        },
+        {
+            "builder": "payload.de",
+            "count": 15
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 2
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3275
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 2
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 28
+        }
+    ],
+    "2023-08-16": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 12
+        },
+        {
+            "builder": "BloXroute",
+            "count": 128
+        },
+        {
+            "builder": "Blocknative",
+            "count": 328
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 7
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 192
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1223
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 5
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 10
+        },
+        {
+            "builder": "Geth Go",
+            "count": 15
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 2190
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 4026
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 50
+        },
+        {
+            "builder": "builder0x69",
+            "count": 1117
+        },
+        {
+            "builder": "f1b.io",
+            "count": 95
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 2
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 36
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 16
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 7
+        },
+        {
+            "builder": "payload.de",
+            "count": 8
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 3
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 3087
+        },
+        {
+            "builder": "spiderbuilder.net",
+            "count": 1
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 11
+        }
+    ],
+    "2023-08-17": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 34
+        },
+        {
+            "builder": "BloXroute",
+            "count": 135
+        },
+        {
+            "builder": "Blocknative",
+            "count": 221
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 7
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 204
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1567
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 6
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 20
+        },
+        {
+            "builder": "Geth Go",
+            "count": 19
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 6
+        },
+        {
+            "builder": "Manifold",
+            "count": 15
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 2158
+        },
+        {
+            "builder": "antbuilder",
+            "count": 1
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 4300
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 36
+        },
+        {
+            "builder": "builder0x69",
+            "count": 759
+        },
+        {
+            "builder": "f1b.io",
+            "count": 78
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 3
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 46
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 15
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 5
+        },
+        {
+            "builder": "payload.de",
+            "count": 21
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 27
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2769
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 15
+        }
+    ],
+    "2023-08-18": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 38
+        },
+        {
+            "builder": "BloXroute",
+            "count": 139
+        },
+        {
+            "builder": "Blocknative",
+            "count": 294
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 13
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 135
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1204
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 11
+        },
+        {
+            "builder": "Geth Go",
+            "count": 20
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 4
+        },
+        {
+            "builder": "Manifold",
+            "count": 2
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 2174
+        },
+        {
+            "builder": "antbuilder",
+            "count": 6
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 5002
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 19
+        },
+        {
+            "builder": "builder0x69",
+            "count": 725
+        },
+        {
+            "builder": "f1b.io",
+            "count": 93
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 2
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 21
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 14
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 11
+        },
+        {
+            "builder": "payload.de",
+            "count": 15
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 9
+        },
+        {
+            "builder": "rpc.tbuilder.xyz",
+            "count": 3
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2478
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 6
+        }
+    ],
+    "2023-08-19": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 12
+        },
+        {
+            "builder": "BloXroute",
+            "count": 93
+        },
+        {
+            "builder": "Blocknative",
+            "count": 350
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 7
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 98
+        },
+        {
+            "builder": "FC",
+            "count": 1
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1226
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 4
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 22
+        },
+        {
+            "builder": "Geth Go",
+            "count": 15
+        },
+        {
+            "builder": "I can haz block?",
+            "count": 3
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 3
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 2099
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3384
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 51
+        },
+        {
+            "builder": "builder0x69",
+            "count": 836
+        },
+        {
+            "builder": "f1b.io",
+            "count": 631
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 2
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 34
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 25
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 2
+        },
+        {
+            "builder": "payload.de",
+            "count": 16
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 9
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2356
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 4
+        }
+    ],
+    "2023-08-20": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 27
+        },
+        {
+            "builder": "0xb930da7c6823696bfc7fb4421d4f81",
+            "count": 1
+        },
+        {
+            "builder": "BloXroute",
+            "count": 99
+        },
+        {
+            "builder": "Blocknative",
+            "count": 374
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 5
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 156
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1198
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 8
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 21
+        },
+        {
+            "builder": "Geth Go",
+            "count": 10
+        },
+        {
+            "builder": "Manifold",
+            "count": 7
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 2340
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3348
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 45
+        },
+        {
+            "builder": "builder0x69",
+            "count": 686
+        },
+        {
+            "builder": "f1b.io",
+            "count": 503
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 3
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 20
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 10
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 7
+        },
+        {
+            "builder": "payload.de",
+            "count": 9
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 5
+        },
+        {
+            "builder": "rpc.tbuilder.xyz",
+            "count": 1
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2498
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 9
+        }
+    ],
+    "2023-08-21": [
+        {
+            "builder": "0x83bee51799e65130296f5d60ce7d78",
+            "count": 7
+        },
+        {
+            "builder": "BloXroute",
+            "count": 178
+        },
+        {
+            "builder": "Blocknative",
+            "count": 255
+        },
+        {
+            "builder": "Bob the builder",
+            "count": 1
+        },
+        {
+            "builder": "BuildAI (https://buildai.net)",
+            "count": 122
+        },
+        {
+            "builder": "Flashbots",
+            "count": 1464
+        },
+        {
+            "builder": "Flashbots SGX",
+            "count": 6
+        },
+        {
+            "builder": "Gambit Labs (https://gmbit.co)",
+            "count": 38
+        },
+        {
+            "builder": "Geth Go",
+            "count": 60
+        },
+        {
+            "builder": "It's Free Real Estate",
+            "count": 1
+        },
+        {
+            "builder": "Titan Builder",
+            "count": 2878
+        },
+        {
+            "builder": "beaverbuild.org",
+            "count": 3300
+        },
+        {
+            "builder": "boba-builder.com",
+            "count": 22
+        },
+        {
+            "builder": "builder0x69",
+            "count": 638
+        },
+        {
+            "builder": "f1b.io",
+            "count": 286
+        },
+        {
+            "builder": "https://edennetwork.io",
+            "count": 1
+        },
+        {
+            "builder": "https://eth-builder.com",
+            "count": 20
+        },
+        {
+            "builder": "lightspeedbuilder.info",
+            "count": 20
+        },
+        {
+            "builder": "nfactorial.xyz",
+            "count": 4
+        },
+        {
+            "builder": "payload.de",
+            "count": 18
+        },
+        {
+            "builder": "red ocean surfer",
+            "count": 1
+        },
+        {
+            "builder": "rsync-builder.xyz",
+            "count": 2808
+        },
+        {
+            "builder": "uwu.builders",
+            "count": 14
         }
     ]
 }

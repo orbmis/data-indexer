@@ -1,172 +1,4 @@
 {
-    "2023-05-19": [
-        {
-            "relay": "aestus",
-            "count": 65
-        },
-        {
-            "relay": "agnostic Gnosis",
-            "count": 1641
-        },
-        {
-            "relay": "blocknative",
-            "count": 344
-        },
-        {
-            "relay": "bloxroute (ethical)",
-            "count": 6
-        },
-        {
-            "relay": "bloxroute (max profit)",
-            "count": 624
-        },
-        {
-            "relay": "bloxroute (regulated)",
-            "count": 157
-        },
-        {
-            "relay": "eden",
-            "count": 14
-        },
-        {
-            "relay": "flashbots",
-            "count": 1804
-        },
-        {
-            "relay": "manifold",
-            "count": 18
-        },
-        {
-            "relay": "ultrasound",
-            "count": 2922
-        }
-    ],
-    "2023-05-20": [
-        {
-            "relay": "aestus",
-            "count": 74
-        },
-        {
-            "relay": "agnostic Gnosis",
-            "count": 1826
-        },
-        {
-            "relay": "blocknative",
-            "count": 449
-        },
-        {
-            "relay": "bloxroute (ethical)",
-            "count": 9
-        },
-        {
-            "relay": "bloxroute (max profit)",
-            "count": 648
-        },
-        {
-            "relay": "bloxroute (regulated)",
-            "count": 124
-        },
-        {
-            "relay": "eden",
-            "count": 10
-        },
-        {
-            "relay": "flashbots",
-            "count": 1728
-        },
-        {
-            "relay": "manifold",
-            "count": 25
-        },
-        {
-            "relay": "ultrasound",
-            "count": 2798
-        }
-    ],
-    "2023-05-21": [
-        {
-            "relay": "aestus",
-            "count": 43
-        },
-        {
-            "relay": "agnostic Gnosis",
-            "count": 1858
-        },
-        {
-            "relay": "blocknative",
-            "count": 364
-        },
-        {
-            "relay": "bloxroute (ethical)",
-            "count": 16
-        },
-        {
-            "relay": "bloxroute (max profit)",
-            "count": 595
-        },
-        {
-            "relay": "bloxroute (regulated)",
-            "count": 142
-        },
-        {
-            "relay": "eden",
-            "count": 9
-        },
-        {
-            "relay": "flashbots",
-            "count": 1730
-        },
-        {
-            "relay": "manifold",
-            "count": 23
-        },
-        {
-            "relay": "ultrasound",
-            "count": 2876
-        }
-    ],
-    "2023-05-22": [
-        {
-            "relay": "aestus",
-            "count": 23
-        },
-        {
-            "relay": "agnostic Gnosis",
-            "count": 1668
-        },
-        {
-            "relay": "blocknative",
-            "count": 485
-        },
-        {
-            "relay": "bloxroute (ethical)",
-            "count": 9
-        },
-        {
-            "relay": "bloxroute (max profit)",
-            "count": 688
-        },
-        {
-            "relay": "bloxroute (regulated)",
-            "count": 156
-        },
-        {
-            "relay": "eden",
-            "count": 28
-        },
-        {
-            "relay": "flashbots",
-            "count": 1642
-        },
-        {
-            "relay": "manifold",
-            "count": 15
-        },
-        {
-            "relay": "ultrasound",
-            "count": 2851
-        }
-    ],
     "2023-05-23": [
         {
             "relay": "aestus",
@@ -724,7 +556,7 @@
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 67
+            "count": 9
         },
         {
             "relay": "bloxroute (max profit)",
@@ -766,7 +598,7 @@
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 127
+            "count": 6
         },
         {
             "relay": "bloxroute (max profit)",
@@ -796,43 +628,43 @@
     "2023-06-07": [
         {
             "relay": "aestus",
-            "count": 81
+            "count": 77
         },
         {
             "relay": "agnostic Gnosis",
-            "count": 1205
+            "count": 1163
         },
         {
             "relay": "blocknative",
-            "count": 547
+            "count": 526
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 264
+            "count": 9
         },
         {
             "relay": "bloxroute (max profit)",
-            "count": 1271
+            "count": 1224
         },
         {
             "relay": "bloxroute (regulated)",
-            "count": 132
+            "count": 126
         },
         {
             "relay": "eden",
-            "count": 64
+            "count": 61
         },
         {
             "relay": "flashbots",
-            "count": 2181
+            "count": 2096
         },
         {
             "relay": "manifold",
-            "count": 11
+            "count": 9
         },
         {
             "relay": "ultrasound",
-            "count": 2544
+            "count": 2440
         }
     ],
     "2023-06-08": [
@@ -850,7 +682,7 @@
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 545
+            "count": 12
         },
         {
             "relay": "bloxroute (max profit)",
@@ -892,7 +724,7 @@
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 377
+            "count": 7
         },
         {
             "relay": "bloxroute (max profit)",
@@ -934,7 +766,7 @@
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 664
+            "count": 13
         },
         {
             "relay": "bloxroute (max profit)",
@@ -976,7 +808,7 @@
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 485
+            "count": 15
         },
         {
             "relay": "bloxroute (max profit)",
@@ -1018,7 +850,7 @@
         },
         {
             "relay": "bloxroute (ethical)",
-            "count": 75
+            "count": 4
         },
         {
             "relay": "bloxroute (max profit)",
@@ -1295,6 +1127,2686 @@
         {
             "relay": "ultrasound",
             "count": 2831
+        }
+    ],
+    "2023-06-19": [
+        {
+            "relay": "aestus",
+            "count": 201
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1475
+        },
+        {
+            "relay": "blocknative",
+            "count": 508
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 12
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1053
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 156
+        },
+        {
+            "relay": "eden",
+            "count": 41
+        },
+        {
+            "relay": "flashbots",
+            "count": 2258
+        },
+        {
+            "relay": "manifold",
+            "count": 57
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2851
+        }
+    ],
+    "2023-06-20": [
+        {
+            "relay": "aestus",
+            "count": 168
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1540
+        },
+        {
+            "relay": "blocknative",
+            "count": 575
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 12
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1319
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 258
+        },
+        {
+            "relay": "eden",
+            "count": 28
+        },
+        {
+            "relay": "flashbots",
+            "count": 2179
+        },
+        {
+            "relay": "manifold",
+            "count": 12
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2409
+        }
+    ],
+    "2023-06-21": [
+        {
+            "relay": "aestus",
+            "count": 145
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1431
+        },
+        {
+            "relay": "blocknative",
+            "count": 646
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1278
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 302
+        },
+        {
+            "relay": "eden",
+            "count": 29
+        },
+        {
+            "relay": "flashbots",
+            "count": 2178
+        },
+        {
+            "relay": "manifold",
+            "count": 20
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2516
+        }
+    ],
+    "2023-06-22": [
+        {
+            "relay": "aestus",
+            "count": 155
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1408
+        },
+        {
+            "relay": "blocknative",
+            "count": 529
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 7
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1272
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 426
+        },
+        {
+            "relay": "eden",
+            "count": 30
+        },
+        {
+            "relay": "flashbots",
+            "count": 2122
+        },
+        {
+            "relay": "manifold",
+            "count": 8
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2548
+        }
+    ],
+    "2023-06-23": [
+        {
+            "relay": "aestus",
+            "count": 168
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1514
+        },
+        {
+            "relay": "blocknative",
+            "count": 472
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 7
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1523
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 631
+        },
+        {
+            "relay": "eden",
+            "count": 22
+        },
+        {
+            "relay": "flashbots",
+            "count": 2100
+        },
+        {
+            "relay": "manifold",
+            "count": 8
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2285
+        }
+    ],
+    "2023-06-24": [
+        {
+            "relay": "aestus",
+            "count": 202
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1455
+        },
+        {
+            "relay": "blocknative",
+            "count": 466
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1546
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 578
+        },
+        {
+            "relay": "eden",
+            "count": 42
+        },
+        {
+            "relay": "flashbots",
+            "count": 2184
+        },
+        {
+            "relay": "manifold",
+            "count": 25
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2269
+        }
+    ],
+    "2023-06-25": [
+        {
+            "relay": "aestus",
+            "count": 155
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1327
+        },
+        {
+            "relay": "blocknative",
+            "count": 532
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1661
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 690
+        },
+        {
+            "relay": "eden",
+            "count": 20
+        },
+        {
+            "relay": "flashbots",
+            "count": 2112
+        },
+        {
+            "relay": "manifold",
+            "count": 22
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2372
+        }
+    ],
+    "2023-06-26": [
+        {
+            "relay": "aestus",
+            "count": 141
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1359
+        },
+        {
+            "relay": "blocknative",
+            "count": 539
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 6
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1459
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 580
+        },
+        {
+            "relay": "eden",
+            "count": 14
+        },
+        {
+            "relay": "flashbots",
+            "count": 2173
+        },
+        {
+            "relay": "manifold",
+            "count": 11
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2301
+        }
+    ],
+    "2023-06-27": [
+        {
+            "relay": "aestus",
+            "count": 160
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1446
+        },
+        {
+            "relay": "blocknative",
+            "count": 415
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 3
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1345
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 597
+        },
+        {
+            "relay": "eden",
+            "count": 15
+        },
+        {
+            "relay": "flashbots",
+            "count": 2280
+        },
+        {
+            "relay": "manifold",
+            "count": 4
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2496
+        }
+    ],
+    "2023-06-28": [
+        {
+            "relay": "aestus",
+            "count": 173
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1586
+        },
+        {
+            "relay": "blocknative",
+            "count": 611
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 6
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1442
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 622
+        },
+        {
+            "relay": "eden",
+            "count": 43
+        },
+        {
+            "relay": "flashbots",
+            "count": 2223
+        },
+        {
+            "relay": "manifold",
+            "count": 2
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2567
+        }
+    ],
+    "2023-06-29": [
+        {
+            "relay": "aestus",
+            "count": 178
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1595
+        },
+        {
+            "relay": "blocknative",
+            "count": 598
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1677
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 630
+        },
+        {
+            "relay": "eden",
+            "count": 48
+        },
+        {
+            "relay": "flashbots",
+            "count": 2229
+        },
+        {
+            "relay": "manifold",
+            "count": 2
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2641
+        }
+    ],
+    "2023-06-30": [
+        {
+            "relay": "aestus",
+            "count": 162
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1783
+        },
+        {
+            "relay": "blocknative",
+            "count": 588
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1564
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 635
+        },
+        {
+            "relay": "eden",
+            "count": 37
+        },
+        {
+            "relay": "flashbots",
+            "count": 2239
+        },
+        {
+            "relay": "manifold",
+            "count": 6
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2750
+        }
+    ],
+    "2023-07-01": [
+        {
+            "relay": "aestus",
+            "count": 223
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1748
+        },
+        {
+            "relay": "blocknative",
+            "count": 663
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 8
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1401
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 571
+        },
+        {
+            "relay": "eden",
+            "count": 92
+        },
+        {
+            "relay": "flashbots",
+            "count": 2357
+        },
+        {
+            "relay": "manifold",
+            "count": 14
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2734
+        }
+    ],
+    "2023-07-02": [
+        {
+            "relay": "aestus",
+            "count": 214
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1803
+        },
+        {
+            "relay": "blocknative",
+            "count": 613
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1437
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 637
+        },
+        {
+            "relay": "eden",
+            "count": 131
+        },
+        {
+            "relay": "flashbots",
+            "count": 2478
+        },
+        {
+            "relay": "manifold",
+            "count": 7
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2701
+        }
+    ],
+    "2023-07-03": [
+        {
+            "relay": "aestus",
+            "count": 171
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1825
+        },
+        {
+            "relay": "blocknative",
+            "count": 662
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 8
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1500
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 412
+        },
+        {
+            "relay": "eden",
+            "count": 105
+        },
+        {
+            "relay": "flashbots",
+            "count": 2393
+        },
+        {
+            "relay": "manifold",
+            "count": 7
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2927
+        }
+    ],
+    "2023-07-04": [
+        {
+            "relay": "aestus",
+            "count": 202
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1994
+        },
+        {
+            "relay": "blocknative",
+            "count": 603
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 3
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1634
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 79
+        },
+        {
+            "relay": "eden",
+            "count": 100
+        },
+        {
+            "relay": "flashbots",
+            "count": 2382
+        },
+        {
+            "relay": "manifold",
+            "count": 9
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2918
+        }
+    ],
+    "2023-07-05": [
+        {
+            "relay": "aestus",
+            "count": 145
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2477
+        },
+        {
+            "relay": "blocknative",
+            "count": 396
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 2
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1717
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 101
+        },
+        {
+            "relay": "eden",
+            "count": 117
+        },
+        {
+            "relay": "flashbots",
+            "count": 2321
+        },
+        {
+            "relay": "manifold",
+            "count": 11
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3444
+        }
+    ],
+    "2023-07-06": [
+        {
+            "relay": "aestus",
+            "count": 175
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2208
+        },
+        {
+            "relay": "blocknative",
+            "count": 560
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 2
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1636
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 399
+        },
+        {
+            "relay": "eden",
+            "count": 102
+        },
+        {
+            "relay": "flashbots",
+            "count": 2472
+        },
+        {
+            "relay": "manifold",
+            "count": 3
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2911
+        }
+    ],
+    "2023-07-07": [
+        {
+            "relay": "aestus",
+            "count": 199
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2069
+        },
+        {
+            "relay": "blocknative",
+            "count": 652
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 8
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1466
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 608
+        },
+        {
+            "relay": "eden",
+            "count": 82
+        },
+        {
+            "relay": "flashbots",
+            "count": 2301
+        },
+        {
+            "relay": "manifold",
+            "count": 5
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3087
+        }
+    ],
+    "2023-07-08": [
+        {
+            "relay": "aestus",
+            "count": 308
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1929
+        },
+        {
+            "relay": "blocknative",
+            "count": 803
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1402
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 644
+        },
+        {
+            "relay": "eden",
+            "count": 83
+        },
+        {
+            "relay": "flashbots",
+            "count": 2447
+        },
+        {
+            "relay": "manifold",
+            "count": 4
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2855
+        }
+    ],
+    "2023-07-09": [
+        {
+            "relay": "aestus",
+            "count": 296
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2024
+        },
+        {
+            "relay": "blocknative",
+            "count": 823
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1370
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 644
+        },
+        {
+            "relay": "eden",
+            "count": 144
+        },
+        {
+            "relay": "flashbots",
+            "count": 2398
+        },
+        {
+            "relay": "manifold",
+            "count": 7
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2854
+        }
+    ],
+    "2023-07-10": [
+        {
+            "relay": "aestus",
+            "count": 294
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2039
+        },
+        {
+            "relay": "blocknative",
+            "count": 799
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1469
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 615
+        },
+        {
+            "relay": "eden",
+            "count": 94
+        },
+        {
+            "relay": "flashbots",
+            "count": 2392
+        },
+        {
+            "relay": "manifold",
+            "count": 5
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2896
+        }
+    ],
+    "2023-07-11": [
+        {
+            "relay": "aestus",
+            "count": 266
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2089
+        },
+        {
+            "relay": "blocknative",
+            "count": 734
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1454
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 652
+        },
+        {
+            "relay": "eden",
+            "count": 137
+        },
+        {
+            "relay": "flashbots",
+            "count": 2275
+        },
+        {
+            "relay": "manifold",
+            "count": 12
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2970
+        }
+    ],
+    "2023-07-12": [
+        {
+            "relay": "aestus",
+            "count": 239
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2124
+        },
+        {
+            "relay": "blocknative",
+            "count": 728
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1428
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 599
+        },
+        {
+            "relay": "eden",
+            "count": 160
+        },
+        {
+            "relay": "flashbots",
+            "count": 2399
+        },
+        {
+            "relay": "manifold",
+            "count": 8
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3039
+        }
+    ],
+    "2023-07-13": [
+        {
+            "relay": "aestus",
+            "count": 215
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2148
+        },
+        {
+            "relay": "blocknative",
+            "count": 728
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1620
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 560
+        },
+        {
+            "relay": "eden",
+            "count": 112
+        },
+        {
+            "relay": "flashbots",
+            "count": 2274
+        },
+        {
+            "relay": "manifold",
+            "count": 5
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2993
+        }
+    ],
+    "2023-07-14": [
+        {
+            "relay": "aestus",
+            "count": 179
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1973
+        },
+        {
+            "relay": "blocknative",
+            "count": 891
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 8
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1804
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 327
+        },
+        {
+            "relay": "eden",
+            "count": 71
+        },
+        {
+            "relay": "flashbots",
+            "count": 2304
+        },
+        {
+            "relay": "manifold",
+            "count": 7
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3019
+        }
+    ],
+    "2023-07-15": [
+        {
+            "relay": "aestus",
+            "count": 153
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1789
+        },
+        {
+            "relay": "blocknative",
+            "count": 1000
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 3
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1292
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 201
+        },
+        {
+            "relay": "eden",
+            "count": 140
+        },
+        {
+            "relay": "flashbots",
+            "count": 2598
+        },
+        {
+            "relay": "manifold",
+            "count": 18
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2742
+        }
+    ],
+    "2023-07-16": [
+        {
+            "relay": "aestus",
+            "count": 268
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1833
+        },
+        {
+            "relay": "blocknative",
+            "count": 951
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1361
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 304
+        },
+        {
+            "relay": "eden",
+            "count": 156
+        },
+        {
+            "relay": "flashbots",
+            "count": 2432
+        },
+        {
+            "relay": "manifold",
+            "count": 52
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2857
+        }
+    ],
+    "2023-07-17": [
+        {
+            "relay": "aestus",
+            "count": 283
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1559
+        },
+        {
+            "relay": "blocknative",
+            "count": 1058
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1532
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 267
+        },
+        {
+            "relay": "eden",
+            "count": 123
+        },
+        {
+            "relay": "flashbots",
+            "count": 2729
+        },
+        {
+            "relay": "manifold",
+            "count": 3
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2690
+        }
+    ],
+    "2023-07-18": [
+        {
+            "relay": "aestus",
+            "count": 196
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2145
+        },
+        {
+            "relay": "blocknative",
+            "count": 933
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 6
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1314
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 253
+        },
+        {
+            "relay": "eden",
+            "count": 98
+        },
+        {
+            "relay": "flashbots",
+            "count": 2361
+        },
+        {
+            "relay": "manifold",
+            "count": 12
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2871
+        }
+    ],
+    "2023-07-19": [
+        {
+            "relay": "aestus",
+            "count": 297
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1992
+        },
+        {
+            "relay": "blocknative",
+            "count": 980
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1898
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 287
+        },
+        {
+            "relay": "eden",
+            "count": 160
+        },
+        {
+            "relay": "flashbots",
+            "count": 2367
+        },
+        {
+            "relay": "manifold",
+            "count": 11
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2408
+        }
+    ],
+    "2023-07-20": [
+        {
+            "relay": "aestus",
+            "count": 337
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1966
+        },
+        {
+            "relay": "blocknative",
+            "count": 1279
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 6
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1522
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 349
+        },
+        {
+            "relay": "eden",
+            "count": 147
+        },
+        {
+            "relay": "flashbots",
+            "count": 2541
+        },
+        {
+            "relay": "manifold",
+            "count": 17
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2070
+        }
+    ],
+    "2023-07-21": [
+        {
+            "relay": "aestus",
+            "count": 367
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 2061
+        },
+        {
+            "relay": "blocknative",
+            "count": 1290
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1435
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 340
+        },
+        {
+            "relay": "eden",
+            "count": 146
+        },
+        {
+            "relay": "flashbots",
+            "count": 2459
+        },
+        {
+            "relay": "manifold",
+            "count": 16
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2167
+        }
+    ],
+    "2023-07-22": [
+        {
+            "relay": "aestus",
+            "count": 391
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1982
+        },
+        {
+            "relay": "blocknative",
+            "count": 1218
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1460
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 387
+        },
+        {
+            "relay": "eden",
+            "count": 127
+        },
+        {
+            "relay": "flashbots",
+            "count": 2388
+        },
+        {
+            "relay": "manifold",
+            "count": 23
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2493
+        }
+    ],
+    "2023-07-23": [
+        {
+            "relay": "aestus",
+            "count": 413
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1957
+        },
+        {
+            "relay": "blocknative",
+            "count": 1223
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 3
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1226
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 393
+        },
+        {
+            "relay": "eden",
+            "count": 168
+        },
+        {
+            "relay": "flashbots",
+            "count": 2364
+        },
+        {
+            "relay": "manifold",
+            "count": 30
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2849
+        }
+    ],
+    "2023-07-24": [
+        {
+            "relay": "aestus",
+            "count": 378
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1977
+        },
+        {
+            "relay": "blocknative",
+            "count": 1227
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 3
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1282
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 361
+        },
+        {
+            "relay": "eden",
+            "count": 159
+        },
+        {
+            "relay": "flashbots",
+            "count": 2248
+        },
+        {
+            "relay": "manifold",
+            "count": 19
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2826
+        }
+    ],
+    "2023-07-25": [
+        {
+            "relay": "aestus",
+            "count": 308
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1924
+        },
+        {
+            "relay": "blocknative",
+            "count": 992
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1471
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 323
+        },
+        {
+            "relay": "eden",
+            "count": 133
+        },
+        {
+            "relay": "flashbots",
+            "count": 2107
+        },
+        {
+            "relay": "manifold",
+            "count": 17
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3160
+        }
+    ],
+    "2023-07-26": [
+        {
+            "relay": "aestus",
+            "count": 295
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1788
+        },
+        {
+            "relay": "blocknative",
+            "count": 1032
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1466
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 273
+        },
+        {
+            "relay": "eden",
+            "count": 106
+        },
+        {
+            "relay": "flashbots",
+            "count": 2146
+        },
+        {
+            "relay": "manifold",
+            "count": 23
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3047
+        }
+    ],
+    "2023-07-27": [
+        {
+            "relay": "aestus",
+            "count": 287
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1909
+        },
+        {
+            "relay": "blocknative",
+            "count": 988
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 11
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1322
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 393
+        },
+        {
+            "relay": "eden",
+            "count": 57
+        },
+        {
+            "relay": "flashbots",
+            "count": 1955
+        },
+        {
+            "relay": "manifold",
+            "count": 12
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3280
+        }
+    ],
+    "2023-07-28": [
+        {
+            "relay": "aestus",
+            "count": 313
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1909
+        },
+        {
+            "relay": "blocknative",
+            "count": 913
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 17
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1896
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 938
+        },
+        {
+            "relay": "eden",
+            "count": 167
+        },
+        {
+            "relay": "flashbots",
+            "count": 2085
+        },
+        {
+            "relay": "manifold",
+            "count": 23
+        },
+        {
+            "relay": "ultrasound",
+            "count": 3105
+        }
+    ],
+    "2023-07-29": [
+        {
+            "relay": "aestus",
+            "count": 357
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1738
+        },
+        {
+            "relay": "blocknative",
+            "count": 1007
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 11
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2047
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 996
+        },
+        {
+            "relay": "eden",
+            "count": 10
+        },
+        {
+            "relay": "flashbots",
+            "count": 1994
+        },
+        {
+            "relay": "manifold",
+            "count": 30
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2928
+        }
+    ],
+    "2023-07-30": [
+        {
+            "relay": "aestus",
+            "count": 344
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1735
+        },
+        {
+            "relay": "blocknative",
+            "count": 948
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 16
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 1903
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 910
+        },
+        {
+            "relay": "flashbots",
+            "count": 2045
+        },
+        {
+            "relay": "manifold",
+            "count": 53
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2850
+        }
+    ],
+    "2023-07-31": [
+        {
+            "relay": "aestus",
+            "count": 323
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1777
+        },
+        {
+            "relay": "blocknative",
+            "count": 991
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 18
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2361
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1069
+        },
+        {
+            "relay": "eden",
+            "count": 103
+        },
+        {
+            "relay": "flashbots",
+            "count": 2121
+        },
+        {
+            "relay": "manifold",
+            "count": 35
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2813
+        }
+    ],
+    "2023-08-01": [
+        {
+            "relay": "aestus",
+            "count": 326
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1711
+        },
+        {
+            "relay": "blocknative",
+            "count": 1046
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 10
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2528
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1244
+        },
+        {
+            "relay": "eden",
+            "count": 235
+        },
+        {
+            "relay": "flashbots",
+            "count": 2185
+        },
+        {
+            "relay": "manifold",
+            "count": 19
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2865
+        }
+    ],
+    "2023-08-02": [
+        {
+            "relay": "aestus",
+            "count": 369
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1718
+        },
+        {
+            "relay": "blocknative",
+            "count": 1004
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 14
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2388
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 969
+        },
+        {
+            "relay": "eden",
+            "count": 178
+        },
+        {
+            "relay": "flashbots",
+            "count": 2252
+        },
+        {
+            "relay": "manifold",
+            "count": 42
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2874
+        }
+    ],
+    "2023-08-03": [
+        {
+            "relay": "aestus",
+            "count": 332
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1657
+        },
+        {
+            "relay": "blocknative",
+            "count": 1016
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 11
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2332
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1242
+        },
+        {
+            "relay": "eden",
+            "count": 150
+        },
+        {
+            "relay": "flashbots",
+            "count": 2039
+        },
+        {
+            "relay": "manifold",
+            "count": 21
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2492
+        }
+    ],
+    "2023-08-04": [
+        {
+            "relay": "aestus",
+            "count": 340
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1662
+        },
+        {
+            "relay": "blocknative",
+            "count": 1021
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2379
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1288
+        },
+        {
+            "relay": "eden",
+            "count": 207
+        },
+        {
+            "relay": "flashbots",
+            "count": 2049
+        },
+        {
+            "relay": "manifold",
+            "count": 13
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2472
+        }
+    ],
+    "2023-08-05": [
+        {
+            "relay": "aestus",
+            "count": 339
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1813
+        },
+        {
+            "relay": "blocknative",
+            "count": 1027
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2228
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1185
+        },
+        {
+            "relay": "eden",
+            "count": 172
+        },
+        {
+            "relay": "flashbots",
+            "count": 2221
+        },
+        {
+            "relay": "manifold",
+            "count": 48
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2627
+        }
+    ],
+    "2023-08-06": [
+        {
+            "relay": "aestus",
+            "count": 385
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1789
+        },
+        {
+            "relay": "blocknative",
+            "count": 1002
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2290
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1248
+        },
+        {
+            "relay": "eden",
+            "count": 200
+        },
+        {
+            "relay": "flashbots",
+            "count": 2229
+        },
+        {
+            "relay": "manifold",
+            "count": 48
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2640
+        }
+    ],
+    "2023-08-07": [
+        {
+            "relay": "aestus",
+            "count": 327
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1779
+        },
+        {
+            "relay": "blocknative",
+            "count": 994
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 6
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2503
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1497
+        },
+        {
+            "relay": "eden",
+            "count": 171
+        },
+        {
+            "relay": "flashbots",
+            "count": 2019
+        },
+        {
+            "relay": "manifold",
+            "count": 23
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2469
+        }
+    ],
+    "2023-08-08": [
+        {
+            "relay": "aestus",
+            "count": 282
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1891
+        },
+        {
+            "relay": "blocknative",
+            "count": 927
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2324
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1376
+        },
+        {
+            "relay": "eden",
+            "count": 169
+        },
+        {
+            "relay": "flashbots",
+            "count": 2068
+        },
+        {
+            "relay": "manifold",
+            "count": 12
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2496
+        }
+    ],
+    "2023-08-09": [
+        {
+            "relay": "aestus",
+            "count": 302
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1884
+        },
+        {
+            "relay": "blocknative",
+            "count": 962
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 2
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2438
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1428
+        },
+        {
+            "relay": "eden",
+            "count": 117
+        },
+        {
+            "relay": "flashbots",
+            "count": 2107
+        },
+        {
+            "relay": "manifold",
+            "count": 10
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2507
+        }
+    ],
+    "2023-08-10": [
+        {
+            "relay": "aestus",
+            "count": 352
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1759
+        },
+        {
+            "relay": "blocknative",
+            "count": 1106
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2513
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1589
+        },
+        {
+            "relay": "eden",
+            "count": 176
+        },
+        {
+            "relay": "flashbots",
+            "count": 1895
+        },
+        {
+            "relay": "manifold",
+            "count": 5
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2407
+        }
+    ],
+    "2023-08-11": [
+        {
+            "relay": "aestus",
+            "count": 374
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1800
+        },
+        {
+            "relay": "blocknative",
+            "count": 1085
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2614
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1539
+        },
+        {
+            "relay": "eden",
+            "count": 157
+        },
+        {
+            "relay": "flashbots",
+            "count": 1910
+        },
+        {
+            "relay": "manifold",
+            "count": 11
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2293
+        }
+    ],
+    "2023-08-12": [
+        {
+            "relay": "aestus",
+            "count": 370
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1843
+        },
+        {
+            "relay": "blocknative",
+            "count": 1127
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 8
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2573
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1580
+        },
+        {
+            "relay": "eden",
+            "count": 163
+        },
+        {
+            "relay": "flashbots",
+            "count": 1994
+        },
+        {
+            "relay": "manifold",
+            "count": 16
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2417
+        }
+    ],
+    "2023-08-13": [
+        {
+            "relay": "aestus",
+            "count": 345
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1982
+        },
+        {
+            "relay": "blocknative",
+            "count": 1059
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 3
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2342
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1356
+        },
+        {
+            "relay": "eden",
+            "count": 215
+        },
+        {
+            "relay": "flashbots",
+            "count": 2120
+        },
+        {
+            "relay": "manifold",
+            "count": 16
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2473
+        }
+    ],
+    "2023-08-14": [
+        {
+            "relay": "aestus",
+            "count": 308
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1985
+        },
+        {
+            "relay": "blocknative",
+            "count": 1088
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2633
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1552
+        },
+        {
+            "relay": "eden",
+            "count": 115
+        },
+        {
+            "relay": "flashbots",
+            "count": 1792
+        },
+        {
+            "relay": "manifold",
+            "count": 8
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2514
+        }
+    ],
+    "2023-08-15": [
+        {
+            "relay": "aestus",
+            "count": 331
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1888
+        },
+        {
+            "relay": "blocknative",
+            "count": 1103
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2573
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1477
+        },
+        {
+            "relay": "eden",
+            "count": 169
+        },
+        {
+            "relay": "flashbots",
+            "count": 1796
+        },
+        {
+            "relay": "manifold",
+            "count": 37
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2493
+        }
+    ],
+    "2023-08-16": [
+        {
+            "relay": "aestus",
+            "count": 302
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1888
+        },
+        {
+            "relay": "blocknative",
+            "count": 1144
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 6
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2816
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1673
+        },
+        {
+            "relay": "eden",
+            "count": 148
+        },
+        {
+            "relay": "flashbots",
+            "count": 1978
+        },
+        {
+            "relay": "manifold",
+            "count": 5
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2621
+        }
+    ],
+    "2023-08-17": [
+        {
+            "relay": "aestus",
+            "count": 275
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1872
+        },
+        {
+            "relay": "blocknative",
+            "count": 1004
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 4
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2797
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1670
+        },
+        {
+            "relay": "eden",
+            "count": 146
+        },
+        {
+            "relay": "flashbots",
+            "count": 2076
+        },
+        {
+            "relay": "manifold",
+            "count": 21
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2603
+        }
+    ],
+    "2023-08-18": [
+        {
+            "relay": "aestus",
+            "count": 239
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1740
+        },
+        {
+            "relay": "blocknative",
+            "count": 1209
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2977
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1770
+        },
+        {
+            "relay": "eden",
+            "count": 97
+        },
+        {
+            "relay": "flashbots",
+            "count": 2038
+        },
+        {
+            "relay": "manifold",
+            "count": 6
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2368
+        }
+    ],
+    "2023-08-19": [
+        {
+            "relay": "aestus",
+            "count": 278
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1852
+        },
+        {
+            "relay": "blocknative",
+            "count": 1124
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 5
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2353
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1395
+        },
+        {
+            "relay": "eden",
+            "count": 122
+        },
+        {
+            "relay": "flashbots",
+            "count": 2048
+        },
+        {
+            "relay": "manifold",
+            "count": 4
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2112
+        }
+    ],
+    "2023-08-20": [
+        {
+            "relay": "aestus",
+            "count": 285
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1784
+        },
+        {
+            "relay": "blocknative",
+            "count": 994
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 6
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2411
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1428
+        },
+        {
+            "relay": "eden",
+            "count": 106
+        },
+        {
+            "relay": "flashbots",
+            "count": 1938
+        },
+        {
+            "relay": "manifold",
+            "count": 10
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2428
+        }
+    ],
+    "2023-08-21": [
+        {
+            "relay": "aestus",
+            "count": 314
+        },
+        {
+            "relay": "agnostic Gnosis",
+            "count": 1865
+        },
+        {
+            "relay": "blocknative",
+            "count": 964
+        },
+        {
+            "relay": "bloxroute (ethical)",
+            "count": 1
+        },
+        {
+            "relay": "bloxroute (max profit)",
+            "count": 2675
+        },
+        {
+            "relay": "bloxroute (regulated)",
+            "count": 1615
+        },
+        {
+            "relay": "eden",
+            "count": 157
+        },
+        {
+            "relay": "flashbots",
+            "count": 1943
+        },
+        {
+            "relay": "manifold",
+            "count": 2
+        },
+        {
+            "relay": "ultrasound",
+            "count": 2606
         }
     ]
 }
