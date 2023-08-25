@@ -3,6 +3,8 @@ const util = require('util')
 
 class DataAnalyzer {
 
+  currentDate = null
+
   constructor() {
     this.dataCache = null
   }
@@ -56,6 +58,8 @@ class DataAnalyzer {
       }
 
       const date = file.replace('data_', '').replace('.json', '')
+
+      this.currentDate = date
 
       // console.log('DATE:', date)
 
@@ -262,6 +266,22 @@ class DataAnalyzer {
   }
 
   formatData(data) {
+    if (!data.amountStakedByPool) {
+      console.error(this.currentDate, ': No data for Amount Staked By Pool')
+    }
+
+    if (!data.activityByBundler) {
+      console.error(this.currentDate, ': No data for Activity By Bundler')
+    }
+
+    if (!data.stablecoinsByTvl) {
+      console.error(this.currentDate, ': No data for Stablecoins By Tvl')
+    }
+
+    if (!data.rollupsByTvl) {
+      console.error(this.currentDate, ': No data for Rollups By Tvl')
+    }
+
     const amountStakedByPool = data.amountStakedByPool ? data.amountStakedByPool.map(record => ({
       key: record.entity,
       value: record.amount_staked,
