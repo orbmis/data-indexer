@@ -2,11 +2,30 @@ const fs = require('fs')
 const util = require('util')
 
 class DataAnalyzer {
-
   currentDate = null
 
   constructor() {
     this.dataCache = null
+  }
+
+  parseCsvData(inputFilePath) {
+    const csvData = fs.readFileSync(inputFilePath, 'utf-8')
+
+    const rows = csvData.split(/\r?\n/g)
+
+    const headerRow = rows.shift()
+
+    const data = rows.map((row) => {
+      const columns = row.split(',')
+
+      return {
+        date: columns[0].substring(0, 10),
+        entity: columns[1],
+        quantity: Number(columns[2]),
+      }
+    })
+
+    return data
   }
 
   loadData() {
@@ -14,7 +33,7 @@ class DataAnalyzer {
 
     const calculateIndices = this.calculateIndices
 
-    const capitalize = k => k.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())
+    const capitalize = (k) => k.replace(/([A-Z])/g, ' $1').replace(/^./, (str) => str.toUpperCase())
 
     const cacheData = this.cacheData.bind(this)
 
@@ -29,6 +48,8 @@ class DataAnalyzer {
       nativeAssetsByAddress: 1,
       exchangeBySupply: 0.7,
       activityByBundler: 0.2,
+      userOpsByBundler: 0.2,
+      accountsByDeployer: 0.2,
       stablecoinsByTvl: 0.3,
       rollupsByTvl: 0.5,
     }
@@ -36,7 +57,7 @@ class DataAnalyzer {
     let GCSV, HHICSV, SCSV, masterIndex
 
     let headerRowAdded = false
-    
+
     // keys in format: 2023-05-19
     const relayData = require('./relays.json')
     const blockBuilderData = require('./block_builders.json')
@@ -52,7 +73,16 @@ class DataAnalyzer {
     let firstRecordedIndices = null
     let lastRecordedDate = null
 
-    fs.readdirSync(datafolder).forEach(file => {
+    const fs = require('fs')
+
+    const bundlerMarketShareByUserOpQuantity = this.parseCsvData('./Ethereum Bundler Marketshare by UserOp Quantity.csv')
+    const accountsDeployedByAccountDeployer = this.parseCsvData('./Accounts Deployed by Account Deployer.csv')
+
+    // console.log(bundlerMarketShareByUserOpQuantity)
+
+    let dateCount = 0
+
+    fs.readdirSync(datafolder).forEach((file) => {
       if (file.slice(-4) !== 'json') {
         return
       }
@@ -65,9 +95,23 @@ class DataAnalyzer {
 
       const data = require(datafolder.concat(file))
       const formattedData = this.formatData(data)
-      
-      formattedData.blocksByBuilder = blockBuilderData[date].map(i => ({ key: i.builder, value: i.count }))
-      formattedData.blocksByRelays = relayData[date].map(i => ({ key: i.relay, value: i.count }))
+
+      formattedData.blocksByBuilder = blockBuilderData[date].map((i) => ({
+        key: i.builder,
+        value: i.count,
+      }))
+
+      formattedData.userOpsByBundler = bundlerMarketShareByUserOpQuantity.reduce((acc, cur) => {
+        return cur.date === date ? [...acc, { key: cur.entity, value: cur.quantity } ] : acc
+      }, [])
+
+      formattedData.accountsByDeployer = accountsDeployedByAccountDeployer.reduce((acc, cur) => {
+        return cur.date === date ? [...acc, { key: cur.entity, value: cur.quantity } ] : acc
+      }, [])
+
+      // console.log(formattedData.userOpsByBundler)
+
+      formattedData.blocksByRelays = relayData[date].map((i) => ({ key: i.relay, value: i.count }))
 
       const previousRoundsData = this.dataCache ? this.dataCache : null
 
@@ -109,7 +153,9 @@ class DataAnalyzer {
         summation[capitalize(k)].HHI += indices.herfindahlHirschmanIndices[k]
         summation[capitalize(k)].Atkinson += indices.atkinsonIndex[k]
         summation[capitalize(k)].Shannon += indices.shannonEntropy[k]
-        summation[capitalize(k)].JSD += pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : null
+        summation[capitalize(k)].JSD += pandq
+          ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1])
+          : null
         summation[capitalize(k)]['P90:P10'] += indices.P90P10[k]
 
         return {
@@ -121,7 +167,7 @@ class DataAnalyzer {
             Shannon: indices.shannonEntropy[k],
             JSD: pandq ? DataAnalyzer.js_divergence(pandq[k][0], pandq[k][1]) : 0,
             'P90:P10': indices.P90P10[k],
-          }
+          },
         }
       }, {})
 
@@ -161,8 +207,11 @@ class DataAnalyzer {
       SCSV += this.createCsv(date, transposedData, 'Shannon')
 
       masterIndex += date + ',' + Object.values(transposedData.masterIndex).join(',').concat('\n')
+
+      dateCount++
     })
 
+    console.log('Number of recorded dates:', dateCount)
     console.log(`\n${lastRecordedDate}:`)
     console.table(lastRecordedTransposedData)
 
@@ -170,7 +219,7 @@ class DataAnalyzer {
     const JSDs = Object.entries(pq).reduce((acc, cur) => {
       return {
         ...acc,
-        [cur[0]]: DataAnalyzer.js_divergence(cur[1][0], cur[1][1])
+        [cur[0]]: DataAnalyzer.js_divergence(cur[1][0], cur[1][1]),
       }
     }, {})
 
@@ -179,7 +228,8 @@ class DataAnalyzer {
         ...acc,
         [cur[0]]: Object.entries(cur[1]).reduce((a, c) => {
           return {
-            ...a, [c[0]]: Number((c[1] / numberOfDaysInDataSet).toFixed(2)),
+            ...a,
+            [c[0]]: Number((c[1] / numberOfDaysInDataSet).toFixed(2)),
           }
         }, {}),
       }
@@ -191,10 +241,10 @@ class DataAnalyzer {
     console.log('\n Jensen-Shannon Diverage across 30 days:')
     console.table(JSDs)
 
-    fs.writeFileSync('./reports/gini.csv', GCSV);
-    fs.writeFileSync('./reports/HHI.csv', HHICSV);
-    fs.writeFileSync('./reports/shannon.csv', SCSV);
-    fs.writeFileSync('./reports/master.csv', masterIndex);
+    fs.writeFileSync('./reports/gini.csv', GCSV)
+    fs.writeFileSync('./reports/HHI.csv', HHICSV)
+    fs.writeFileSync('./reports/shannon.csv', SCSV)
+    fs.writeFileSync('./reports/master.csv', masterIndex)
   }
 
   cacheData(data) {
@@ -202,20 +252,23 @@ class DataAnalyzer {
   }
 
   createCsv(date, data, index) {
-    const csvrow = Object.entries(data).map(i => i[1][index]).join(',').concat('\n')
+    const csvrow = Object.entries(data)
+      .map((i) => i[1][index])
+      .join(',')
+      .concat('\n')
 
     return date.concat(',', csvrow)
   }
 
   transpose(data) {
-    const p = data.map(i => i.p)
-    const q = data.map(i => i.q)
+    const p = data.map((i) => i.p)
+    const q = data.map((i) => i.q)
 
-    return [ p, q ]
+    return [p, q]
   }
 
   findByKey(dataset, match, key, value) {
-    let datum = dataset.find(i => i[key] === match)
+    let datum = dataset.find((i) => i[key] === match)
 
     datum = datum ? datum[value] : null
 
@@ -225,21 +278,23 @@ class DataAnalyzer {
   createComparisonArrays(data, datacache, k, key, value) {
     data[k] = data[k] || []
     datacache[k] = datacache[k] || []
-    const d = data[k].map(i => i)
-    const dc = datacache[k].map(i => i)
+    const d = data[k].map((i) => i)
+    const dc = datacache[k].map((i) => i)
 
     const paditem = { [key]: 0, [value]: 0 }
 
     if (d.length > dc.length) {
-      DataAnalyzer.padArray(dc, d.length, paditem )
+      DataAnalyzer.padArray(dc, d.length, paditem)
     } else if (d.length < dc.length) {
-      DataAnalyzer.padArray(d, dc.length, paditem )
+      DataAnalyzer.padArray(d, dc.length, paditem)
     }
 
-    const comparisonArray = this.transpose(d.map(record => ({
-      p: record[value],
-      q: this.findByKey(dc, record[key], key, value),
-    })))
+    const comparisonArray = this.transpose(
+      d.map((record) => ({
+        p: record[value],
+        q: this.findByKey(dc, record[key], key, value),
+      }))
+    )
 
     return comparisonArray
   }
@@ -256,6 +311,8 @@ class DataAnalyzer {
       blocksByRelays: prepare('blocksByRelays', 'key', 'value'),
       blocksByBuilder: prepare('blocksByBuilder', 'key', 'value'),
       activityByBundler: prepare('activityByBundler', 'key', 'value'),
+      userOpsByBundler: prepare('userOpsByBundler', 'key', 'value'),
+      accountsByDeployer: prepare('accountsByDeployer', 'key', 'value'),
       stablecoinsByTvl: prepare('stablecoinsByTvl', 'key', 'value'),
       rollupsByTvl: prepare('rollupsByTvl', 'key', 'value'),
       nativeAssetsByAddress: prepare('nativeAssetsByAddress', 'key', 'value'),
@@ -282,36 +339,45 @@ class DataAnalyzer {
       console.error(this.currentDate, ': No data for Rollups By Tvl')
     }
 
-    const amountStakedByPool = data.amountStakedByPool ? data.amountStakedByPool.map(record => ({
-      key: record.entity,
-      value: record.amount_staked,
-    })) : []
+    const amountStakedByPool = data.amountStakedByPool
+      ? data.amountStakedByPool.map((record) => ({
+          key: record.entity,
+          value: record.amount_staked,
+        }))
+      : []
 
-    const nativeAssetsByAddress = Object.entries(data.nativeAssetsByAddress).map(record => ({
+    const nativeAssetsByAddress = Object.entries(data.nativeAssetsByAddress).map((record) => ({
       key: Number(record[0].replace('above_', '').replace('_', '.')),
       value: record[1],
     }))
 
-    const exchangeBySupply = Object.entries(data.exchangeBySupply).map(record => ({
-      key: record[0],
-      value: record[1],
-    }))
-      .filter(i => i.value !== null)
+    const exchangeBySupply = Object.entries(data.exchangeBySupply)
+      .map((record) => ({
+        key: record[0],
+        value: record[1],
+      }))
+      .filter((i) => i.value !== null)
 
-    const activityByBundler = data.activityByBundler ? data.activityByBundler.map(record => ({
-      key: record.bundler,
-      value: record.numberTransactions,
-    })) : []
+    const activityByBundler = data.activityByBundler
+      ? data.activityByBundler.map((record) => ({
+          key: record.bundler,
+          value: record.numberTransactions,
+        }))
+      : []
 
-    const stablecoinsByTvl = data.stablecoinsByTvl ? data.stablecoinsByTvl.map(record => ({
-      key: record.symbol,
-      value: record.TVL,
-    })) : []
+    const stablecoinsByTvl = data.stablecoinsByTvl
+      ? data.stablecoinsByTvl.map((record) => ({
+          key: record.symbol,
+          value: record.TVL,
+        }))
+      : []
 
-    const rollupsByTvl = data.rollupsByTvl ? data.rollupsByTvl.map(record => ({
-      key: record.name,
-      value: record.tvl || 0,
-    })) : []
+    const rollupsByTvl = data.rollupsByTvl
+      ? data.rollupsByTvl.map((record) => ({
+          key: record.name,
+          value: record.tvl || 0,
+        }))
+      : []
 
     const payload = {
       executionNodesByCountry: data.executionNodesByCountry,
@@ -332,27 +398,62 @@ class DataAnalyzer {
   calculateIndices(data, previousRoundsData) {
     const keys = Object.keys(data)
 
-    data.nativeAssetsByAddress = DataAnalyzer.normalizeNativeAssetDistribution(data.nativeAssetsByAddress)
+    data.nativeAssetsByAddress = DataAnalyzer.normalizeNativeAssetDistribution(
+      data.nativeAssetsByAddress
+    )
 
-    const giniCoefficients = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: cur[1] ? DataAnalyzer.calculateGiniCoefficient(cur[1].map(i => i.value)) : 0
-    }), {})
+    const giniCoefficients = Object.entries(data).reduce(
+      (acc, cur) => ({
+        ...acc,
+        [cur[0]]: cur[1] ? DataAnalyzer.calculateGiniCoefficient(cur[1].map((i) => i.value)) : 0,
+      }),
+      {}
+    )
 
-    const herfindahlHirschmanIndices = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: cur[1] ? DataAnalyzer.calculateHerfindahlHirschmanIndex(cur[1].map(i => i.value)) : 0
-    }), {})
+    const herfindahlHirschmanIndices = Object.entries(data).reduce(
+      (acc, cur) => ({
+        ...acc,
+        [cur[0]]: cur[1]
+          ? DataAnalyzer.calculateHerfindahlHirschmanIndex(cur[1].map((i) => i.value))
+          : 0,
+      }),
+      {}
+    )
 
-    const atkinsonIndex = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: cur[1] ? DataAnalyzer.calculateAtkinsonIndex(cur[1].map(i => i.value), 0.5) : 0
-    }), {})
+    const atkinsonIndex = Object.entries(data).reduce(
+      (acc, cur) => ({
+        ...acc,
+        [cur[0]]: cur[1]
+          ? DataAnalyzer.calculateAtkinsonIndex(
+              cur[1].map((i) => i.value),
+              0.5
+            )
+          : 0,
+      }),
+      {}
+    )
 
-    const shannonEntropy = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: cur[1] ? DataAnalyzer.calculateShannonEntropy(cur[1].map(i => i.value)) : 0
-    }), {})
+    const shannonEntropy = Object.entries(data).reduce(
+      (acc, cur) => ({
+        ...acc,
+        [cur[0]]: cur[1] ? DataAnalyzer.calculateShannonEntropy(cur[1].map((i) => i.value)) : 0,
+      }),
+      {}
+    )
 
-    const P90P10 = Object.entries(data).reduce((acc, cur) => ({
-      ...acc, [cur[0]]: cur[1] ? DataAnalyzer.calculateRatio(cur[1].map(i => i.value), 90, 10) : 0
-    }), {})
+    const P90P10 = Object.entries(data).reduce(
+      (acc, cur) => ({
+        ...acc,
+        [cur[0]]: cur[1]
+          ? DataAnalyzer.calculateRatio(
+              cur[1].map((i) => i.value),
+              90,
+              10
+            )
+          : 0,
+      }),
+      {}
+    )
 
     return { giniCoefficients, herfindahlHirschmanIndices, atkinsonIndex, shannonEntropy, P90P10 }
   }
@@ -374,13 +475,17 @@ class DataAnalyzer {
   // based on relative mean absolute difference
   // this directly implements the formula on the paper
   static calculateGiniCoefficient(array) {
+    if (array.length === 0) {
+      return 0
+    }
+
     let sum = 0
     let n = array.length
     let arraySum = array.reduce((a, b) => a + b, 0)
     let μ = arraySum / n
 
-    for(let i = 0; i < n; i++) {
-      for(let j = 0; j < n; j++) {
+    for (let i = 0; i < n; i++) {
+      for (let j = 0; j < n; j++) {
         sum += Math.abs(array[i] - array[j])
       }
     }
@@ -395,7 +500,7 @@ class DataAnalyzer {
     const totalAmount = data.reduce((acc, cur) => acc + cur, 0)
 
     // convert each value to shares
-    const shares = data.map(value => value / totalAmount)
+    const shares = data.map((value) => value / totalAmount)
 
     // Square each market share
     const squaredShares = shares.map((share) => (share * 100) ** 2)
@@ -403,7 +508,7 @@ class DataAnalyzer {
     // Sum the squared market shares
     const herfindahlHirschmanIndex = squaredShares.reduce((acc, cur) => acc + cur, 0)
 
-    const normalized = herfindahlHirschmanIndex / (10 ** 4)
+    const normalized = herfindahlHirschmanIndex / 10 ** 4
 
     return Number(normalized.toFixed(2))
   }
@@ -434,8 +539,11 @@ class DataAnalyzer {
     return Number((entropy / 10).toFixed(2))
   }
 
-
   static calculateAtkinsonIndex(incomes, epsilon) {
+    if (incomes.length === 0) {
+      return 0
+    }
+
     let N = incomes.length
 
     // Calculate mean income
@@ -445,7 +553,7 @@ class DataAnalyzer {
 
     if (epsilon === 1) {
       // Use the geometric mean when epsilon = 1
-      const product = incomes.reduce((a, b) => a * Math.pow(b, 1/N), 1)
+      const product = incomes.reduce((a, b) => a * Math.pow(b, 1 / N), 1)
 
       atkinsonIndex = 1 - product / mu
     } else {
@@ -459,26 +567,27 @@ class DataAnalyzer {
   }
 
   calculateMasterIndex(metrics, weightings) {
-    const beta = Object.entries(metrics).map(metric => metric.pop())
-    const omega = Object.entries(weightings).map(metric => metric.pop())
+    const beta = Object.entries(metrics).map((metric) => metric.pop())
+    const omega = Object.entries(weightings).map((metric) => metric.pop())
     const n = beta.length
 
     // Check if arrays have the same length
     if (n !== omega.length) {
-      throw new Error("Arrays beta and omega must have the same length.")
+      throw new Error('Arrays beta and omega must have the same length.')
     }
 
     // Calculate product of all (beta[i] * omega[i]) values
     const product = beta.reduce((acc, betaValue, i) => acc * (betaValue * omega[i]), 1)
 
     // Calculate gamma
-    const gamma = (Math.pow(product, 1 / n) - Math.min(...beta)) / (Math.max(...beta) - Math.min(...beta))
+    const gamma =
+      (Math.pow(product, 1 / n) - Math.min(...beta)) / (Math.max(...beta) - Math.min(...beta))
 
     return Number(gamma.toFixed(2))
   }
 
   static padArray(array, size, defaultValue) {
-    while(array.length < size) {
+    while (array.length < size) {
       array.push(defaultValue)
     }
   }
@@ -486,8 +595,8 @@ class DataAnalyzer {
   static kl_divergence(p, q) {
     let sum = 0
 
-    for(let i = 0; i < p.length; i++) {
-      if(p[i] != 0) {
+    for (let i = 0; i < p.length; i++) {
+      if (p[i] != 0) {
         sum += p[i] * Math.log(p[i] / q[i])
       }
     }
@@ -499,19 +608,21 @@ class DataAnalyzer {
     const sump = p.reduce((acc, cur) => acc + cur, 0)
     const sumq = p.reduce((acc, cur) => acc + cur, 0)
 
-    p = p.map(i => i / sump)
-    q = q.map(i => i / sumq)
+    p = p.map((i) => i / sump)
+    q = q.map((i) => i / sumq)
 
     DataAnalyzer.padArray(p, q.length, 0)
     DataAnalyzer.padArray(q, p.length, 0)
 
     let m = []
 
-    for(let i = 0; i < p.length; i++) {
+    for (let i = 0; i < p.length; i++) {
       m[i] = 0.5 * (p[i] + q[i])
     }
 
-    const JSD = (0.5 * DataAnalyzer.kl_divergence(p, m) + 0.5 * DataAnalyzer.kl_divergence(q, m)) / Math.log(2)
+    const JSD =
+      (0.5 * DataAnalyzer.kl_divergence(p, m) + 0.5 * DataAnalyzer.kl_divergence(q, m)) /
+      Math.log(2)
 
     return Number(JSD.toFixed(7))
   }
@@ -522,7 +633,7 @@ class DataAnalyzer {
     const lowerValue = DataAnalyzer.calculatePercentile(data, lowerPercentile)
     const upperValue = DataAnalyzer.calculatePercentile(data, upperPercentile)
 
-    const ratio = (upperValue / lowerValue) // / data.reduce((acc, cur) => acc + cur, 0)
+    const ratio = upperValue / lowerValue // / data.reduce((acc, cur) => acc + cur, 0)
 
     return Math.abs(ratio.toFixed(2))
   }
@@ -535,7 +646,7 @@ class DataAnalyzer {
 
     deciles.forEach((decile) => {
       // calculate the rank of the decile
-      let rank = decile / 100.0 * (data.length + 1)
+      let rank = (decile / 100.0) * (data.length + 1)
 
       // identify the surrounding data points
       let lowerRank = Math.floor(rank)
@@ -570,7 +681,7 @@ class DataAnalyzer {
 
     const ratio = deciles[decile1] / deciles[decile2]
 
-    const sum = data.reduce((a, c) => a+c, 0)
+    const sum = data.reduce((a, c) => a + c, 0)
 
     const delta = ratio / sum
 
