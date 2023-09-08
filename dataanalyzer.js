@@ -75,8 +75,12 @@ class DataAnalyzer {
 
     const fs = require('fs')
 
-    const bundlerMarketShareByUserOpQuantity = this.parseCsvData('./Ethereum Bundler Marketshare by UserOp Quantity.csv')
-    const accountsDeployedByAccountDeployer = this.parseCsvData('./Accounts Deployed by Account Deployer.csv')
+    const bundlerMarketShareByUserOpQuantity = this.parseCsvData(
+      './Ethereum Bundler Marketshare by UserOp Quantity.csv'
+    )
+    const accountsDeployedByAccountDeployer = this.parseCsvData(
+      './Accounts Deployed by Account Deployer.csv'
+    )
 
     // console.log(bundlerMarketShareByUserOpQuantity)
 
@@ -102,11 +106,11 @@ class DataAnalyzer {
       }))
 
       formattedData.userOpsByBundler = bundlerMarketShareByUserOpQuantity.reduce((acc, cur) => {
-        return cur.date === date ? [...acc, { key: cur.entity, value: cur.quantity } ] : acc
+        return cur.date === date ? [...acc, { key: cur.entity, value: cur.quantity }] : acc
       }, [])
 
       formattedData.accountsByDeployer = accountsDeployedByAccountDeployer.reduce((acc, cur) => {
-        return cur.date === date ? [...acc, { key: cur.entity, value: cur.quantity } ] : acc
+        return cur.date === date ? [...acc, { key: cur.entity, value: cur.quantity }] : acc
       }, [])
 
       // console.log(formattedData.userOpsByBundler)
@@ -235,10 +239,10 @@ class DataAnalyzer {
       }
     }, {})
 
-    console.log('\n30 Day Averages:')
+    console.log('\n90 Day Averages:')
     console.table(averages)
 
-    console.log('\n Jensen-Shannon Diverage across 30 days:')
+    console.log('\n Jensen-Shannon Diverage across 90 days:')
     console.table(JSDs)
 
     fs.writeFileSync('./reports/gini.csv', GCSV)
@@ -577,11 +581,14 @@ class DataAnalyzer {
     }
 
     // Calculate product of all (beta[i] * omega[i]) values
-    const product = beta.reduce((acc, betaValue, i) => acc * (betaValue * omega[i]), 1)
+    const product = beta.reduce(
+      (acc, betaValue, i) => (betaValue == 0 ? acc : acc * (betaValue * 100 * omega[i])),
+      1
+    )
 
     // Calculate gamma
     const gamma =
-      (Math.pow(product, 1 / n) - Math.min(...beta)) / (Math.max(...beta) - Math.min(...beta))
+      (Math.pow(product, 1 / n) - Math.min(...beta)) / (Math.max(...beta) - Math.min(...beta)) / 100
 
     return Number(gamma.toFixed(2))
   }
