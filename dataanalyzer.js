@@ -37,7 +37,7 @@ class DataAnalyzer {
 
     const cacheData = this.cacheData.bind(this)
 
-    const weightings = {
+    let weightings = {
       executionNodesByCountry: 1,
       executionNodesByClientBase: 1,
       consensusNodesByCountry: 1,
@@ -46,13 +46,25 @@ class DataAnalyzer {
       blocksByRelays: 0.7,
       blocksByBuilder: 0.7,
       nativeAssetsByAddress: 1,
-      exchangeBySupply: 0.7,
-      activityByBundler: 0.2,
+      // exchangeBySupply: 0.7,
+      // activityByBundler: 0.2,
       userOpsByBundler: 0.2,
       accountsByDeployer: 0.2,
       stablecoinsByTvl: 0.3,
       rollupsByTvl: 0.5,
     }
+
+    const weightingsTotal = Object.entries(weightings).reduce((acc, cur) => {
+      return acc + cur[1]
+    }, 0)
+
+    weightings = Object.entries(weightings).reduce((acc, cur) => ({
+      ...acc, [cur[0]]: (cur[1] / weightingsTotal) * 100
+    }), {})
+
+    const total = Object.entries(weightings).reduce((acc, cur) => {
+      return acc + cur[1]
+    }, 0)
 
     let GCSV, HHICSV, SCSV, masterIndex
 
@@ -314,13 +326,13 @@ class DataAnalyzer {
       consensusNodesByClient: prepare('consensusNodesByClient', 'key', 'value'),
       blocksByRelays: prepare('blocksByRelays', 'key', 'value'),
       blocksByBuilder: prepare('blocksByBuilder', 'key', 'value'),
-      activityByBundler: prepare('activityByBundler', 'key', 'value'),
+      // activityByBundler: prepare('activityByBundler', 'key', 'value'),
       userOpsByBundler: prepare('userOpsByBundler', 'key', 'value'),
       accountsByDeployer: prepare('accountsByDeployer', 'key', 'value'),
       stablecoinsByTvl: prepare('stablecoinsByTvl', 'key', 'value'),
       rollupsByTvl: prepare('rollupsByTvl', 'key', 'value'),
       nativeAssetsByAddress: prepare('nativeAssetsByAddress', 'key', 'value'),
-      exchangeBySupply: prepare('exchangeBySupply', 'key', 'value'),
+      // exchangeBySupply: prepare('exchangeBySupply', 'key', 'value'),
     }
 
     return payload
@@ -390,8 +402,8 @@ class DataAnalyzer {
       consensusNodesByClient: data.consensusNodesByClient,
       amountStakedByPool,
       nativeAssetsByAddress,
-      exchangeBySupply,
-      activityByBundler,
+      // exchangeBySupply,
+      // activityByBundler,
       stablecoinsByTvl,
       rollupsByTvl,
     }
